@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaaS Revenue Intelligence Dashboard</title>
+<meta name="description" content="SaaS revenue analytics: MRR waterfall, NRR/GRR, unit economics, ML churn risk and grounded LLM insights.">
+<style>
+  :root{
+    --navy:#1f3864; --blue:#2e86de; --green:#1aab6f; --amber:#e0a525; --red:#d64545; --purple:#8e6fc7; --teal:#2bb3a3;
+    --bg:#f4f6fa; --card:#fff; --line:#e3e7ef; --ink:#1c2430; --mute:#6b7686; --soft:#eef2f9;
+    --shadow:0 1px 2px rgba(20,30,60,.05),0 4px 14px rgba(20,30,60,.04);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0e1420; --card:#151d2c; --line:#26324a; --ink:#e6ebf5; --mute:#97a3b8; --soft:#1b2538; --navy:#8fb3ff;
+      --shadow:none;
+    }
+  }
+  :root[data-theme="dark"]{ --bg:#0e1420; --card:#151d2c; --line:#26324a; --ink:#e6ebf5; --mute:#97a3b8; --soft:#1b2538; --navy:#8fb3ff; --shadow:none; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif}
+  header{background:linear-gradient(115deg,#14264a,#1f3864 55%,#2e5090);color:#fff;padding:20px 32px 0}
+  .head-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+  h1{margin:0;font-size:22px;font-weight:700;letter-spacing:.2px}
+  .sub{margin:4px 0 0;font-size:12.5px;opacity:.85}
+  .stack{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+  .stack span{font-size:11px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);padding:3px 9px;border-radius:99px}
+  .hbtn{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:6px;padding:5px 10px;font-size:12px;cursor:pointer}
+  nav{display:flex;gap:4px;margin-top:14px;overflow-x:auto}
+  nav button{background:transparent;border:0;color:rgba(255,255,255,.75);padding:10px 16px;font:600 13px inherit;font-family:inherit;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+  nav button[aria-selected="true"]{color:#fff;border-bottom-color:#6fb1ff}
+  nav button:focus-visible,.hbtn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+  main{max-width:1320px;margin:0 auto;padding:22px 24px 40px}
+  .tab{display:none} .tab.on{display:block}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;box-shadow:var(--shadow)}
+  .kpi .l{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mute)}
+  .kpi .v{font-size:26px;font-weight:700;color:var(--navy);margin:2px 0}
+  .kpi .d{font-size:12px;font-weight:600}
+  .up{color:var(--green)} .down{color:var(--red)} .flat{color:var(--mute)}
+  .kpi .n{font-size:11px;color:var(--mute)}
+  .grid{display:grid;gap:14px;margin-bottom:14px}
+  .g2{grid-template-columns:1fr 1fr} .g3{grid-template-columns:1fr 1fr 1fr} .g21{grid-template-columns:2fr 1fr} .g12{grid-template-columns:1fr 2fr}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;box-shadow:var(--shadow);min-width:0}
+  .card h3{margin:0;font-size:14px;color:var(--navy)}
+  .card .d{font-size:12px;color:var(--mute);margin:2px 0 10px}
+  .chart{position:relative;height:270px}
+  .chart.tall{height:320px}
+  .callout{border-left:4px solid var(--blue);background:var(--soft);border-radius:8px;padding:12px 16px;margin-bottom:16px}
+  .callout b{color:var(--navy)}
+  .badge{display:inline-block;font-size:10.5px;font-weight:700;border-radius:99px;padding:2px 8px;margin-right:6px;vertical-align:middle}
+  .b-ai{background:#ece6fa;color:#5b3fa6} .b-ok{background:#dff5ea;color:#157a4c} .b-warn{background:#fdf0cf;color:#8a6200}
+  .b-red{background:#fbe0e0;color:#a32b2b} .b-mute{background:var(--soft);color:var(--mute)}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--mute);padding:7px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+  td{padding:7px 8px;border-bottom:1px solid var(--line)}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .scroll{overflow-x:auto}
+  .bar{display:inline-block;height:8px;border-radius:4px;background:var(--red);vertical-align:middle}
+  .heat td{text-align:center;font-size:11.5px;padding:5px 2px;border:1px solid var(--card);min-width:42px}
+  .heat td.h{background:var(--soft);font-weight:600;color:var(--ink)}
+  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
+  .tier{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--card)}
+  .tier .t{font-weight:700;font-size:13px}
+  .tier .big{font-size:22px;font-weight:700;color:var(--navy)}
+  .tier small{color:var(--mute);display:block}
+  .insight{border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:10px;background:var(--card)}
+  .insight h4{margin:0 0 4px;font-size:13px;color:var(--navy)}
+  .insight p{margin:3px 0;font-size:12.5px}
+  .insight .so{color:var(--mute)}
+  .act{display:grid;grid-template-columns:34px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .act .pr{width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+  :root[data-theme="dark"] .act .pr{color:#0e1420}
+  .act b{color:var(--navy)} .act .m{font-size:12px;color:var(--mute);margin-top:3px}
+  .flow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0 4px}
+  .flow div{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px}
+  .flow i{font-style:normal;color:var(--mute)}
+  code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px}
+  pre{background:var(--soft);padding:10px 12px;border-radius:8px;overflow-x:auto;margin:8px 0 0}
+  .note{font-size:11.5px;color:var(--mute)}
+  footer{text-align:center;color:var(--mute);font-size:11.5px;padding:8px 16px 28px}
+  footer a{color:var(--blue)}
+
+  .mc{position:absolute;inset:0}
+  .mc svg{display:block;overflow:visible}
+  .mc text{fill:var(--mute);font-size:11px;font-family:inherit}
+  .mc text.lg{fill:var(--ink)} .mc text.cat{fill:var(--ink)} .mc text.val{fill:var(--ink);font-weight:600}
+  .mc text.reflbl{fill:var(--navy);font-weight:700;stroke:var(--card);stroke-width:4px;paint-order:stroke}
+  .mc .grid{stroke:var(--line);stroke-width:1} .mc .axis0{stroke:var(--mute);stroke-width:1}
+  .mc .guide{stroke:var(--mute);stroke-width:1;stroke-dasharray:3 3;pointer-events:none}
+  .mc-tip{position:fixed;display:none;pointer-events:none;z-index:60;background:var(--card);color:var(--ink);border:1px solid var(--line);
+    box-shadow:0 6px 20px rgba(10,20,40,.18);border-radius:8px;padding:8px 10px;font-size:12px;line-height:1.5;max-width:280px}
+  .mc-tip .tt{font-weight:700;color:var(--navy);margin-bottom:2px}
+  .mc-tip i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
+  @media (max-width:1000px){.kpis{grid-template-columns:repeat(2,1fr)}.g2,.g3,.g21,.g12,.tiers{grid-template-columns:1fr}}
+  @media (max-width:560px){main{padding:16px 12px}header{padding:16px 16px 0}.kpis{grid-template-columns:1fr 1fr;gap:10px}.kpi .v{font-size:21px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="head-row">
+    <div>
+      <h1>SaaS Revenue Intelligence</h1>
+      <p class="sub" id="sub">MRR, retention, unit economics, ML churn risk and grounded AI insights</p>
+      <div class="stack"><span>SQL</span><span>Python ETL</span><span>Excel model</span><span>Power BI (DAX)</span><span>scikit-learn</span><span>LLM insights + guardrail</span></div>
+    </div>
+    <button class="hbtn" id="themeBtn" aria-label="Toggle light and dark theme">Toggle theme</button>
+  </div>
+  <nav role="tablist" aria-label="Dashboard sections" id="nav">
+    <button role="tab" aria-selected="true" data-tab="overview">Executive overview</button>
+    <button role="tab" aria-selected="false" data-tab="retention">Retention &amp; cohorts</button>
+    <button role="tab" aria-selected="false" data-tab="unit">Unit economics</button>
+    <button role="tab" aria-selected="false" data-tab="risk">Churn risk (ML)</button>
+    <button role="tab" aria-selected="false" data-tab="ai">AI insights</button>
+  </nav>
+</header>
+
+<main>
+<!-- =============================== OVERVIEW =============================== -->
+<section class="tab on" id="tab-overview" role="tabpanel">
+  <div class="kpis" id="kpis"></div>
+  <div class="callout" id="aiStrip"></div>
+  <div class="grid g21">
+    <div class="card"><h3>MRR movements &amp; ending MRR</h3><div class="d">New and expansion MRR above the line, contraction and churn below. Ending MRR on the right axis.</div><div class="chart tall"><div class="mc" id="cWaterfall" role="img" aria-label="Monthly MRR waterfall chart"></div></div></div>
+    <div class="card"><h3>MRR by plan</h3><div class="d">Active MRR mix over time</div><div class="chart tall"><div class="mc" id="cPlan" role="img" aria-label="MRR by plan"></div></div></div>
+  </div>
+  <div class="grid g2">
+    <div class="card"><h3>6-month MRR forecast</h3><div class="d" id="fcDesc"></div><div class="chart"><div class="mc" id="cForecast" role="img" aria-label="MRR forecast with uncertainty band"></div></div></div>
+    <div class="card"><h3>MRR by region (latest month)</h3><div class="d">Share of active MRR</div><div class="chart"><div class="mc" id="cRegion" role="img" aria-label="MRR by region"></div></div></div>
+  </div>
+</section>
+
+<!-- =============================== RETENTION =============================== -->
+<section class="tab" id="tab-retention" role="tabpanel">
+  <div class="grid g2">
+    <div class="card"><h3>Net &amp; gross revenue retention</h3><div class="d">Monthly. NRR below 100% means expansion is not replacing churn and contraction.</div><div class="chart"><div class="mc" id="cNrr" role="img" aria-label="NRR and GRR trend"></div></div></div>
+    <div class="card"><h3>Churn rates</h3><div class="d">Logo churn (customers) vs revenue churn (MRR), monthly</div><div class="chart"><div class="mc" id="cChurn" role="img" aria-label="Churn rate trend"></div></div></div>
+  </div>
+  <div class="card"><h3>Cohort logo retention</h3><div class="d">% of each signup cohort still active N months after signup. Read across for a cohort's decay curve; read down to see whether newer cohorts retain better.</div><div class="scroll"><table class="heat" id="cohortTbl"></table></div></div>
+</section>
+
+<!-- =============================== UNIT ECONOMICS =============================== -->
+<section class="tab" id="tab-unit" role="tabpanel">
+  <div class="callout" id="ueStrip"></div>
+  <div class="grid g2">
+    <div class="card"><h3>LTV : CAC by acquisition channel</h3><div class="d">Dashed line = 3x benchmark</div><div class="chart"><div class="mc" id="cLtv" role="img" aria-label="LTV to CAC by channel"></div></div></div>
+    <div class="card"><h3>CAC payback (months)</h3><div class="d">Dashed line = 12-month benchmark</div><div class="chart"><div class="mc" id="cPay" role="img" aria-label="CAC payback by channel"></div></div></div>
+  </div>
+  <div class="card"><h3>Channel scorecard</h3><div class="d">LTV = ARPA / monthly logo churn. CAC = channel spend / new customers.</div><div class="scroll"><table id="ueTbl"></table></div></div>
+</section>
+
+<!-- =============================== RISK =============================== -->
+<section class="tab" id="tab-risk" role="tabpanel">
+  <div class="callout" id="modelStrip"></div>
+  <div class="tiers" id="tiers"></div>
+  <div class="grid g2">
+    <div class="card"><h3>What drives the score</h3><div class="d">Permutation importance on the held-out period (drop in ROC-AUC when the feature is shuffled)</div><div class="chart"><div class="mc" id="cFeat" role="img" aria-label="Feature importance"></div></div></div>
+    <div class="card"><h3>Calibration (held-out)</h3><div class="d">Predicted vs observed 3-month churn by risk decile. Closer to the diagonal = more trustworthy probabilities.</div><div class="chart"><div class="mc" id="cCal" role="img" aria-label="Calibration curve"></div></div></div>
+  </div>
+  <div class="card"><h3>Model comparison</h3><div class="d">Selected on a time-based validation slice; test period used only for reporting.</div><div class="scroll"><table id="modelTbl"></table></div></div>
+  <div class="card" style="margin-top:14px"><h3>Accounts to act on first</h3><div class="d">Ranked by expected MRR loss (churn probability x MRR)</div><div class="scroll"><table id="riskTbl"></table></div></div>
+</section>
+
+<!-- =============================== AI =============================== -->
+<section class="tab" id="tab-ai" role="tabpanel">
+  <div class="grid g21">
+    <div class="card"><h3>Executive narrative</h3><div id="aiSummary"></div></div>
+    <div class="card"><h3>How this was produced</h3><div id="aiMeta"></div></div>
+  </div>
+  <div class="grid g2">
+    <div class="card"><h3>Key risks</h3><div id="aiRisks"></div></div>
+    <div class="card"><h3>Opportunities</h3><div id="aiOpps"></div></div>
+  </div>
+  <div class="card"><h3>Recommended actions</h3><div id="aiActs"></div></div>
+  <div class="card" style="margin-top:14px"><h3>Caveats</h3><ul id="aiCav" style="margin:6px 0 0 18px;padding:0"></ul></div>
+</section>
+</main>
+
+<footer>Synthetic dataset (1,800 customers, 24 months) built to demonstrate method, not a real business. &middot; Ashish Gantait &middot; <a href="https://github.com/ashkin2" target="_blank" rel="noopener">github.com/ashkin2</a></footer>
+
+<script src="dashboard_data.js"></script>
+<script src="minicharts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

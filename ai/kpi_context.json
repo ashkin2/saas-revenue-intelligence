@@ -1,0 +1,166 @@
+{
+  "as_of_month": "2025-12",
+  "headline": {
+    "ending_mrr": 421512,
+    "arr": 5058144,
+    "mrr_growth_pct_mom": 5.04,
+    "mrr_prev_month": 401293,
+    "active_customers": 1244,
+    "new_customers_month": 110,
+    "churned_customers_month": 44,
+    "nrr_pct_month": 99.6,
+    "grr_pct_month": 97.99,
+    "logo_churn_pct_month": 3.74,
+    "revenue_churn_pct_month": 1.8,
+    "avg_nrr_pct_ttm": 99.3,
+    "avg_logo_churn_pct_ttm": 4.2,
+    "ttm_new_mrr": 267906,
+    "ttm_expansion_mrr": 82097,
+    "ttm_contraction_mrr": 7127,
+    "ttm_churned_mrr": 98662
+  },
+  "unit_economics_by_channel": [
+    {
+      "acquisition_channel": "Referral",
+      "new_customers": 250,
+      "total_spend": 414562.0,
+      "arpa": 300.43,
+      "monthly_churn_pct": 3.44,
+      "ltv": 8737.0,
+      "cac": 1658.0,
+      "ltv_to_cac": 5.27,
+      "cac_payback_months": 5.5
+    },
+    {
+      "acquisition_channel": "Organic Search",
+      "new_customers": 393,
+      "total_spend": 714729.0,
+      "arpa": 311.28,
+      "monthly_churn_pct": 3.46,
+      "ltv": 9005.0,
+      "cac": 1819.0,
+      "ltv_to_cac": 4.95,
+      "cac_payback_months": 5.8
+    },
+    {
+      "acquisition_channel": "Content/SEO",
+      "new_customers": 261,
+      "total_spend": 464504.0,
+      "arpa": 306.21,
+      "monthly_churn_pct": 4.13,
+      "ltv": 7418.0,
+      "cac": 1780.0,
+      "ltv_to_cac": 4.17,
+      "cac_payback_months": 5.8
+    },
+    {
+      "acquisition_channel": "Paid Social",
+      "new_customers": 327,
+      "total_spend": 995570.0,
+      "arpa": 301.46,
+      "monthly_churn_pct": 3.94,
+      "ltv": 7648.0,
+      "cac": 3045.0,
+      "ltv_to_cac": 2.51,
+      "cac_payback_months": 10.1
+    },
+    {
+      "acquisition_channel": "Paid Search",
+      "new_customers": 345,
+      "total_spend": 1512963.0,
+      "arpa": 342.37,
+      "monthly_churn_pct": 3.69,
+      "ltv": 9270.0,
+      "cac": 4385.0,
+      "ltv_to_cac": 2.11,
+      "cac_payback_months": 12.8
+    },
+    {
+      "acquisition_channel": "Outbound Sales",
+      "new_customers": 224,
+      "total_spend": 1026464.0,
+      "arpa": 336.39,
+      "monthly_churn_pct": 3.69,
+      "ltv": 9114.0,
+      "cac": 4582.0,
+      "ltv_to_cac": 1.99,
+      "cac_payback_months": 13.6
+    }
+  ],
+  "plan_region_top_segments": [
+    {
+      "plan": "Enterprise",
+      "region": "North America",
+      "customers": 116,
+      "mrr": 94997,
+      "arpa": 818.9,
+      "pct_of_total_mrr": 22.5
+    },
+    {
+      "plan": "Enterprise",
+      "region": "Europe",
+      "customers": 112,
+      "mrr": 94450,
+      "arpa": 843.3,
+      "pct_of_total_mrr": 22.4
+    },
+    {
+      "plan": "Enterprise",
+      "region": "APAC",
+      "customers": 65,
+      "mrr": 56297,
+      "arpa": 866.1,
+      "pct_of_total_mrr": 13.4
+    },
+    {
+      "plan": "Growth",
+      "region": "North America",
+      "customers": 167,
+      "mrr": 36063,
+      "arpa": 215.9,
+      "pct_of_total_mrr": 8.6
+    },
+    {
+      "plan": "Enterprise",
+      "region": "India",
+      "customers": 36,
+      "mrr": 29392,
+      "arpa": 816.4,
+      "pct_of_total_mrr": 7.0
+    }
+  ],
+  "mrr_concentration_top3_deciles_pct": 72.2,
+  "churn_model": {
+    "selected_model": "Logistic Regression",
+    "horizon_months": 3,
+    "test_roc_auc": 0.691,
+    "top_decile_lift": 2.57,
+    "top_decile_precision": 0.283,
+    "baseline_3m_churn_rate": 0.1102,
+    "high_risk_customers": 125,
+    "high_risk_mrr": 24692,
+    "medium_risk_customers": 248,
+    "medium_risk_mrr": 61739,
+    "low_risk_customers": 871,
+    "low_risk_mrr": 335081,
+    "expected_3m_mrr_loss_high_tier": 6438.81,
+    "expected_3m_mrr_loss_medium_tier": 9075.52,
+    "expected_3m_mrr_loss_low_tier": 18238.11,
+    "expected_3m_mrr_loss_total": 33752.0,
+    "top_drivers": [
+      "Engagement score",
+      "Company size",
+      "Account MRR"
+    ]
+  },
+  "forecast": {
+    "method": "Damped growth (phi=0.95) from trailing 3-month MoM growth; 80% band = backtest p80 abs error over 6 rolling origins",
+    "implied_monthly_growth_pct": 4.54,
+    "mrr_6m_out": 570878.0,
+    "mrr_6m_low": 551069.0,
+    "mrr_6m_high": 590688.0,
+    "backtest_6m_mape_pct": 2.86,
+    "backtest_origins": 6
+  },
+  "data_note": "Synthetic dataset (1,800 customers, 24 months)."
+}

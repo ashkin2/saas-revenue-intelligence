@@ -1,0 +1,33 @@
+{
+  "name": "SaaS Executive",
+  "dataColors": ["#1F3864", "#2E86DE", "#1AAB6F", "#E0A525", "#D64545", "#8E6FC7", "#2BB3A3", "#7A8699"],
+  "background": "#FFFFFF",
+  "foreground": "#1C2430",
+  "tableAccent": "#1F3864",
+  "good": "#1AAB6F",
+  "neutral": "#E0A525",
+  "bad": "#D64545",
+  "maximum": "#1F3864",
+  "center": "#E0A525",
+  "minimum": "#D64545",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1F3864" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#4A5468" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#1F3864" },
+    "header":  { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#1F3864" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1F3864" } }, "fontSize": 12 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E3E7EF" } }, "radius": 6 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6FA" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

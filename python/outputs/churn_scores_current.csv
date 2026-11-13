@@ -1,0 +1,1245 @@
+customer_id,plan,region,company_size,acquisition_channel,active_mrr,engagement_score,eng_delta_1m,tickets_roll3,tenure_months,churn_prob_3m,risk_tier,primary_drivers,expected_mrr_loss
+CUST10788,Enterprise,Europe,201-1000,Organic Search,2397,0.285,-0.061,3.0,4,0.202,High,low 3-month engagement,485.36
+CUST10881,Enterprise,India,201-1000,Paid Search,799,0.188,-0.135,9.0,12,0.399,High,sharp engagement drop; low 3-month engagement,318.47
+CUST11481,Enterprise,North America,201-1000,Organic Search,1191,0.386,-0.011,4.0,8,0.227,High,low 3-month engagement,270.58
+CUST11528,Enterprise,North America,51-200,Paid Social,823,0.27,0.03,3.0,7,0.308,High,low 3-month engagement,253.76
+CUST10430,Enterprise,Europe,1-10,Paid Social,839,0.439,-0.093,6.0,6,0.277,High,high support load,232.79
+CUST11336,Enterprise,North America,201-1000,Outbound Sales,1614,0.46,-0.014,1.0,2,0.139,Medium,low 3-month engagement; early-tenure onboarding risk,224.94
+CUST11517,Enterprise,APAC,1000+,Outbound Sales,1542,0.422,-0.069,4.0,16,0.14,Medium,low 3-month engagement,216.5
+CUST11397,Enterprise,North America,1-10,Paid Search,1071,0.497,-0.016,2.0,12,0.194,Medium,model-detected combined signals,208.27
+CUST11574,Enterprise,Europe,51-200,Outbound Sales,647,0.407,-0.151,3.0,23,0.301,High,sharp engagement drop,194.56
+CUST10490,Enterprise,Europe,11-50,Organic Search,1558,0.503,0.058,6.0,15,0.123,Medium,high support load,191.42
+CUST11305,Enterprise,North America,1000+,Organic Search,719,0.39,-0.156,4.0,2,0.265,High,sharp engagement drop; low 3-month engagement,190.81
+CUST11341,Enterprise,Europe,51-200,Organic Search,783,0.491,-0.183,6.0,17,0.229,High,sharp engagement drop; high support load,178.97
+CUST11764,Enterprise,North America,11-50,Paid Search,1063,0.569,-0.145,2.0,12,0.159,Medium,sharp engagement drop,168.59
+CUST11057,Enterprise,North America,1-10,Content/SEO,1095,0.546,0.006,5.0,3,0.148,Medium,high support load; early-tenure onboarding risk,162.5
+CUST10440,Enterprise,India,51-200,Organic Search,1071,0.48,0.038,3.0,2,0.151,Medium,low 3-month engagement; early-tenure onboarding risk,161.38
+CUST10323,Enterprise,Europe,1-10,Paid Social,767,0.499,-0.004,2.0,2,0.207,High,early-tenure onboarding risk,158.67
+CUST10682,Enterprise,North America,1000+,Paid Social,1015,0.417,-0.044,6.0,10,0.156,Medium,low 3-month engagement; high support load,158.63
+CUST10931,Enterprise,India,11-50,Outbound Sales,1318,0.596,-0.04,2.0,4,0.114,Low,model-detected combined signals,150.89
+CUST11660,Enterprise,North America,51-200,Paid Search,511,0.422,-0.15,5.0,2,0.286,High,sharp engagement drop; low 3-month engagement,145.93
+CUST10496,Enterprise,North America,201-1000,Referral,823,0.447,-0.005,4.0,9,0.177,Medium,low 3-month engagement,145.75
+CUST10160,Enterprise,Europe,1-10,Content/SEO,679,0.566,-0.149,1.0,12,0.214,High,sharp engagement drop,144.98
+CUST11094,Enterprise,Europe,201-1000,Organic Search,871,0.485,-0.051,8.0,15,0.16,Medium,high support load,139.08
+CUST11237,Enterprise,Europe,51-200,Paid Social,687,0.477,-0.093,3.0,4,0.201,High,model-detected combined signals,138.28
+CUST10997,Enterprise,Europe,201-1000,Paid Social,1494,0.535,-0.023,4.0,8,0.092,Low,model-detected combined signals,137.37
+CUST11562,Enterprise,APAC,1000+,Outbound Sales,599,0.394,-0.043,5.0,2,0.227,High,low 3-month engagement; high support load,135.71
+CUST11502,Enterprise,Europe,1-10,Organic Search,1206,0.644,-0.011,2.0,7,0.109,Low,model-detected combined signals,132.01
+CUST11353,Enterprise,North America,11-50,Paid Search,1246,0.615,-0.027,2.0,16,0.104,Low,model-detected combined signals,129.76
+CUST10590,Enterprise,India,1000+,Outbound Sales,751,0.478,-0.11,5.0,2,0.173,Medium,sharp engagement drop; high support load,129.67
+CUST11333,Enterprise,APAC,201-1000,Paid Search,2181,0.608,-0.047,3.0,4,0.058,Low,model-detected combined signals,126.73
+CUST10203,Enterprise,North America,51-200,Content/SEO,887,0.574,0.0,4.0,1,0.141,Medium,early-tenure onboarding risk,125.34
+CUST11458,Growth,North America,11-50,Paid Social,494,0.407,-0.084,7.0,5,0.245,High,low 3-month engagement; high support load,121.04
+CUST11280,Enterprise,North America,201-1000,Organic Search,639,0.462,0.007,2.0,3,0.187,Medium,low 3-month engagement; early-tenure onboarding risk,119.46
+CUST11106,Enterprise,Europe,1-10,Paid Search,679,0.545,-0.019,4.0,6,0.174,Medium,model-detected combined signals,117.92
+CUST10751,Enterprise,India,11-50,Paid Search,543,0.53,-0.138,2.0,21,0.217,High,sharp engagement drop,117.67
+CUST11326,Enterprise,Europe,51-200,Referral,759,0.54,-0.091,4.0,2,0.154,Medium,early-tenure onboarding risk,117.14
+CUST11022,Enterprise,Europe,1-10,Paid Social,807,0.629,-0.123,1.0,20,0.144,Medium,sharp engagement drop,116.56
+CUST11046,Enterprise,APAC,1-10,Outbound Sales,943,0.635,-0.085,4.0,18,0.123,Medium,model-detected combined signals,116.33
+CUST11191,Growth,India,1-10,Paid Social,312,0.355,-0.059,1.0,6,0.367,High,low 3-month engagement,114.42
+CUST11139,Enterprise,Europe,51-200,Paid Search,1119,0.6,0.01,0.0,2,0.102,Low,early-tenure onboarding risk,113.58
+CUST11089,Enterprise,North America,201-1000,Content/SEO,487,0.367,0.035,4.0,12,0.232,High,low 3-month engagement,113.09
+CUST10299,Enterprise,Europe,1-10,Paid Social,567,0.584,-0.147,3.0,20,0.198,Medium,sharp engagement drop,112.06
+CUST11577,Enterprise,North America,201-1000,Organic Search,1023,0.516,0.049,2.0,5,0.109,Low,low 3-month engagement,111.99
+CUST11716,Enterprise,Europe,11-50,Paid Search,983,0.643,-0.086,1.0,18,0.111,Low,model-detected combined signals,109.52
+CUST11168,Growth,APAC,11-50,Paid Social,219,0.209,-0.123,5.0,14,0.496,High,sharp engagement drop; low 3-month engagement,108.65
+CUST10569,Enterprise,Europe,1-10,Organic Search,919,0.597,0.021,4.0,20,0.118,Medium,model-detected combined signals,108.25
+CUST10843,Enterprise,Europe,51-200,Outbound Sales,759,0.569,-0.037,3.0,19,0.142,Medium,model-detected combined signals,107.6
+CUST11664,Enterprise,Europe,201-1000,Referral,767,0.507,-0.035,2.0,17,0.136,Medium,model-detected combined signals,104.62
+CUST10851,Enterprise,APAC,1-10,Referral,1350,0.703,0.0,0.0,1,0.076,Low,early-tenure onboarding risk,102.47
+CUST10666,Enterprise,Europe,11-50,Organic Search,775,0.639,-0.089,2.0,13,0.13,Medium,model-detected combined signals,100.78
+CUST11238,Enterprise,North America,51-200,Organic Search,775,0.588,-0.046,1.0,21,0.13,Medium,model-detected combined signals,100.42
+CUST11514,Enterprise,Europe,11-50,Paid Social,519,0.524,0.0,1.0,1,0.193,Medium,early-tenure onboarding risk,100.0
+CUST11637,Enterprise,LATAM,11-50,Organic Search,1222,0.61,0.077,6.0,11,0.08,Low,high support load,98.27
+CUST10985,Enterprise,North America,1000+,Organic Search,647,0.516,-0.073,5.0,3,0.15,Medium,high support load; early-tenure onboarding risk,97.31
+CUST10795,Enterprise,Europe,201-1000,Organic Search,1095,0.675,-0.151,3.0,12,0.088,Low,sharp engagement drop,96.54
+CUST11579,Enterprise,APAC,1-10,Outbound Sales,1206,0.724,-0.075,2.0,22,0.08,Low,model-detected combined signals,96.49
+CUST11407,Enterprise,Europe,51-200,Paid Social,839,0.532,0.037,4.0,17,0.114,Low,model-detected combined signals,96.03
+CUST10899,Enterprise,North America,1000+,Content/SEO,1238,0.59,-0.013,4.0,14,0.077,Low,model-detected combined signals,95.89
+CUST10238,Enterprise,Europe,1-10,Outbound Sales,935,0.703,-0.101,3.0,11,0.101,Low,sharp engagement drop,94.77
+CUST11522,Enterprise,North America,201-1000,Outbound Sales,1678,0.678,-0.01,1.0,4,0.056,Low,model-detected combined signals,94.31
+CUST11347,Enterprise,Europe,201-1000,Organic Search,1302,0.645,0.005,5.0,19,0.071,Low,high support load,92.02
+CUST11206,Growth,Europe,11-50,Paid Search,231,0.36,-0.12,4.0,2,0.396,High,sharp engagement drop; low 3-month engagement,91.52
+CUST11719,Enterprise,Europe,1-10,Paid Search,1007,0.722,-0.052,0.0,16,0.091,Low,model-detected combined signals,91.4
+CUST11098,Enterprise,Europe,201-1000,Organic Search,575,0.501,-0.094,9.0,8,0.157,Medium,high support load,90.42
+CUST10757,Enterprise,North America,51-200,Paid Search,671,0.583,-0.13,5.0,2,0.133,Medium,sharp engagement drop; high support load,89.05
+CUST11435,Enterprise,North America,51-200,Paid Social,903,0.649,0.0,5.0,1,0.098,Low,high support load; early-tenure onboarding risk,88.7
+CUST10662,Enterprise,North America,51-200,Paid Social,647,0.576,0.0,1.0,1,0.135,Medium,early-tenure onboarding risk,87.38
+CUST11496,Growth,India,1-10,Referral,480,0.542,0.0,1.0,1,0.182,Medium,early-tenure onboarding risk,87.24
+CUST10930,Enterprise,India,201-1000,Paid Social,751,0.567,-0.03,3.0,9,0.116,Medium,model-detected combined signals,87.1
+CUST11178,Growth,North America,51-200,Referral,215,0.303,-0.122,3.0,19,0.394,High,sharp engagement drop; low 3-month engagement,84.71
+CUST10424,Enterprise,APAC,201-1000,Referral,927,0.566,0.053,4.0,5,0.091,Low,model-detected combined signals,84.24
+CUST11494,Growth,North America,51-200,Organic Search,372,0.465,-0.053,3.0,8,0.225,High,model-detected combined signals,83.76
+CUST11533,Enterprise,North America,1000+,Content/SEO,583,0.5,-0.006,5.0,4,0.144,Medium,low 3-month engagement; high support load,83.74
+CUST10610,Growth,North America,11-50,Organic Search,233,0.341,0.012,4.0,2,0.357,High,low 3-month engagement; early-tenure onboarding risk,83.26
+CUST10944,Enterprise,APAC,201-1000,Paid Search,863,0.568,0.038,5.0,9,0.096,Low,high support load,83.11
+CUST11575,Enterprise,India,11-50,Paid Search,823,0.726,-0.174,0.0,11,0.1,Low,sharp engagement drop,82.41
+CUST10058,Enterprise,India,1-10,Organic Search,543,0.683,-0.179,2.0,14,0.151,Medium,sharp engagement drop,82.25
+CUST10183,Enterprise,APAC,1-10,Paid Social,655,0.655,0.007,2.0,16,0.125,Medium,model-detected combined signals,82.09
+CUST10629,Enterprise,North America,1-10,Paid Social,639,0.659,-0.073,1.0,10,0.128,Medium,model-detected combined signals,81.97
+CUST10982,Enterprise,Europe,51-200,Organic Search,503,0.558,-0.059,3.0,13,0.162,Medium,model-detected combined signals,81.49
+CUST11260,Enterprise,APAC,201-1000,Content/SEO,1462,0.622,0.101,4.0,23,0.055,Low,model-detected combined signals,80.98
+CUST10215,Enterprise,North America,201-1000,Paid Search,919,0.584,-0.005,7.0,21,0.087,Low,high support load,79.76
+CUST10164,Enterprise,North America,11-50,Outbound Sales,655,0.586,0.014,3.0,4,0.121,Medium,model-detected combined signals,79.25
+CUST10906,Enterprise,APAC,201-1000,Referral,919,0.673,-0.147,2.0,12,0.086,Low,sharp engagement drop,79.09
+CUST10229,Enterprise,APAC,201-1000,Referral,1071,0.563,0.045,9.0,3,0.074,Low,high support load; early-tenure onboarding risk,79.04
+CUST10607,Enterprise,North America,51-200,Organic Search,807,0.566,0.038,6.0,11,0.097,Low,high support load,78.45
+CUST11006,Enterprise,North America,201-1000,Referral,1015,0.582,0.026,4.0,3,0.077,Low,early-tenure onboarding risk,78.44
+CUST10314,Growth,North America,1-10,Organic Search,187,0.353,-0.096,3.0,2,0.418,High,low 3-month engagement; early-tenure onboarding risk,78.19
+CUST10117,Enterprise,APAC,1-10,Referral,999,0.754,-0.06,1.0,23,0.078,Low,model-detected combined signals,78.05
+CUST11697,Enterprise,APAC,51-200,Paid Search,839,0.688,-0.087,0.0,2,0.092,Low,early-tenure onboarding risk,77.17
+CUST10816,Enterprise,Europe,51-200,Paid Search,1047,0.639,0.03,4.0,5,0.074,Low,model-detected combined signals,77.04
+CUST11161,Growth,Europe,1-10,Content/SEO,197,0.356,-0.096,4.0,6,0.389,High,low 3-month engagement,76.65
+CUST11735,Enterprise,North America,51-200,Referral,775,0.639,-0.07,3.0,10,0.099,Low,model-detected combined signals,76.62
+CUST10032,Enterprise,North America,201-1000,Referral,703,0.538,-0.011,3.0,11,0.109,Low,model-detected combined signals,76.58
+CUST10979,Growth,Europe,1-10,Paid Social,293,0.467,0.0,2.0,1,0.26,High,low 3-month engagement; early-tenure onboarding risk,76.22
+CUST10250,Enterprise,APAC,201-1000,Outbound Sales,911,0.641,0.016,3.0,5,0.083,Low,model-detected combined signals,75.59
+CUST11019,Growth,North America,1000+,Organic Search,171,0.189,-0.092,11.0,6,0.437,High,low 3-month engagement; high support load,74.8
+CUST10352,Enterprise,India,201-1000,Paid Search,1007,0.665,-0.025,3.0,13,0.074,Low,model-detected combined signals,74.3
+CUST11710,Enterprise,LATAM,1000+,Paid Social,815,0.633,-0.099,0.0,8,0.091,Low,model-detected combined signals,73.81
+CUST10429,Enterprise,North America,1-10,Paid Social,1246,0.71,-0.01,6.0,17,0.059,Low,high support load,73.69
+CUST11520,Growth,LATAM,51-200,Paid Search,482,0.543,-0.069,3.0,3,0.152,Medium,early-tenure onboarding risk,73.49
+CUST10240,Enterprise,India,1000+,Organic Search,1175,0.664,-0.082,3.0,13,0.062,Low,model-detected combined signals,73.22
+CUST10563,Enterprise,APAC,1-10,Organic Search,951,0.752,-0.017,1.0,15,0.077,Low,model-detected combined signals,73.11
+CUST11565,Enterprise,Europe,201-1000,Content/SEO,999,0.724,-0.097,1.0,17,0.073,Low,model-detected combined signals,72.78
+CUST11648,Enterprise,North America,1-10,Paid Search,887,0.767,-0.065,1.0,14,0.082,Low,model-detected combined signals,72.67
+CUST11195,Enterprise,Europe,11-50,Paid Social,839,0.63,0.063,3.0,18,0.086,Low,model-detected combined signals,72.57
+CUST11604,Enterprise,Europe,201-1000,Organic Search,583,0.586,-0.04,2.0,6,0.124,Medium,model-detected combined signals,72.48
+CUST10174,Enterprise,North America,1000+,Referral,1167,0.677,-0.055,1.0,18,0.062,Low,model-detected combined signals,72.09
+CUST10558,Enterprise,North America,51-200,Organic Search,775,0.66,-0.092,5.0,8,0.093,Low,high support load,72.01
+CUST11795,Enterprise,North America,201-1000,Paid Search,855,0.671,-0.056,1.0,22,0.084,Low,model-detected combined signals,71.52
+CUST10754,Enterprise,Europe,1-10,Content/SEO,895,0.785,-0.103,1.0,9,0.08,Low,sharp engagement drop,71.44
+CUST10566,Enterprise,Europe,11-50,Paid Social,1230,0.778,-0.047,1.0,10,0.057,Low,model-detected combined signals,70.58
+CUST10961,Growth,North America,11-50,Paid Search,213,0.418,-0.138,1.0,10,0.331,High,sharp engagement drop,70.49
+CUST10194,Enterprise,APAC,51-200,Outbound Sales,687,0.67,-0.101,4.0,11,0.102,Low,sharp engagement drop,70.39
+CUST10675,Enterprise,North America,1-10,Paid Social,607,0.687,-0.102,2.0,19,0.115,Medium,sharp engagement drop,70.07
+CUST10555,Enterprise,Europe,11-50,Organic Search,607,0.597,0.004,7.0,4,0.114,Low,high support load,69.34
+CUST10140,Enterprise,Europe,1000+,Outbound Sales,1007,0.654,-0.039,3.0,11,0.068,Low,model-detected combined signals,68.85
+CUST11241,Enterprise,North America,1000+,Outbound Sales,1039,0.643,-0.082,7.0,10,0.066,Low,high support load,68.49
+CUST10498,Growth,India,1-10,Paid Search,143,0.261,-0.127,7.0,22,0.474,High,sharp engagement drop; low 3-month engagement,67.79
+CUST11434,Enterprise,India,1-10,Paid Search,439,0.642,-0.042,1.0,23,0.153,Medium,model-detected combined signals,67.09
+CUST11715,Enterprise,Europe,1-10,Paid Social,1494,0.784,0.062,3.0,12,0.045,Low,model-detected combined signals,67.05
+CUST11688,Enterprise,APAC,11-50,Referral,919,0.701,0.069,2.0,22,0.072,Low,model-detected combined signals,66.24
+CUST10980,Enterprise,Europe,1-10,Content/SEO,1079,0.837,-0.081,1.0,11,0.061,Low,model-detected combined signals,66.23
+CUST10417,Enterprise,LATAM,1000+,Outbound Sales,511,0.573,-0.132,5.0,11,0.128,Medium,sharp engagement drop; high support load,65.16
+CUST11171,Enterprise,APAC,11-50,Outbound Sales,951,0.74,0.005,1.0,9,0.068,Low,model-detected combined signals,65.08
+CUST10605,Enterprise,APAC,11-50,Organic Search,823,0.671,0.071,2.0,21,0.079,Low,model-detected combined signals,64.76
+CUST11491,Enterprise,North America,11-50,Paid Search,1151,0.774,-0.002,1.0,18,0.056,Low,model-detected combined signals,64.55
+CUST10264,Enterprise,North America,201-1000,Organic Search,911,0.697,0.012,2.0,20,0.07,Low,model-detected combined signals,64.2
+CUST11723,Enterprise,APAC,11-50,Content/SEO,935,0.724,0.03,2.0,3,0.069,Low,early-tenure onboarding risk,64.11
+CUST11240,Enterprise,LATAM,1000+,Organic Search,839,0.674,-0.048,1.0,15,0.076,Low,model-detected combined signals,64.01
+CUST11056,Enterprise,North America,1000+,Organic Search,1238,0.695,0.014,0.0,7,0.052,Low,model-detected combined signals,63.94
+CUST11285,Growth,Europe,11-50,Content/SEO,277,0.466,-0.082,6.0,6,0.228,High,high support load,63.29
+CUST11149,Enterprise,North America,201-1000,Paid Search,871,0.634,0.047,4.0,4,0.072,Low,model-detected combined signals,62.84
+CUST11704,Enterprise,Europe,201-1000,Organic Search,1438,0.713,0.02,3.0,22,0.043,Low,model-detected combined signals,62.55
+CUST11780,Enterprise,LATAM,201-1000,Paid Social,871,0.687,0.0,2.0,18,0.072,Low,model-detected combined signals,62.47
+CUST11173,Enterprise,Europe,11-50,Referral,607,0.713,-0.103,1.0,8,0.103,Low,sharp engagement drop,62.28
+CUST10137,Enterprise,APAC,51-200,Paid Social,1318,0.72,0.066,1.0,21,0.047,Low,model-detected combined signals,62.11
+CUST10347,Enterprise,India,201-1000,Paid Social,711,0.6,0.025,4.0,11,0.087,Low,model-detected combined signals,62.0
+CUST10491,Growth,North America,51-200,Organic Search,352,0.54,-0.06,3.0,10,0.176,Medium,model-detected combined signals,61.87
+CUST11738,Growth,North America,1-10,Organic Search,261,0.5,-0.071,4.0,9,0.236,High,model-detected combined signals,61.54
+CUST11026,Enterprise,North America,1-10,Content/SEO,1023,0.758,0.088,1.0,16,0.06,Low,model-detected combined signals,61.2
+CUST11357,Enterprise,India,11-50,Paid Search,1342,0.79,0.03,1.0,22,0.045,Low,model-detected combined signals,61.02
+CUST10348,Enterprise,Europe,51-200,Organic Search,999,0.755,0.0,1.0,1,0.061,Low,early-tenure onboarding risk,60.99
+CUST11114,Enterprise,Europe,1000+,Paid Search,1071,0.734,-0.15,1.0,2,0.057,Low,sharp engagement drop; early-tenure onboarding risk,60.84
+CUST11278,Enterprise,APAC,1-10,Paid Search,703,0.783,-0.098,1.0,2,0.086,Low,early-tenure onboarding risk,60.76
+CUST10233,Enterprise,Europe,11-50,Organic Search,751,0.746,0.0,2.0,1,0.08,Low,early-tenure onboarding risk,60.4
+CUST10507,Enterprise,Europe,51-200,Organic Search,679,0.638,0.053,4.0,14,0.089,Low,model-detected combined signals,60.35
+CUST11629,Growth,Europe,51-200,Content/SEO,253,0.446,-0.033,3.0,5,0.236,High,low 3-month engagement,59.67
+CUST10609,Enterprise,India,1000+,Outbound Sales,591,0.544,0.08,3.0,11,0.101,Low,model-detected combined signals,59.6
+CUST10184,Growth,India,11-50,Organic Search,265,0.492,-0.078,5.0,12,0.225,High,high support load,59.58
+CUST11401,Enterprise,North America,51-200,Outbound Sales,751,0.686,0.021,2.0,24,0.079,Low,model-detected combined signals,59.26
+CUST11320,Enterprise,APAC,1-10,Organic Search,823,0.793,-0.019,1.0,22,0.071,Low,model-detected combined signals,58.53
+CUST10879,Enterprise,North America,1-10,Paid Search,847,0.743,0.032,2.0,11,0.069,Low,model-detected combined signals,58.35
+CUST10141,Enterprise,APAC,201-1000,Paid Search,711,0.666,-0.031,4.0,11,0.082,Low,model-detected combined signals,58.09
+CUST10086,Enterprise,India,11-50,Outbound Sales,439,0.638,-0.116,5.0,6,0.132,Medium,sharp engagement drop; high support load,57.83
+CUST10458,Growth,APAC,51-200,Paid Search,159,0.288,-0.083,6.0,7,0.361,High,low 3-month engagement; high support load,57.4
+CUST10464,Enterprise,APAC,51-200,Paid Search,935,0.753,-0.085,2.0,13,0.061,Low,model-detected combined signals,57.19
+CUST10155,Enterprise,North America,51-200,Paid Search,1023,0.749,-0.038,2.0,17,0.055,Low,model-detected combined signals,56.68
+CUST11258,Enterprise,North America,1-10,Outbound Sales,951,0.812,-0.021,1.0,14,0.059,Low,model-detected combined signals,55.88
+CUST10457,Enterprise,North America,11-50,Referral,815,0.774,-0.066,0.0,3,0.069,Low,early-tenure onboarding risk,55.86
+CUST10992,Enterprise,North America,1-10,Organic Search,559,0.753,-0.066,0.0,20,0.099,Low,model-detected combined signals,55.53
+CUST10368,Enterprise,North America,1-10,Outbound Sales,455,0.711,-0.057,2.0,10,0.121,Medium,model-detected combined signals,55.23
+CUST10066,Growth,Europe,1000+,Referral,213,0.345,-0.085,4.0,22,0.259,High,low 3-month engagement,55.14
+CUST11462,Enterprise,North America,201-1000,Paid Search,623,0.639,0.018,5.0,9,0.088,Low,high support load,54.74
+CUST11301,Growth,Europe,1-10,Paid Search,185,0.399,-0.077,7.0,14,0.295,High,low 3-month engagement; high support load,54.52
+CUST10831,Enterprise,North America,201-1000,Organic Search,567,0.66,-0.118,3.0,4,0.096,Low,sharp engagement drop,54.5
+CUST10319,Enterprise,Europe,1000+,Outbound Sales,855,0.679,-0.007,4.0,3,0.064,Low,early-tenure onboarding risk,54.49
+CUST10963,Enterprise,Europe,1000+,Paid Search,519,0.603,-0.056,4.0,18,0.104,Low,model-detected combined signals,54.12
+CUST10960,Enterprise,APAC,201-1000,Content/SEO,783,0.723,-0.014,0.0,19,0.069,Low,model-detected combined signals,53.99
+CUST11732,Enterprise,APAC,11-50,Paid Search,400,0.65,-0.075,1.0,22,0.134,Medium,model-detected combined signals,53.78
+CUST11145,Enterprise,India,1-10,Paid Search,1566,0.829,0.076,1.0,5,0.034,Low,model-detected combined signals,53.67
+CUST11335,Growth,LATAM,1-10,Paid Search,523,0.686,0.016,0.0,3,0.102,Low,early-tenure onboarding risk,53.54
+CUST10763,Enterprise,India,51-200,Referral,575,0.677,-0.052,1.0,4,0.093,Low,model-detected combined signals,53.22
+CUST10897,Enterprise,Europe,51-200,Referral,759,0.729,-0.086,2.0,16,0.07,Low,model-detected combined signals,52.78
+CUST10279,Enterprise,North America,201-1000,Paid Social,503,0.591,-0.03,5.0,13,0.104,Low,high support load,52.4
+CUST11786,Enterprise,APAC,11-50,Paid Search,783,0.737,0.009,2.0,17,0.066,Low,model-detected combined signals,51.96
+CUST10799,Enterprise,North America,51-200,Paid Search,1206,0.799,-0.041,3.0,15,0.043,Low,model-detected combined signals,51.9
+CUST10651,Enterprise,North America,51-200,Referral,903,0.723,0.017,2.0,16,0.057,Low,model-detected combined signals,51.39
+CUST10713,Enterprise,Europe,51-200,Paid Social,583,0.667,-0.034,4.0,15,0.088,Low,model-detected combined signals,51.36
+CUST10012,Growth,North America,51-200,Organic Search,271,0.516,0.0,2.0,1,0.189,Medium,early-tenure onboarding risk,51.32
+CUST10553,Enterprise,North America,51-200,Referral,823,0.757,-0.016,2.0,3,0.062,Low,early-tenure onboarding risk,51.0
+CUST10882,Enterprise,Europe,11-50,Outbound Sales,1183,0.768,0.046,4.0,23,0.043,Low,model-detected combined signals,50.98
+CUST10381,Enterprise,Europe,201-1000,Content/SEO,479,0.641,0.005,4.0,12,0.106,Low,model-detected combined signals,50.96
+CUST10653,Enterprise,North America,1-10,Outbound Sales,807,0.832,-0.05,0.0,9,0.063,Low,model-detected combined signals,50.63
+CUST10159,Enterprise,APAC,51-200,Referral,719,0.649,0.037,9.0,5,0.07,Low,high support load,50.48
+CUST10946,Enterprise,North America,51-200,Outbound Sales,400,0.644,-0.087,1.0,19,0.125,Medium,model-detected combined signals,50.16
+CUST10304,Growth,APAC,1-10,Paid Social,153,0.327,0.061,5.0,12,0.327,High,low 3-month engagement; high support load,50.04
+CUST11693,Growth,North America,1-10,Paid Search,245,0.502,0.019,2.0,7,0.204,High,low 3-month engagement,49.99
+CUST10217,Enterprise,Europe,11-50,Organic Search,767,0.738,0.06,3.0,6,0.065,Low,model-detected combined signals,49.8
+CUST10027,Growth,North America,1-10,Content/SEO,247,0.618,-0.194,2.0,6,0.201,High,sharp engagement drop,49.63
+CUST11327,Enterprise,Europe,1000+,Paid Search,599,0.628,-0.042,3.0,3,0.083,Low,early-tenure onboarding risk,49.56
+CUST10400,Growth,APAC,51-200,Content/SEO,257,0.563,-0.152,3.0,8,0.193,Medium,sharp engagement drop,49.49
+CUST10864,Enterprise,Europe,51-200,Content/SEO,1430,0.822,0.046,1.0,7,0.035,Low,model-detected combined signals,49.48
+CUST11655,Enterprise,India,51-200,Outbound Sales,799,0.751,-0.067,3.0,11,0.061,Low,model-detected combined signals,49.09
+CUST10130,Enterprise,North America,51-200,Paid Search,831,0.738,0.052,4.0,2,0.059,Low,early-tenure onboarding risk,49.08
+CUST10495,Enterprise,North America,51-200,Paid Social,583,0.661,0.022,2.0,20,0.084,Low,model-detected combined signals,49.02
+CUST10126,Enterprise,Europe,1000+,Paid Social,839,0.671,-0.018,3.0,7,0.058,Low,model-detected combined signals,48.93
+CUST11152,Enterprise,North America,51-200,Organic Search,1262,0.835,-0.004,0.0,3,0.038,Low,early-tenure onboarding risk,48.5
+CUST10095,Enterprise,LATAM,201-1000,Outbound Sales,671,0.735,-0.096,2.0,2,0.072,Low,early-tenure onboarding risk,48.17
+CUST10804,Growth,India,1-10,Organic Search,137,0.424,-0.166,5.0,17,0.351,High,sharp engagement drop; high support load,48.15
+CUST11045,Growth,Europe,1-10,Referral,243,0.532,-0.072,8.0,20,0.198,Medium,high support load,48.07
+CUST11054,Enterprise,APAC,201-1000,Organic Search,1087,0.773,0.033,0.0,9,0.044,Low,model-detected combined signals,47.98
+CUST10219,Growth,Europe,1-10,Referral,275,0.518,-0.008,5.0,3,0.173,Medium,high support load; early-tenure onboarding risk,47.47
+CUST10407,Enterprise,North America,201-1000,Paid Social,927,0.714,-0.021,3.0,14,0.051,Low,model-detected combined signals,47.05
+CUST10912,Enterprise,LATAM,51-200,Outbound Sales,1350,0.871,-0.112,2.0,18,0.035,Low,sharp engagement drop,46.99
+CUST10376,Growth,LATAM,1-10,Organic Search,344,0.647,-0.033,1.0,5,0.137,Medium,model-detected combined signals,46.97
+CUST11349,Enterprise,Europe,201-1000,Content/SEO,623,0.739,-0.077,3.0,20,0.075,Low,model-detected combined signals,46.68
+CUST11684,Growth,India,1-10,Paid Search,239,0.554,0.0,0.0,1,0.193,Medium,early-tenure onboarding risk,46.22
+CUST10345,Growth,North America,11-50,Outbound Sales,368,0.67,-0.116,3.0,9,0.125,Medium,sharp engagement drop,46.02
+CUST10949,Enterprise,India,1-10,Outbound Sales,855,0.86,-0.073,1.0,16,0.054,Low,model-detected combined signals,45.96
+CUST11443,Enterprise,Europe,51-200,Paid Search,823,0.711,0.078,2.0,13,0.056,Low,model-detected combined signals,45.81
+CUST10573,Growth,Europe,51-200,Paid Social,245,0.495,-0.079,3.0,5,0.187,Medium,model-detected combined signals,45.71
+CUST11360,Growth,APAC,1-10,Organic Search,181,0.438,-0.063,7.0,4,0.25,High,low 3-month engagement; high support load,45.31
+CUST10527,Enterprise,India,11-50,Outbound Sales,919,0.854,-0.057,0.0,14,0.049,Low,model-detected combined signals,45.14
+CUST11157,Growth,India,11-50,Referral,251,0.498,0.039,4.0,12,0.179,Medium,low 3-month engagement,44.97
+CUST11654,Growth,North America,51-200,Paid Search,225,0.492,0.0,1.0,1,0.199,High,low 3-month engagement; early-tenure onboarding risk,44.82
+CUST11612,Enterprise,North America,1-10,Organic Search,400,0.742,-0.077,0.0,6,0.111,Low,model-detected combined signals,44.51
+CUST11076,Enterprise,India,51-200,Content/SEO,1055,0.81,0.022,1.0,8,0.042,Low,model-detected combined signals,44.47
+CUST11628,Growth,Europe,201-1000,Organic Search,261,0.517,0.003,2.0,2,0.17,Medium,early-tenure onboarding risk,44.41
+CUST10956,Growth,North America,51-200,Outbound Sales,304,0.592,-0.035,2.0,21,0.146,Medium,model-detected combined signals,44.28
+CUST11307,Enterprise,Europe,201-1000,Paid Search,1750,0.775,0.024,4.0,5,0.025,Low,model-detected combined signals,44.16
+CUST10036,Growth,APAC,1-10,Paid Search,185,0.497,-0.055,2.0,10,0.238,High,model-detected combined signals,44.11
+CUST10330,Enterprise,Europe,1000+,Paid Social,1055,0.73,-0.005,2.0,8,0.042,Low,model-detected combined signals,44.03
+CUST10096,Enterprise,North America,51-200,Organic Search,1047,0.764,0.068,3.0,16,0.042,Low,model-detected combined signals,43.63
+CUST11315,Enterprise,LATAM,1000+,Organic Search,1055,0.765,0.028,0.0,12,0.041,Low,model-detected combined signals,43.19
+CUST10593,Growth,India,1-10,Organic Search,183,0.516,-0.028,2.0,3,0.236,High,early-tenure onboarding risk,43.19
+CUST10604,Enterprise,Europe,11-50,Content/SEO,647,0.812,-0.041,0.0,19,0.066,Low,model-detected combined signals,42.98
+CUST10811,Enterprise,LATAM,1-10,Outbound Sales,400,0.742,-0.093,1.0,14,0.107,Low,model-detected combined signals,42.72
+CUST10959,Enterprise,Europe,201-1000,Paid Search,615,0.662,0.066,2.0,5,0.069,Low,model-detected combined signals,42.67
+CUST10606,Enterprise,North America,51-200,Organic Search,1598,0.897,-0.022,1.0,14,0.027,Low,model-detected combined signals,42.53
+CUST10363,Enterprise,North America,11-50,Content/SEO,1127,0.807,0.15,0.0,13,0.038,Low,model-detected combined signals,42.4
+CUST10486,Enterprise,APAC,201-1000,Content/SEO,1103,0.852,-0.108,1.0,10,0.038,Low,sharp engagement drop,42.39
+CUST11078,Enterprise,Europe,201-1000,Outbound Sales,959,0.797,0.0,0.0,1,0.044,Low,early-tenure onboarding risk,42.34
+CUST11060,Growth,North America,1-10,Organic Search,149,0.464,0.0,1.0,1,0.283,High,low 3-month engagement; early-tenure onboarding risk,42.21
+CUST10574,Enterprise,Europe,51-200,Referral,655,0.732,-0.031,4.0,13,0.064,Low,model-detected combined signals,41.93
+CUST10805,Growth,India,11-50,Organic Search,155,0.483,-0.113,3.0,6,0.269,High,sharp engagement drop,41.77
+CUST11329,Growth,APAC,1-10,Paid Social,436,0.697,0.044,1.0,6,0.096,Low,model-detected combined signals,41.64
+CUST11783,Growth,Europe,11-50,Paid Search,302,0.639,-0.103,2.0,10,0.137,Medium,sharp engagement drop,41.52
+CUST11563,Enterprise,Europe,201-1000,Paid Social,959,0.813,-0.034,2.0,2,0.043,Low,early-tenure onboarding risk,41.34
+CUST10594,Growth,India,11-50,Content/SEO,229,0.584,-0.135,2.0,24,0.18,Medium,sharp engagement drop,41.32
+CUST11337,Growth,LATAM,1-10,Organic Search,229,0.615,-0.106,2.0,2,0.18,Medium,sharp engagement drop; early-tenure onboarding risk,41.15
+CUST10828,Growth,Europe,1-10,Organic Search,159,0.486,-0.036,4.0,10,0.258,High,model-detected combined signals,41.06
+CUST11382,Growth,APAC,1-10,Organic Search,273,0.561,-0.017,7.0,11,0.15,Medium,high support load,41.02
+CUST10451,Enterprise,North America,201-1000,Paid Search,511,0.725,-0.083,1.0,17,0.08,Low,model-detected combined signals,40.9
+CUST10449,Enterprise,North America,11-50,Paid Search,887,0.859,-0.016,3.0,13,0.046,Low,model-detected combined signals,40.63
+CUST10942,Enterprise,North America,1-10,Content/SEO,487,0.747,0.034,3.0,16,0.083,Low,model-detected combined signals,40.54
+CUST11274,Growth,North America,11-50,Paid Search,289,0.638,-0.109,2.0,3,0.14,Medium,sharp engagement drop; early-tenure onboarding risk,40.48
+CUST11212,Growth,APAC,11-50,Outbound Sales,261,0.597,-0.03,3.0,13,0.154,Medium,model-detected combined signals,40.28
+CUST11399,Enterprise,North America,51-200,Referral,879,0.785,0.012,2.0,16,0.046,Low,model-detected combined signals,40.14
+CUST11613,Enterprise,North America,11-50,Outbound Sales,871,0.872,-0.057,0.0,6,0.046,Low,model-detected combined signals,39.99
+CUST10208,Enterprise,North America,11-50,Paid Social,1111,0.908,-0.087,0.0,16,0.036,Low,model-detected combined signals,39.75
+CUST10116,Enterprise,Europe,11-50,Paid Search,623,0.802,-0.038,0.0,18,0.064,Low,model-detected combined signals,39.67
+CUST10908,Growth,North America,1-10,Referral,181,0.421,0.078,9.0,14,0.216,High,low 3-month engagement; high support load,39.04
+CUST10162,Enterprise,North America,201-1000,Referral,919,0.674,0.118,6.0,8,0.042,Low,high support load,38.95
+CUST10260,Enterprise,Europe,11-50,Paid Social,879,0.79,-0.011,5.0,12,0.044,Low,high support load,38.79
+CUST10973,Enterprise,APAC,51-200,Referral,2309,0.92,-0.05,0.0,19,0.017,Low,model-detected combined signals,38.73
+CUST10163,Growth,India,1-10,Paid Search,243,0.588,-0.078,4.0,6,0.159,Medium,model-detected combined signals,38.62
+CUST11311,Growth,North America,201-1000,Referral,223,0.468,-0.037,7.0,16,0.172,Medium,high support load,38.4
+CUST11484,Enterprise,North America,1000+,Content/SEO,1111,0.832,-0.026,1.0,24,0.034,Low,model-detected combined signals,38.22
+CUST10353,Enterprise,Europe,201-1000,Paid Social,511,0.654,0.042,4.0,4,0.074,Low,model-detected combined signals,38.0
+CUST11678,Enterprise,India,1-10,Organic Search,431,0.775,-0.067,2.0,19,0.088,Low,model-detected combined signals,38.0
+CUST10068,Enterprise,APAC,51-200,Referral,551,0.812,-0.188,0.0,18,0.069,Low,sharp engagement drop,37.94
+CUST10195,Enterprise,APAC,201-1000,Outbound Sales,903,0.855,-0.119,0.0,9,0.042,Low,sharp engagement drop,37.93
+CUST11747,Growth,North America,51-200,Paid Social,306,0.548,0.068,3.0,3,0.124,Medium,early-tenure onboarding risk,37.81
+CUST11244,Growth,Europe,1-10,Content/SEO,149,0.467,-0.038,4.0,17,0.253,High,low 3-month engagement,37.65
+CUST10097,Growth,APAC,51-200,Organic Search,289,0.613,-0.078,2.0,19,0.13,Medium,model-detected combined signals,37.58
+CUST11455,Enterprise,North America,51-200,Organic Search,1111,0.863,0.0,0.0,7,0.034,Low,model-detected combined signals,37.56
+CUST10523,Growth,APAC,11-50,Paid Search,394,0.651,0.05,3.0,13,0.095,Low,model-detected combined signals,37.46
+CUST10397,Enterprise,APAC,1000+,Outbound Sales,1031,0.762,0.05,3.0,22,0.036,Low,model-detected combined signals,37.46
+CUST10806,Growth,APAC,51-200,Content/SEO,199,0.47,0.033,6.0,2,0.187,Medium,low 3-month engagement; high support load,37.28
+CUST10114,Growth,North America,201-1000,Paid Search,207,0.434,-0.059,8.0,4,0.18,Medium,low 3-month engagement; high support load,37.24
+CUST11221,Enterprise,Europe,1000+,Organic Search,1198,0.87,-0.084,2.0,2,0.031,Low,early-tenure onboarding risk,37.19
+CUST10548,Enterprise,North America,51-200,Paid Search,759,0.78,0.025,2.0,3,0.049,Low,early-tenure onboarding risk,37.17
+CUST11540,Growth,APAC,11-50,Content/SEO,185,0.494,0.01,6.0,21,0.2,High,high support load,37.0
+CUST11373,Enterprise,North America,201-1000,Organic Search,551,0.735,-0.002,2.0,5,0.067,Low,model-detected combined signals,36.9
+CUST11344,Growth,Europe,1-10,Organic Search,243,0.615,-0.007,1.0,4,0.151,Medium,model-detected combined signals,36.78
+CUST11091,Enterprise,India,1-10,Referral,719,0.796,0.097,1.0,15,0.051,Low,model-detected combined signals,36.76
+CUST11706,Enterprise,North America,1000+,Paid Social,639,0.719,-0.047,2.0,6,0.058,Low,model-detected combined signals,36.75
+CUST11185,Growth,Europe,11-50,Organic Search,350,0.697,-0.063,1.0,22,0.104,Low,model-detected combined signals,36.51
+CUST11250,Growth,APAC,1-10,Organic Search,283,0.612,0.042,3.0,14,0.129,Medium,model-detected combined signals,36.41
+CUST10849,Growth,LATAM,11-50,Paid Search,221,0.56,-0.024,3.0,2,0.164,Medium,early-tenure onboarding risk,36.33
+CUST10340,Growth,India,51-200,Organic Search,265,0.52,0.058,4.0,14,0.137,Medium,low 3-month engagement,36.29
+CUST10366,Enterprise,APAC,201-1000,Paid Social,783,0.755,0.08,1.0,23,0.046,Low,model-detected combined signals,36.23
+CUST10292,Growth,North America,1-10,Content/SEO,233,0.628,0.0,0.0,1,0.155,Medium,early-tenure onboarding risk,36.22
+CUST10029,Growth,LATAM,1-10,Paid Search,187,0.477,0.088,5.0,15,0.193,Medium,low 3-month engagement; high support load,36.13
+CUST10109,Growth,North America,1-10,Paid Social,171,0.561,-0.14,3.0,4,0.211,High,sharp engagement drop,36.03
+CUST11269,Growth,India,51-200,Content/SEO,372,0.667,0.008,2.0,4,0.097,Low,model-detected combined signals,35.99
+CUST10483,Growth,North America,11-50,Paid Social,185,0.527,0.0,1.0,1,0.194,Medium,early-tenure onboarding risk,35.94
+CUST11570,Growth,APAC,51-200,Referral,300,0.61,-0.022,2.0,15,0.119,Medium,model-detected combined signals,35.8
+CUST10719,Growth,India,51-200,Referral,211,0.494,-0.066,6.0,16,0.169,Medium,high support load,35.7
+CUST10504,Enterprise,APAC,11-50,Paid Search,839,0.818,0.111,1.0,20,0.042,Low,model-detected combined signals,35.27
+CUST11169,Enterprise,Europe,51-200,Outbound Sales,567,0.773,-0.017,1.0,10,0.062,Low,model-detected combined signals,35.24
+CUST10789,Enterprise,North America,51-200,Content/SEO,479,0.734,-0.012,4.0,15,0.073,Low,model-detected combined signals,35.03
+CUST10015,Growth,North America,201-1000,Paid Search,225,0.526,0.0,0.0,1,0.156,Medium,early-tenure onboarding risk,34.99
+CUST10418,Growth,North America,1-10,Referral,293,0.628,-0.03,5.0,3,0.119,Medium,high support load; early-tenure onboarding risk,34.96
+CUST10182,Enterprise,LATAM,1-10,Paid Social,887,0.907,0.0,0.0,1,0.039,Low,early-tenure onboarding risk,34.95
+CUST11553,Enterprise,APAC,201-1000,Content/SEO,959,0.89,-0.096,1.0,8,0.036,Low,model-detected combined signals,34.9
+CUST11295,Enterprise,LATAM,1-10,Paid Social,799,0.854,0.061,3.0,21,0.044,Low,model-detected combined signals,34.79
+CUST10878,Growth,North America,11-50,Outbound Sales,225,0.613,-0.049,1.0,9,0.154,Medium,model-detected combined signals,34.75
+CUST11733,Enterprise,Europe,1-10,Organic Search,823,0.813,0.088,4.0,14,0.042,Low,model-detected combined signals,34.61
+CUST11262,Enterprise,North America,1000+,Content/SEO,783,0.78,-0.012,3.0,7,0.044,Low,model-detected combined signals,34.33
+CUST10988,Enterprise,North America,1000+,Referral,671,0.767,-0.071,3.0,9,0.051,Low,model-detected combined signals,34.23
+CUST10443,Enterprise,North America,51-200,Organic Search,487,0.782,-0.047,0.0,4,0.07,Low,model-detected combined signals,34.13
+CUST10926,Enterprise,LATAM,1000+,Paid Social,743,0.77,-0.005,4.0,21,0.046,Low,model-detected combined signals,34.05
+CUST11737,Growth,APAC,11-50,Outbound Sales,155,0.465,-0.052,9.0,13,0.219,High,low 3-month engagement; high support load,33.94
+CUST10283,Enterprise,North America,11-50,Referral,695,0.881,-0.119,0.0,22,0.049,Low,sharp engagement drop,33.83
+CUST10718,Growth,APAC,11-50,Paid Search,221,0.617,-0.095,2.0,10,0.153,Medium,model-detected combined signals,33.82
+CUST10013,Enterprise,APAC,11-50,Content/SEO,711,0.766,0.144,7.0,13,0.047,Low,high support load,33.59
+CUST11378,Enterprise,North America,1-10,Referral,695,0.852,0.047,1.0,15,0.048,Low,model-detected combined signals,33.49
+CUST11779,Enterprise,North America,1-10,Outbound Sales,719,0.857,0.076,1.0,10,0.047,Low,model-detected combined signals,33.46
+CUST10200,Growth,APAC,1000+,Referral,195,0.464,-0.047,4.0,6,0.171,Medium,low 3-month engagement,33.35
+CUST10379,Growth,APAC,201-1000,Content/SEO,135,0.363,-0.013,8.0,8,0.247,High,low 3-month engagement; high support load,33.34
+CUST11658,Enterprise,APAC,1-10,Referral,871,0.921,-0.026,0.0,8,0.038,Low,model-detected combined signals,33.33
+CUST11150,Growth,North America,11-50,Organic Search,183,0.548,-0.047,5.0,6,0.181,Medium,high support load,33.13
+CUST10678,Growth,India,1-10,Paid Search,221,0.605,0.008,3.0,20,0.149,Medium,model-detected combined signals,32.84
+CUST11495,Enterprise,APAC,51-200,Paid Social,591,0.778,-0.007,1.0,15,0.055,Low,model-detected combined signals,32.76
+CUST11334,Growth,APAC,201-1000,Content/SEO,458,0.731,-0.044,3.0,11,0.071,Low,model-detected combined signals,32.5
+CUST10855,Growth,North America,1-10,Organic Search,295,0.721,-0.041,0.0,2,0.11,Low,early-tenure onboarding risk,32.4
+CUST11423,Enterprise,North America,1-10,Paid Search,807,0.911,0.01,0.0,9,0.04,Low,model-detected combined signals,32.32
+CUST10517,Enterprise,APAC,1-10,Paid Social,687,0.845,0.036,2.0,4,0.047,Low,model-detected combined signals,32.28
+CUST10398,Enterprise,APAC,11-50,Outbound Sales,575,0.868,-0.09,0.0,7,0.056,Low,model-detected combined signals,32.24
+CUST11197,Enterprise,North America,1-10,Organic Search,783,0.886,0.058,0.0,8,0.041,Low,model-detected combined signals,32.19
+CUST11381,Growth,North America,11-50,Paid Social,269,0.612,0.055,4.0,9,0.118,Medium,model-detected combined signals,31.86
+CUST10774,Enterprise,Europe,11-50,Organic Search,927,0.911,-0.028,0.0,6,0.034,Low,model-detected combined signals,31.78
+CUST10278,Enterprise,Europe,1-10,Organic Search,1462,0.957,0.07,1.0,13,0.022,Low,model-detected combined signals,31.66
+CUST10456,Enterprise,Europe,1-10,Outbound Sales,599,0.882,-0.057,1.0,12,0.053,Low,model-detected combined signals,31.66
+CUST10936,Growth,North America,1-10,Content/SEO,201,0.632,0.0,1.0,1,0.157,Medium,early-tenure onboarding risk,31.64
+CUST10171,Growth,APAC,11-50,Paid Social,239,0.589,0.017,2.0,16,0.132,Medium,model-detected combined signals,31.63
+CUST10964,Growth,India,51-200,Paid Social,145,0.47,0.0,1.0,1,0.218,High,low 3-month engagement; early-tenure onboarding risk,31.63
+CUST10996,Enterprise,North America,11-50,Paid Social,727,0.776,0.138,2.0,4,0.043,Low,model-detected combined signals,31.58
+CUST10093,Enterprise,Europe,201-1000,Outbound Sales,1039,0.896,-0.057,0.0,10,0.03,Low,model-detected combined signals,31.57
+CUST10755,Enterprise,North America,1-10,Content/SEO,903,0.886,0.105,1.0,15,0.035,Low,model-detected combined signals,31.55
+CUST11328,Enterprise,LATAM,1-10,Content/SEO,1286,0.959,0.075,0.0,12,0.025,Low,model-detected combined signals,31.54
+CUST11421,Growth,APAC,1-10,Organic Search,265,0.703,-0.064,1.0,6,0.119,Medium,model-detected combined signals,31.5
+CUST11437,Growth,North America,201-1000,Outbound Sales,177,0.471,-0.054,7.0,4,0.178,Medium,high support load,31.49
+CUST10659,Growth,North America,51-200,Paid Search,271,0.588,-0.057,5.0,4,0.116,Medium,high support load,31.49
+CUST11031,Growth,APAC,11-50,Content/SEO,231,0.639,-0.035,2.0,8,0.135,Medium,model-detected combined signals,31.28
+CUST11133,Growth,APAC,201-1000,Outbound Sales,245,0.554,0.005,2.0,19,0.127,Medium,model-detected combined signals,31.16
+CUST10715,Growth,North America,1-10,Organic Search,199,0.599,0.024,4.0,7,0.156,Medium,model-detected combined signals,31.13
+CUST10341,Enterprise,APAC,51-200,Organic Search,495,0.794,-0.025,2.0,11,0.063,Low,model-detected combined signals,31.05
+CUST10760,Enterprise,India,51-200,Paid Search,1015,0.83,0.114,1.0,15,0.031,Low,model-detected combined signals,30.98
+CUST11135,Growth,India,1000+,Content/SEO,223,0.523,-0.042,3.0,5,0.139,Medium,model-detected combined signals,30.93
+CUST10501,Enterprise,North America,11-50,Paid Search,623,0.845,0.011,0.0,18,0.05,Low,model-detected combined signals,30.87
+CUST11096,Enterprise,APAC,1-10,Referral,887,0.876,0.101,0.0,3,0.035,Low,early-tenure onboarding risk,30.81
+CUST10641,Growth,North America,51-200,Organic Search,316,0.664,-0.019,3.0,17,0.097,Low,model-detected combined signals,30.78
+CUST10846,Growth,North America,11-50,Referral,267,0.674,-0.104,1.0,3,0.115,Medium,sharp engagement drop; early-tenure onboarding risk,30.72
+CUST11516,Growth,India,1-10,Paid Search,295,0.672,0.017,2.0,6,0.104,Low,model-detected combined signals,30.64
+CUST10408,Enterprise,Europe,1000+,Outbound Sales,831,0.82,-0.007,2.0,13,0.037,Low,model-detected combined signals,30.55
+CUST10010,Growth,India,1-10,Paid Search,187,0.605,-0.031,1.0,9,0.163,Medium,model-detected combined signals,30.54
+CUST10705,Enterprise,Europe,11-50,Paid Social,807,0.875,0.041,0.0,13,0.038,Low,model-detected combined signals,30.53
+CUST10733,Growth,North America,1-10,Referral,215,0.561,0.078,5.0,3,0.142,Medium,high support load; early-tenure onboarding risk,30.53
+CUST10750,Growth,Europe,11-50,Outbound Sales,181,0.583,0.0,2.0,1,0.168,Medium,early-tenure onboarding risk,30.42
+CUST10481,Growth,India,11-50,Organic Search,283,0.638,0.035,4.0,8,0.107,Low,model-detected combined signals,30.39
+CUST11402,Growth,Europe,11-50,Organic Search,141,0.5,-0.024,2.0,10,0.215,High,model-detected combined signals,30.36
+CUST10580,Growth,LATAM,201-1000,Content/SEO,247,0.576,-0.024,2.0,14,0.123,Medium,model-detected combined signals,30.29
+CUST10293,Growth,Europe,11-50,Paid Search,185,0.561,0.025,3.0,10,0.164,Medium,model-detected combined signals,30.28
+CUST11050,Enterprise,APAC,201-1000,Organic Search,599,0.819,-0.07,1.0,17,0.05,Low,model-detected combined signals,30.08
+CUST11052,Growth,Europe,201-1000,Organic Search,195,0.565,-0.038,2.0,2,0.154,Medium,early-tenure onboarding risk,30.04
+CUST10902,Enterprise,India,51-200,Referral,1318,0.889,0.053,1.0,22,0.023,Low,model-detected combined signals,29.75
+CUST10051,Enterprise,LATAM,1000+,Organic Search,575,0.787,-0.106,2.0,13,0.052,Low,sharp engagement drop,29.74
+CUST11332,Growth,Europe,201-1000,Paid Social,181,0.47,0.01,6.0,6,0.164,Medium,low 3-month engagement; high support load,29.67
+CUST10968,Enterprise,Europe,51-200,Outbound Sales,543,0.828,-0.087,3.0,19,0.055,Low,model-detected combined signals,29.65
+CUST10832,Enterprise,India,11-50,Paid Social,567,0.835,-0.056,3.0,18,0.052,Low,model-detected combined signals,29.61
+CUST11538,Enterprise,APAC,201-1000,Outbound Sales,1055,0.841,0.009,1.0,9,0.028,Low,model-detected combined signals,29.59
+CUST10442,Enterprise,North America,51-200,Paid Search,647,0.805,0.025,1.0,7,0.046,Low,model-detected combined signals,29.59
+CUST11670,Enterprise,North America,1-10,Paid Social,959,0.933,0.003,1.0,6,0.031,Low,model-detected combined signals,29.5
+CUST10042,Enterprise,Europe,11-50,Paid Search,975,0.819,0.122,6.0,9,0.03,Low,high support load,29.44
+CUST11011,Growth,India,11-50,Paid Search,259,0.597,0.021,6.0,22,0.114,Low,high support load,29.42
+CUST10489,Growth,India,51-200,Content/SEO,173,0.62,-0.21,2.0,8,0.17,Medium,sharp engagement drop,29.42
+CUST11391,Starter,North America,11-50,Organic Search,110,0.429,-0.033,5.0,21,0.267,High,low 3-month engagement; high support load,29.34
+CUST10484,Growth,APAC,1-10,Paid Social,231,0.6,0.068,4.0,12,0.126,Medium,model-detected combined signals,29.05
+CUST10900,Growth,APAC,201-1000,Paid Social,225,0.526,0.016,6.0,21,0.129,Medium,high support load,29.0
+CUST11113,Growth,Europe,51-200,Paid Social,432,0.723,-0.018,2.0,3,0.067,Low,early-tenure onboarding risk,28.97
+CUST11101,Growth,APAC,1-10,Referral,496,0.818,-0.022,0.0,11,0.058,Low,model-detected combined signals,28.84
+CUST11049,Growth,North America,51-200,Paid Social,366,0.683,0.021,3.0,23,0.079,Low,model-detected combined signals,28.8
+CUST11137,Enterprise,LATAM,1-10,Paid Search,639,0.863,0.026,2.0,5,0.045,Low,model-detected combined signals,28.78
+CUST10176,Growth,India,201-1000,Paid Social,374,0.723,-0.091,1.0,13,0.077,Low,model-detected combined signals,28.76
+CUST10228,Growth,LATAM,1-10,Referral,213,0.684,-0.099,2.0,15,0.135,Medium,model-detected combined signals,28.74
+CUST11261,Enterprise,Europe,201-1000,Organic Search,703,0.807,0.03,3.0,4,0.041,Low,model-detected combined signals,28.67
+CUST11104,Growth,India,1-10,Paid Search,271,0.693,0.004,4.0,4,0.106,Low,model-detected combined signals,28.64
+CUST10694,Growth,APAC,201-1000,Organic Search,213,0.569,0.017,4.0,18,0.134,Medium,model-detected combined signals,28.58
+CUST10601,Growth,APAC,1-10,Paid Social,169,0.638,-0.138,2.0,4,0.168,Medium,sharp engagement drop,28.38
+CUST10945,Enterprise,North America,11-50,Referral,775,0.882,-0.011,2.0,18,0.036,Low,model-detected combined signals,28.13
+CUST10538,Enterprise,Europe,201-1000,Organic Search,623,0.803,-0.033,4.0,7,0.045,Low,model-detected combined signals,28.0
+CUST11291,Enterprise,Europe,201-1000,Organic Search,631,0.851,-0.046,0.0,11,0.044,Low,model-detected combined signals,27.7
+CUST10716,Growth,LATAM,11-50,Organic Search,209,0.665,-0.118,3.0,7,0.132,Medium,sharp engagement drop,27.5
+CUST10445,Growth,APAC,1-10,Paid Search,181,0.653,-0.067,0.0,7,0.151,Medium,model-detected combined signals,27.31
+CUST11286,Growth,Europe,1000+,Content/SEO,171,0.454,0.029,5.0,7,0.159,Medium,low 3-month engagement; high support load,27.13
+CUST10369,Growth,APAC,11-50,Referral,326,0.753,-0.057,2.0,7,0.083,Low,model-detected combined signals,27.11
+CUST11205,Growth,LATAM,1-10,Organic Search,241,0.681,0.034,2.0,4,0.112,Low,model-detected combined signals,27.07
+CUST11352,Enterprise,Europe,1-10,Referral,655,0.906,0.004,0.0,17,0.041,Low,model-detected combined signals,27.02
+CUST11503,Enterprise,Europe,1000+,Content/SEO,687,0.847,-0.051,0.0,23,0.039,Low,model-detected combined signals,27.02
+CUST10503,Enterprise,Europe,51-200,Paid Social,647,0.8,0.101,2.0,20,0.042,Low,model-detected combined signals,26.96
+CUST10259,Growth,Europe,11-50,Referral,155,0.557,0.0,1.0,1,0.174,Medium,early-tenure onboarding risk,26.94
+CUST11215,Starter,North America,1-10,Paid Social,63,0.224,0.067,5.0,12,0.427,High,low 3-month engagement; high support load,26.91
+CUST10480,Growth,North America,51-200,Outbound Sales,291,0.595,0.055,8.0,15,0.092,Low,high support load,26.84
+CUST10581,Enterprise,Europe,51-200,Content/SEO,479,0.797,0.037,1.0,23,0.056,Low,model-detected combined signals,26.78
+CUST11505,Growth,Europe,1-10,Paid Search,239,0.658,0.037,2.0,5,0.111,Low,model-detected combined signals,26.63
+CUST11069,Growth,North America,201-1000,Organic Search,141,0.444,-0.048,7.0,3,0.189,Medium,low 3-month engagement; high support load,26.6
+CUST10771,Growth,APAC,51-200,Organic Search,306,0.629,0.026,7.0,3,0.087,Low,high support load; early-tenure onboarding risk,26.57
+CUST11445,Enterprise,APAC,201-1000,Paid Search,767,0.87,-0.021,0.0,24,0.035,Low,model-detected combined signals,26.53
+CUST10638,Growth,North America,51-200,Paid Social,269,0.663,0.0,0.0,1,0.098,Low,early-tenure onboarding risk,26.48
+CUST10447,Growth,North America,11-50,Content/SEO,187,0.626,-0.068,5.0,10,0.141,Medium,high support load,26.41
+CUST11681,Starter,North America,1-10,Organic Search,86,0.412,0.004,3.0,6,0.306,High,low 3-month engagement; entry plan,26.31
+CUST11189,Growth,North America,51-200,Content/SEO,171,0.561,-0.038,4.0,5,0.154,Medium,model-detected combined signals,26.3
+CUST10262,Growth,Europe,1000+,Paid Social,378,0.669,0.024,0.0,2,0.069,Low,early-tenure onboarding risk,26.22
+CUST11110,Growth,Europe,1-10,Organic Search,121,0.476,0.086,5.0,3,0.216,High,low 3-month engagement; high support load,26.18
+CUST11067,Enterprise,Europe,1-10,Paid Search,1230,0.955,0.076,2.0,6,0.021,Low,model-detected combined signals,26.04
+CUST11232,Growth,North America,1-10,Referral,179,0.624,-0.08,4.0,2,0.145,Medium,early-tenure onboarding risk,25.97
+CUST10062,Starter,North America,1-10,Content/SEO,80,0.372,-0.009,4.0,5,0.324,High,low 3-month engagement; entry plan,25.92
+CUST10131,Growth,North America,1-10,Outbound Sales,111,0.521,0.0,1.0,1,0.234,High,early-tenure onboarding risk,25.92
+CUST11300,Growth,Europe,11-50,Referral,442,0.827,-0.081,0.0,16,0.059,Low,model-detected combined signals,25.88
+CUST10603,Growth,Europe,1-10,Content/SEO,285,0.738,0.009,3.0,19,0.09,Low,model-detected combined signals,25.73
+CUST10487,Growth,LATAM,51-200,Paid Search,213,0.571,0.041,4.0,7,0.121,Medium,model-detected combined signals,25.69
+CUST10452,Enterprise,Europe,1000+,Paid Search,655,0.788,0.005,1.0,7,0.039,Low,model-detected combined signals,25.68
+CUST11249,Growth,Europe,11-50,Outbound Sales,133,0.526,-0.007,3.0,6,0.192,Medium,model-detected combined signals,25.6
+CUST11426,Enterprise,Europe,1-10,Organic Search,1071,1.0,0.021,0.0,13,0.024,Low,model-detected combined signals,25.55
+CUST10506,Growth,India,1-10,Paid Search,306,0.723,0.068,2.0,5,0.083,Low,model-detected combined signals,25.49
+CUST11176,Growth,LATAM,1-10,Organic Search,143,0.558,-0.056,5.0,15,0.177,Medium,high support load,25.35
+CUST11108,Enterprise,North America,11-50,Paid Social,727,0.867,0.074,2.0,7,0.035,Low,model-detected combined signals,25.31
+CUST10854,Enterprise,Europe,11-50,Paid Search,943,0.915,0.057,1.0,21,0.027,Low,model-detected combined signals,25.23
+CUST10530,Enterprise,APAC,1-10,Organic Search,615,0.94,-0.009,0.0,13,0.041,Low,model-detected combined signals,25.21
+CUST11618,Growth,North America,1-10,Paid Social,161,0.543,0.063,6.0,3,0.156,Medium,low 3-month engagement; high support load,25.09
+CUST11406,Growth,North America,1-10,Referral,100,0.486,0.0,1.0,1,0.251,High,low 3-month engagement; early-tenure onboarding risk,25.06
+CUST10356,Growth,North America,51-200,Paid Social,137,0.504,-0.01,4.0,2,0.183,Medium,early-tenure onboarding risk,25.03
+CUST10618,Starter,LATAM,51-200,Paid Social,101,0.442,-0.133,1.0,13,0.247,High,sharp engagement drop; entry plan,24.93
+CUST11591,Enterprise,Europe,11-50,Paid Search,559,0.848,0.088,1.0,3,0.044,Low,early-tenure onboarding risk,24.87
+CUST10910,Enterprise,India,201-1000,Paid Social,735,0.897,-0.098,2.0,14,0.034,Low,model-detected combined signals,24.87
+CUST10254,Growth,North America,51-200,Referral,113,0.416,0.032,4.0,8,0.22,High,low 3-month engagement,24.83
+CUST11080,Growth,LATAM,51-200,Outbound Sales,211,0.625,0.029,1.0,11,0.118,Medium,model-detected combined signals,24.81
+CUST11323,Growth,Europe,1000+,Outbound Sales,239,0.541,0.045,5.0,23,0.103,Low,high support load,24.7
+CUST10190,Enterprise,India,51-200,Content/SEO,511,0.855,0.009,0.0,8,0.048,Low,model-detected combined signals,24.47
+CUST11309,Growth,Europe,1-10,Paid Social,199,0.607,0.057,6.0,5,0.123,Medium,high support load,24.45
+CUST10421,Growth,North America,1-10,Organic Search,332,0.811,-0.029,4.0,3,0.073,Low,early-tenure onboarding risk,24.39
+CUST10850,Growth,North America,51-200,Referral,215,0.658,-0.047,3.0,2,0.113,Low,early-tenure onboarding risk,24.3
+CUST10814,Growth,Europe,1000+,Content/SEO,221,0.598,-0.044,1.0,6,0.11,Low,model-detected combined signals,24.3
+CUST10266,Growth,North America,201-1000,Organic Search,203,0.549,0.044,3.0,19,0.119,Medium,model-detected combined signals,24.18
+CUST10701,Enterprise,APAC,201-1000,Referral,400,0.711,0.015,5.0,5,0.06,Low,high support load,24.17
+CUST10450,Growth,APAC,11-50,Paid Social,121,0.528,0.0,1.0,1,0.199,High,early-tenure onboarding risk,24.13
+CUST10395,Growth,North America,1000+,Referral,165,0.487,-0.037,2.0,8,0.145,Medium,low 3-month engagement,23.91
+CUST11572,Growth,North America,1000+,Paid Search,147,0.468,0.027,5.0,6,0.163,Medium,low 3-month engagement; high support load,23.89
+CUST11316,Enterprise,North America,51-200,Content/SEO,671,0.876,0.036,2.0,18,0.036,Low,model-detected combined signals,23.88
+CUST10375,Growth,North America,1000+,Organic Search,221,0.571,0.006,2.0,19,0.108,Low,model-detected combined signals,23.78
+CUST11199,Enterprise,APAC,201-1000,Organic Search,687,0.886,0.0,0.0,1,0.035,Low,early-tenure onboarding risk,23.75
+CUST10385,Enterprise,North America,1-10,Referral,415,0.864,-0.048,1.0,15,0.057,Low,model-detected combined signals,23.71
+CUST10080,Growth,Europe,51-200,Paid Search,177,0.538,0.077,2.0,18,0.133,Medium,model-detected combined signals,23.62
+CUST10540,Growth,LATAM,51-200,Content/SEO,267,0.729,-0.059,3.0,8,0.088,Low,model-detected combined signals,23.61
+CUST11752,Growth,India,1-10,Content/SEO,189,0.635,0.088,5.0,12,0.124,Medium,high support load,23.52
+CUST10455,Growth,India,1-10,Paid Search,139,0.555,0.051,2.0,6,0.168,Medium,model-detected combined signals,23.32
+CUST10645,Growth,India,51-200,Paid Social,215,0.583,0.0,6.0,14,0.108,Low,high support load,23.31
+CUST10884,Enterprise,APAC,51-200,Referral,671,0.888,-0.042,2.0,12,0.035,Low,model-detected combined signals,23.22
+CUST11228,Growth,North America,1-10,Outbound Sales,101,0.581,-0.152,4.0,9,0.228,High,sharp engagement drop,23.02
+CUST10079,Growth,North America,1-10,Paid Social,235,0.689,0.027,2.0,2,0.098,Low,early-tenure onboarding risk,23.01
+CUST11507,Growth,LATAM,11-50,Paid Search,247,0.704,-0.058,4.0,2,0.093,Low,early-tenure onboarding risk,22.97
+CUST10568,Enterprise,APAC,1-10,Paid Search,671,0.886,0.001,4.0,24,0.034,Low,model-detected combined signals,22.96
+CUST10052,Growth,LATAM,11-50,Referral,153,0.625,-0.068,2.0,7,0.15,Medium,model-detected combined signals,22.88
+CUST11763,Enterprise,North America,201-1000,Paid Search,631,0.787,0.115,2.0,13,0.036,Low,model-detected combined signals,22.84
+CUST11583,Growth,Europe,51-200,Referral,476,0.794,0.024,2.0,10,0.048,Low,model-detected combined signals,22.78
+CUST10405,Enterprise,Europe,1-10,Paid Search,991,0.951,0.119,1.0,17,0.023,Low,model-detected combined signals,22.68
+CUST10621,Growth,North America,201-1000,Organic Search,380,0.769,-0.044,2.0,17,0.059,Low,model-detected combined signals,22.59
+CUST11358,Enterprise,LATAM,51-200,Paid Social,1398,0.965,0.034,1.0,11,0.016,Low,model-detected combined signals,22.54
+CUST10474,Growth,Europe,201-1000,Paid Social,227,0.664,-0.075,0.0,13,0.099,Low,model-detected combined signals,22.53
+CUST10958,Growth,Europe,201-1000,Organic Search,139,0.543,-0.026,3.0,2,0.161,Medium,early-tenure onboarding risk,22.37
+CUST10783,Growth,North America,1-10,Referral,261,0.732,0.001,3.0,2,0.086,Low,early-tenure onboarding risk,22.35
+CUST10663,Growth,Europe,1-10,Paid Social,177,0.64,0.068,1.0,15,0.126,Medium,model-detected combined signals,22.33
+CUST11594,Growth,Europe,1-10,Organic Search,229,0.747,-0.042,1.0,21,0.097,Low,model-detected combined signals,22.31
+CUST11127,Enterprise,North America,201-1000,Outbound Sales,743,0.86,0.061,1.0,14,0.03,Low,model-detected combined signals,22.2
+CUST10873,Growth,North America,51-200,Referral,251,0.68,0.008,0.0,9,0.088,Low,model-detected combined signals,22.19
+CUST11647,Growth,Europe,201-1000,Paid Social,235,0.63,-0.012,2.0,23,0.094,Low,model-detected combined signals,22.17
+CUST10244,Enterprise,LATAM,11-50,Paid Search,655,0.876,0.11,2.0,18,0.034,Low,model-detected combined signals,22.17
+CUST10415,Starter,India,11-50,Content/SEO,60,0.342,-0.134,6.0,10,0.369,High,sharp engagement drop; low 3-month engagement,22.14
+CUST10465,Growth,India,1-10,Referral,517,0.691,0.234,10.0,7,0.043,Low,high support load,22.13
+CUST10765,Growth,North America,201-1000,Paid Social,219,0.637,-0.033,2.0,4,0.101,Low,model-detected combined signals,22.13
+CUST10559,Enterprise,Europe,201-1000,Paid Search,1566,0.938,0.041,1.0,16,0.014,Low,model-detected combined signals,22.09
+CUST11364,Starter,APAC,11-50,Content/SEO,76,0.378,-0.014,6.0,9,0.29,High,low 3-month engagement; high support load,22.08
+CUST10358,Growth,Europe,11-50,Organic Search,171,0.62,-0.032,5.0,11,0.128,Medium,high support load,21.94
+CUST10315,Enterprise,North America,201-1000,Paid Search,575,0.875,-0.026,1.0,9,0.038,Low,model-detected combined signals,21.92
+CUST11119,Growth,Europe,1-10,Organic Search,275,0.715,0.105,3.0,4,0.08,Low,model-detected combined signals,21.9
+CUST10967,Growth,APAC,11-50,Paid Social,352,0.838,-0.091,1.0,8,0.062,Low,model-detected combined signals,21.68
+CUST11485,Growth,Europe,201-1000,Paid Search,205,0.601,-0.022,3.0,13,0.106,Low,model-detected combined signals,21.65
+CUST10738,Growth,North America,51-200,Outbound Sales,239,0.728,-0.107,2.0,4,0.09,Low,sharp engagement drop,21.6
+CUST10550,Growth,APAC,1-10,Organic Search,408,0.869,0.015,0.0,2,0.053,Low,early-tenure onboarding risk,21.46
+CUST11013,Growth,North America,11-50,Content/SEO,173,0.665,0.0,0.0,1,0.123,Medium,early-tenure onboarding risk,21.33
+CUST10819,Growth,North America,201-1000,Paid Search,159,0.589,-0.088,4.0,7,0.134,Medium,model-detected combined signals,21.33
+CUST11087,Growth,North America,11-50,Paid Social,239,0.674,0.078,3.0,6,0.089,Low,model-detected combined signals,21.32
+CUST11044,Enterprise,North America,11-50,Paid Search,487,0.854,0.046,2.0,13,0.044,Low,model-detected combined signals,21.32
+CUST11442,Growth,India,51-200,Outbound Sales,597,0.904,-0.054,0.0,8,0.036,Low,model-detected combined signals,21.31
+CUST11380,Enterprise,North America,201-1000,Content/SEO,1111,0.937,0.069,0.0,23,0.019,Low,model-detected combined signals,21.28
+CUST10444,Growth,North America,11-50,Organic Search,235,0.763,-0.082,0.0,11,0.09,Low,model-detected combined signals,21.23
+CUST11598,Enterprise,Europe,11-50,Referral,559,0.927,-0.033,0.0,8,0.038,Low,model-detected combined signals,21.16
+CUST10020,Growth,Europe,201-1000,Paid Search,133,0.504,-0.02,7.0,14,0.159,Medium,high support load,21.12
+CUST11405,Growth,Europe,1-10,Paid Social,145,0.625,-0.023,3.0,10,0.145,Medium,model-detected combined signals,21.05
+CUST10657,Growth,Europe,11-50,Paid Search,233,0.69,-0.023,3.0,12,0.09,Low,model-detected combined signals,20.98
+CUST10697,Enterprise,APAC,11-50,Paid Search,591,0.934,-0.026,1.0,22,0.035,Low,model-detected combined signals,20.9
+CUST10198,Growth,LATAM,1-10,Paid Search,215,0.754,-0.062,3.0,7,0.097,Low,model-detected combined signals,20.86
+CUST10059,Growth,India,1-10,Referral,179,0.612,0.072,4.0,5,0.116,Medium,model-detected combined signals,20.77
+CUST11571,Enterprise,Europe,11-50,Organic Search,759,0.958,0.065,0.0,2,0.027,Low,early-tenure onboarding risk,20.75
+CUST10485,Growth,Europe,11-50,Outbound Sales,237,0.674,0.06,4.0,14,0.088,Low,model-detected combined signals,20.74
+CUST11068,Enterprise,India,1-10,Organic Search,400,0.919,-0.038,0.0,2,0.052,Low,early-tenure onboarding risk,20.72
+CUST10492,Enterprise,APAC,51-200,Paid Search,1055,1.0,0.0,0.0,1,0.02,Low,early-tenure onboarding risk,20.69
+CUST11630,Growth,India,11-50,Content/SEO,231,0.743,-0.038,1.0,8,0.089,Low,model-detected combined signals,20.64
+CUST10354,Growth,North America,51-200,Organic Search,247,0.69,0.032,4.0,5,0.084,Low,model-detected combined signals,20.64
+CUST10220,Growth,North America,1-10,Referral,171,0.659,-0.015,2.0,7,0.121,Medium,model-detected combined signals,20.63
+CUST10454,Growth,North America,1-10,Paid Search,225,0.757,0.0,2.0,1,0.092,Low,early-tenure onboarding risk,20.61
+CUST10667,Enterprise,APAC,201-1000,Content/SEO,991,0.946,0.057,0.0,12,0.021,Low,model-detected combined signals,20.59
+CUST11661,Growth,North America,11-50,Organic Search,167,0.672,-0.032,0.0,12,0.123,Medium,model-detected combined signals,20.58
+CUST10003,Growth,APAC,51-200,Referral,243,0.672,-0.003,4.0,14,0.085,Low,model-detected combined signals,20.56
+CUST10039,Enterprise,Europe,201-1000,Paid Social,655,0.858,0.011,2.0,8,0.031,Low,model-detected combined signals,20.52
+CUST10007,Enterprise,North America,201-1000,Outbound Sales,1191,0.964,0.028,1.0,16,0.017,Low,model-detected combined signals,20.48
+CUST11463,Growth,North America,11-50,Paid Social,310,0.74,0.097,1.0,18,0.066,Low,model-detected combined signals,20.4
+CUST11310,Growth,North America,1-10,Paid Social,183,0.706,-0.051,1.0,4,0.111,Low,model-detected combined signals,20.37
+CUST11166,Growth,North America,11-50,Organic Search,227,0.707,-0.018,3.0,6,0.089,Low,model-detected combined signals,20.26
+CUST10710,Growth,Europe,11-50,Content/SEO,101,0.568,-0.09,5.0,10,0.2,High,high support load,20.25
+CUST10781,Growth,LATAM,11-50,Outbound Sales,239,0.768,-0.087,2.0,9,0.084,Low,model-detected combined signals,20.16
+CUST11452,Growth,LATAM,201-1000,Paid Social,382,0.793,-0.086,1.0,11,0.053,Low,model-detected combined signals,20.16
+CUST10620,Starter,Europe,11-50,Paid Search,37,0.183,-0.128,6.0,21,0.544,High,sharp engagement drop; low 3-month engagement,20.14
+CUST10256,Enterprise,North America,201-1000,Paid Search,871,0.941,0.018,0.0,4,0.023,Low,model-detected combined signals,20.11
+CUST11064,Enterprise,APAC,51-200,Paid Search,1095,1.0,0.0,0.0,3,0.018,Low,early-tenure onboarding risk,20.09
+CUST11372,Enterprise,Europe,51-200,Content/SEO,815,0.959,0.003,1.0,4,0.025,Low,model-detected combined signals,20.03
+CUST10006,Growth,Europe,1-10,Paid Search,235,0.81,-0.109,1.0,2,0.085,Low,sharp engagement drop; early-tenure onboarding risk,20.0
+CUST11273,Enterprise,North America,1000+,Paid Social,791,0.92,-0.043,1.0,21,0.025,Low,model-detected combined signals,19.96
+CUST11461,Growth,North America,51-200,Paid Search,203,0.619,0.097,4.0,15,0.098,Low,model-detected combined signals,19.9
+CUST10145,Enterprise,North America,51-200,Paid Social,751,0.956,-0.044,1.0,19,0.026,Low,model-detected combined signals,19.89
+CUST10689,Enterprise,Europe,1000+,Content/SEO,567,0.862,-0.075,3.0,10,0.035,Low,model-detected combined signals,19.83
+CUST10633,Starter,North America,1-10,Paid Social,70,0.431,-0.116,5.0,4,0.281,High,sharp engagement drop; high support load,19.69
+CUST11424,Growth,North America,11-50,Paid Social,227,0.714,-0.058,3.0,8,0.087,Low,model-detected combined signals,19.67
+CUST10840,Growth,Europe,11-50,Referral,279,0.77,0.0,0.0,1,0.07,Low,early-tenure onboarding risk,19.62
+CUST10837,Enterprise,Europe,1-10,Outbound Sales,775,1.0,0.014,2.0,20,0.025,Low,model-detected combined signals,19.57
+CUST10098,Enterprise,LATAM,201-1000,Organic Search,751,0.87,0.121,1.0,13,0.026,Low,model-detected combined signals,19.57
+CUST10466,Growth,India,1-10,Organic Search,123,0.631,-0.045,1.0,17,0.158,Medium,model-detected combined signals,19.46
+CUST10971,Growth,North America,11-50,Organic Search,332,0.776,0.082,1.0,4,0.058,Low,model-detected combined signals,19.27
+CUST10041,Growth,APAC,11-50,Outbound Sales,129,0.582,-0.004,4.0,17,0.149,Medium,model-detected combined signals,19.27
+CUST10534,Growth,India,51-200,Referral,211,0.666,-0.098,3.0,11,0.091,Low,model-detected combined signals,19.26
+CUST11791,Enterprise,North America,51-200,Paid Search,839,0.905,0.128,1.0,5,0.023,Low,model-detected combined signals,19.23
+CUST10743,Growth,Europe,1-10,Organic Search,125,0.618,-0.005,4.0,3,0.154,Medium,early-tenure onboarding risk,19.19
+CUST10892,Growth,LATAM,11-50,Organic Search,177,0.695,-0.032,1.0,3,0.108,Low,early-tenure onboarding risk,19.07
+CUST10880,Growth,North America,1-10,Outbound Sales,127,0.642,-0.064,3.0,7,0.15,Medium,model-detected combined signals,19.06
+CUST11180,Enterprise,North America,201-1000,Paid Search,535,0.861,0.014,2.0,15,0.035,Low,model-detected combined signals,18.98
+CUST11537,Growth,APAC,51-200,Outbound Sales,346,0.786,-0.012,3.0,19,0.055,Low,model-detected combined signals,18.95
+CUST11015,Starter,LATAM,1-10,Content/SEO,69,0.425,-0.068,5.0,2,0.273,High,low 3-month engagement; high support load,18.85
+CUST10288,Enterprise,North America,51-200,Organic Search,695,0.912,0.01,3.0,4,0.027,Low,model-detected combined signals,18.85
+CUST10998,Growth,India,11-50,Referral,285,0.705,0.051,4.0,9,0.066,Low,model-detected combined signals,18.78
+CUST10064,Growth,Europe,1-10,Paid Search,163,0.718,-0.089,1.0,24,0.115,Medium,model-detected combined signals,18.76
+CUST11746,Enterprise,Europe,201-1000,Content/SEO,1167,0.931,0.095,3.0,16,0.016,Low,model-detected combined signals,18.72
+CUST10634,Growth,North America,11-50,Content/SEO,285,0.81,0.01,1.0,5,0.065,Low,model-detected combined signals,18.66
+CUST10717,Growth,North America,1-10,Paid Search,406,0.911,-0.026,1.0,7,0.046,Low,model-detected combined signals,18.65
+CUST10438,Growth,North America,11-50,Paid Search,187,0.661,0.012,3.0,6,0.1,Low,model-detected combined signals,18.62
+CUST10886,Growth,Europe,1-10,Outbound Sales,129,0.68,-0.087,0.0,2,0.144,Medium,early-tenure onboarding risk,18.61
+CUST11754,Growth,Europe,201-1000,Organic Search,281,0.745,-0.013,2.0,8,0.066,Low,model-detected combined signals,18.6
+CUST10473,Growth,Europe,11-50,Content/SEO,187,0.721,0.004,1.0,11,0.099,Low,model-detected combined signals,18.6
+CUST11055,Starter,North America,1-10,Paid Search,51,0.351,-0.059,6.0,4,0.364,High,low 3-month engagement; high support load,18.56
+CUST10399,Starter,Europe,11-50,Paid Social,49,0.286,-0.008,6.0,22,0.378,High,low 3-month engagement; high support load,18.5
+CUST10752,Starter,North America,51-200,Organic Search,57,0.295,0.032,4.0,21,0.324,High,low 3-month engagement; entry plan,18.46
+CUST11530,Enterprise,North America,1-10,Organic Search,400,0.939,-0.061,0.0,10,0.046,Low,model-detected combined signals,18.34
+CUST10221,Growth,North America,51-200,Content/SEO,243,0.756,-0.042,1.0,2,0.075,Low,early-tenure onboarding risk,18.2
+CUST10826,Growth,Europe,11-50,Paid Social,177,0.701,-0.073,3.0,12,0.102,Low,model-detected combined signals,18.04
+CUST10576,Growth,North America,1-10,Paid Search,125,0.603,0.003,3.0,18,0.144,Medium,model-detected combined signals,18.0
+CUST11645,Enterprise,North America,201-1000,Outbound Sales,1206,0.927,0.117,3.0,18,0.015,Low,model-detected combined signals,17.92
+CUST10941,Starter,Europe,11-50,Paid Search,54,0.4,-0.128,7.0,3,0.331,High,sharp engagement drop; low 3-month engagement,17.88
+CUST10172,Growth,India,1-10,Organic Search,125,0.696,-0.102,1.0,21,0.142,Medium,sharp engagement drop,17.8
+CUST11144,Growth,North America,51-200,Content/SEO,107,0.493,0.015,5.0,13,0.166,Medium,low 3-month engagement; high support load,17.79
+CUST10859,Growth,North America,1-10,Organic Search,245,0.861,-0.131,0.0,4,0.072,Low,sharp engagement drop,17.71
+CUST10377,Growth,Europe,1-10,Organic Search,123,0.663,-0.067,2.0,7,0.144,Medium,model-detected combined signals,17.67
+CUST10741,Growth,APAC,51-200,Organic Search,155,0.694,-0.121,3.0,5,0.114,Low,sharp engagement drop,17.64
+CUST10053,Growth,North America,11-50,Paid Social,151,0.626,0.009,2.0,9,0.117,Medium,model-detected combined signals,17.62
+CUST10802,Enterprise,Europe,51-200,Outbound Sales,439,0.899,0.0,0.0,1,0.04,Low,early-tenure onboarding risk,17.61
+CUST10561,Growth,Europe,1000+,Outbound Sales,167,0.554,0.094,2.0,4,0.105,Low,model-detected combined signals,17.6
+CUST10570,Enterprise,Europe,1-10,Outbound Sales,487,0.858,0.139,5.0,20,0.036,Low,high support load,17.57
+CUST10636,Starter,India,1-10,Organic Search,64,0.476,-0.071,3.0,10,0.274,High,entry plan,17.56
+CUST11388,Enterprise,Europe,1000+,Organic Search,727,0.932,-0.021,1.0,18,0.024,Low,model-detected combined signals,17.54
+CUST10318,Growth,North America,1-10,Paid Social,173,0.691,0.02,2.0,15,0.101,Low,model-detected combined signals,17.45
+CUST10539,Growth,Europe,11-50,Organic Search,179,0.72,0.0,0.0,1,0.097,Low,early-tenure onboarding risk,17.45
+CUST10876,Enterprise,Europe,11-50,Content/SEO,503,0.967,-0.033,2.0,15,0.035,Low,model-detected combined signals,17.35
+CUST10857,Enterprise,India,1000+,Paid Search,1454,0.945,0.092,2.0,5,0.012,Low,model-detected combined signals,17.32
+CUST11420,Growth,India,1000+,Paid Search,293,0.626,0.06,5.0,6,0.059,Low,high support load,17.28
+CUST10809,Enterprise,North America,51-200,Paid Social,807,0.989,-0.011,0.0,6,0.021,Low,model-detected combined signals,17.07
+CUST10199,Enterprise,India,1-10,Organic Search,615,0.961,0.111,1.0,17,0.028,Low,model-detected combined signals,17.0
+CUST11248,Enterprise,Europe,11-50,Outbound Sales,535,0.963,-0.037,2.0,5,0.032,Low,model-detected combined signals,16.95
+CUST11518,Enterprise,APAC,1000+,Organic Search,567,0.924,-0.063,0.0,15,0.03,Low,model-detected combined signals,16.94
+CUST11115,Enterprise,Europe,1000+,Outbound Sales,519,0.911,-0.089,0.0,20,0.033,Low,model-detected combined signals,16.93
+CUST11799,Enterprise,India,11-50,Paid Social,647,0.972,0.046,1.0,11,0.026,Low,model-detected combined signals,16.92
+CUST11566,Growth,North America,11-50,Content/SEO,255,0.815,0.0,1.0,1,0.066,Low,early-tenure onboarding risk,16.87
+CUST11288,Growth,LATAM,11-50,Outbound Sales,314,0.831,-0.002,4.0,17,0.054,Low,model-detected combined signals,16.85
+CUST11653,Enterprise,LATAM,51-200,Paid Search,679,0.928,0.092,1.0,13,0.025,Low,model-detected combined signals,16.76
+CUST11753,Growth,Europe,11-50,Referral,328,0.831,0.022,0.0,3,0.051,Low,early-tenure onboarding risk,16.74
+CUST10652,Growth,North America,201-1000,Content/SEO,265,0.769,-0.049,1.0,7,0.063,Low,model-detected combined signals,16.69
+CUST10860,Enterprise,APAC,201-1000,Referral,703,0.897,0.082,0.0,3,0.024,Low,early-tenure onboarding risk,16.66
+CUST10838,Growth,APAC,1-10,Referral,189,0.751,-0.076,4.0,8,0.088,Low,model-detected combined signals,16.59
+CUST10263,Growth,Europe,11-50,Referral,283,0.805,0.003,2.0,5,0.059,Low,model-detected combined signals,16.57
+CUST10643,Growth,LATAM,1-10,Content/SEO,139,0.708,-0.029,5.0,3,0.119,Medium,high support load; early-tenure onboarding risk,16.57
+CUST10362,Enterprise,North America,1-10,Organic Search,671,0.99,0.018,2.0,12,0.025,Low,model-detected combined signals,16.56
+CUST11534,Enterprise,LATAM,11-50,Outbound Sales,799,1.0,0.079,0.0,12,0.021,Low,model-detected combined signals,16.49
+CUST10310,Growth,India,1-10,Paid Social,205,0.802,-0.067,0.0,2,0.08,Low,early-tenure onboarding risk,16.49
+CUST11760,Growth,North America,1-10,Organic Search,223,0.812,-0.009,3.0,2,0.074,Low,early-tenure onboarding risk,16.43
+CUST11781,Starter,APAC,1-10,Paid Search,92,0.51,0.042,3.0,4,0.179,Medium,low 3-month engagement; entry plan,16.43
+CUST11428,Growth,North America,1000+,Content/SEO,298,0.747,0.016,1.0,6,0.055,Low,model-detected combined signals,16.33
+CUST10509,Starter,North America,1-10,Paid Search,65,0.466,-0.048,2.0,9,0.251,High,entry plan,16.32
+CUST10134,Enterprise,APAC,51-200,Referral,400,0.859,0.011,3.0,20,0.041,Low,model-detected combined signals,16.28
+CUST11042,Growth,Europe,11-50,Paid Search,121,0.634,0.0,0.0,1,0.134,Medium,early-tenure onboarding risk,16.27
+CUST10586,Growth,Europe,11-50,Paid Search,165,0.678,0.002,4.0,14,0.098,Low,model-detected combined signals,16.24
+CUST10202,Enterprise,India,1-10,Referral,767,0.984,0.082,1.0,18,0.021,Low,model-detected combined signals,16.2
+CUST10703,Growth,Europe,11-50,Outbound Sales,227,0.811,-0.071,0.0,15,0.071,Low,model-detected combined signals,16.18
+CUST11689,Growth,Europe,201-1000,Paid Search,121,0.477,0.062,5.0,6,0.132,Medium,low 3-month engagement; high support load,15.98
+CUST10411,Enterprise,North America,1-10,Content/SEO,463,1.0,0.0,0.0,4,0.034,Low,model-detected combined signals,15.86
+CUST10635,Growth,APAC,11-50,Paid Search,255,0.788,0.029,1.0,5,0.062,Low,model-detected combined signals,15.75
+CUST11477,Enterprise,Europe,51-200,Organic Search,687,0.961,0.074,1.0,2,0.023,Low,early-tenure onboarding risk,15.7
+CUST10308,Growth,LATAM,11-50,Content/SEO,241,0.785,0.045,3.0,3,0.065,Low,early-tenure onboarding risk,15.64
+CUST11473,Growth,North America,11-50,Paid Search,195,0.75,-0.036,3.0,13,0.08,Low,model-detected combined signals,15.55
+CUST11142,Starter,Europe,11-50,Referral,129,0.613,0.013,5.0,4,0.119,Medium,high support load; entry plan,15.39
+CUST11536,Growth,LATAM,201-1000,Organic Search,173,0.673,-0.005,0.0,22,0.089,Low,model-detected combined signals,15.35
+CUST11204,Growth,North America,201-1000,Content/SEO,318,0.82,-0.046,2.0,14,0.048,Low,model-detected combined signals,15.34
+CUST10617,Growth,Europe,11-50,Paid Social,157,0.741,-0.08,1.0,14,0.097,Low,model-detected combined signals,15.28
+CUST10526,Growth,Europe,11-50,Organic Search,141,0.711,-0.086,3.0,6,0.108,Low,model-detected combined signals,15.19
+CUST10367,Enterprise,Europe,201-1000,Content/SEO,775,0.907,0.138,3.0,16,0.02,Low,model-detected combined signals,15.15
+CUST10074,Enterprise,Europe,51-200,Organic Search,711,1.0,0.033,0.0,8,0.021,Low,model-detected combined signals,15.13
+CUST11356,Growth,Europe,51-200,Paid Social,247,0.706,0.113,3.0,6,0.061,Low,model-detected combined signals,15.1
+CUST10724,Growth,Europe,11-50,Outbound Sales,137,0.67,-0.004,3.0,19,0.11,Low,model-detected combined signals,15.09
+CUST11623,Enterprise,APAC,1-10,Outbound Sales,447,1.0,0.0,1.0,22,0.034,Low,model-detected combined signals,15.06
+CUST10903,Growth,Europe,51-200,Paid Social,195,0.771,-0.107,0.0,3,0.077,Low,sharp engagement drop; early-tenure onboarding risk,15.06
+CUST10815,Growth,North America,1-10,Organic Search,241,0.82,0.025,1.0,12,0.062,Low,model-detected combined signals,15.03
+CUST11692,Starter,North America,11-50,Organic Search,35,0.291,-0.125,8.0,3,0.429,High,sharp engagement drop; low 3-month engagement,15.02
+CUST11531,Starter,North America,201-1000,Referral,56,0.338,-0.001,4.0,9,0.268,High,low 3-month engagement; entry plan,15.01
+CUST10324,Starter,North America,1-10,Paid Search,38,0.306,-0.005,3.0,17,0.395,High,low 3-month engagement; entry plan,15.01
+CUST10943,Growth,North America,1-10,Organic Search,356,0.836,0.123,2.0,13,0.042,Low,model-detected combined signals,14.98
+CUST10911,Growth,LATAM,11-50,Paid Search,167,0.68,0.101,0.0,2,0.089,Low,early-tenure onboarding risk,14.94
+CUST11339,Growth,India,1-10,Content/SEO,161,0.766,-0.062,2.0,18,0.093,Low,model-detected combined signals,14.91
+CUST11217,Growth,North America,11-50,Paid Search,147,0.724,-0.09,1.0,8,0.101,Low,model-detected combined signals,14.9
+CUST11593,Growth,North America,51-200,Content/SEO,161,0.741,-0.119,1.0,3,0.092,Low,sharp engagement drop; early-tenure onboarding risk,14.86
+CUST10251,Starter,North America,51-200,Outbound Sales,33,0.252,-0.113,1.0,10,0.446,High,sharp engagement drop; low 3-month engagement,14.72
+CUST11159,Enterprise,Europe,51-200,Paid Search,711,0.984,0.08,1.0,23,0.021,Low,model-detected combined signals,14.64
+CUST11728,Starter,India,51-200,Paid Search,59,0.409,-0.072,3.0,3,0.248,High,low 3-month engagement; early-tenure onboarding risk,14.63
+CUST11141,Enterprise,Europe,11-50,Paid Search,415,0.956,-0.044,1.0,13,0.035,Low,model-detected combined signals,14.62
+CUST11289,Starter,North America,1-10,Referral,110,0.659,-0.11,1.0,3,0.132,Medium,sharp engagement drop; early-tenure onboarding risk,14.56
+CUST10212,Growth,North America,1000+,Organic Search,201,0.661,0.02,4.0,8,0.072,Low,model-detected combined signals,14.56
+CUST10494,Growth,APAC,51-200,Organic Search,171,0.707,0.015,1.0,18,0.085,Low,model-detected combined signals,14.53
+CUST11365,Enterprise,APAC,11-50,Content/SEO,623,1.0,0.092,0.0,3,0.023,Low,early-tenure onboarding risk,14.5
+CUST11500,Growth,North America,1-10,Organic Search,185,0.749,0.006,5.0,18,0.078,Low,high support load,14.48
+CUST10649,Enterprise,LATAM,201-1000,Content/SEO,591,0.986,-0.014,1.0,18,0.024,Low,model-detected combined signals,14.47
+CUST11140,Growth,India,1-10,Referral,225,0.782,0.086,0.0,5,0.064,Low,model-detected combined signals,14.47
+CUST10614,Enterprise,LATAM,51-200,Paid Search,823,0.96,0.143,1.0,17,0.018,Low,model-detected combined signals,14.44
+CUST11384,Starter,Europe,1-10,Paid Search,56,0.38,-0.007,8.0,4,0.257,High,low 3-month engagement; high support load,14.39
+CUST11606,Starter,North America,11-50,Referral,66,0.434,0.031,6.0,5,0.218,High,low 3-month engagement; high support load,14.37
+CUST10812,Growth,North America,11-50,Paid Social,161,0.765,-0.139,1.0,16,0.089,Low,sharp engagement drop,14.3
+CUST10600,Growth,Europe,51-200,Paid Social,105,0.548,0.011,4.0,7,0.136,Medium,model-detected combined signals,14.25
+CUST11218,Starter,LATAM,1-10,Organic Search,77,0.545,0.009,3.0,6,0.185,Medium,entry plan,14.21
+CUST10595,Growth,Europe,51-200,Content/SEO,225,0.701,0.108,4.0,6,0.063,Low,model-detected combined signals,14.16
+CUST11441,Starter,LATAM,51-200,Organic Search,58,0.406,-0.012,4.0,12,0.244,High,low 3-month engagement; entry plan,14.16
+CUST11051,Growth,Europe,1-10,Referral,243,0.835,0.033,1.0,19,0.058,Low,model-detected combined signals,14.13
+CUST10554,Growth,LATAM,201-1000,Content/SEO,100,0.493,0.033,10.0,15,0.141,Medium,low 3-month engagement; high support load,14.13
+CUST10683,Growth,North America,51-200,Organic Search,541,0.976,-0.024,0.0,7,0.026,Low,model-detected combined signals,14.05
+CUST10907,Growth,North America,11-50,Paid Social,458,0.954,-0.044,0.0,17,0.031,Low,model-detected combined signals,14.03
+CUST11669,Starter,Europe,1-10,Paid Search,70,0.489,-0.019,6.0,3,0.2,High,low 3-month engagement; high support load,14.0
+CUST10863,Starter,LATAM,1-10,Paid Social,76,0.547,-0.041,2.0,4,0.184,Medium,entry plan,13.99
+CUST11403,Growth,North America,11-50,Paid Social,277,0.871,-0.055,0.0,10,0.05,Low,model-detected combined signals,13.98
+CUST10047,Growth,Europe,51-200,Organic Search,145,0.698,0.0,0.0,1,0.096,Low,early-tenure onboarding risk,13.92
+CUST10103,Growth,North America,1-10,Organic Search,259,0.881,-0.026,1.0,22,0.054,Low,model-detected combined signals,13.88
+CUST10927,Growth,Europe,11-50,Paid Social,199,0.691,0.099,5.0,13,0.07,Low,high support load,13.87
+CUST10549,Starter,North America,1-10,Referral,48,0.427,-0.079,3.0,3,0.289,High,low 3-month engagement; early-tenure onboarding risk,13.86
+CUST10769,Growth,LATAM,11-50,Paid Social,191,0.763,-0.004,1.0,6,0.072,Low,model-detected combined signals,13.74
+CUST10575,Starter,North America,11-50,Organic Search,64,0.506,-0.04,3.0,21,0.215,High,entry plan,13.73
+CUST10488,Growth,North America,51-200,Referral,115,0.629,0.0,1.0,1,0.119,Medium,early-tenure onboarding risk,13.71
+CUST11644,Growth,India,11-50,Referral,289,0.859,-0.002,1.0,14,0.047,Low,model-detected combined signals,13.68
+CUST10338,Growth,North America,1000+,Organic Search,251,0.707,0.074,3.0,9,0.055,Low,model-detected combined signals,13.68
+CUST11184,Growth,India,1-10,Paid Social,167,0.759,-0.06,2.0,24,0.082,Low,model-detected combined signals,13.67
+CUST10119,Starter,Europe,1-10,Referral,88,0.581,-0.051,1.0,12,0.155,Medium,entry plan,13.67
+CUST10547,Enterprise,India,11-50,Paid Social,503,0.992,-0.008,1.0,24,0.027,Low,model-detected combined signals,13.6
+CUST11376,Growth,North America,11-50,Outbound Sales,281,0.907,-0.083,1.0,4,0.048,Low,model-detected combined signals,13.58
+CUST10423,Growth,APAC,1-10,Referral,271,0.882,0.0,0.0,1,0.05,Low,early-tenure onboarding risk,13.54
+CUST11255,Growth,LATAM,1-10,Paid Social,117,0.692,-0.042,1.0,14,0.115,Medium,model-detected combined signals,13.5
+CUST11188,Starter,North America,1-10,Paid Social,60,0.474,-0.022,4.0,14,0.225,High,entry plan,13.49
+CUST10966,Growth,Europe,11-50,Outbound Sales,406,0.963,-0.037,0.0,2,0.033,Low,early-tenure onboarding risk,13.47
+CUST11694,Growth,North America,11-50,Organic Search,205,0.808,0.001,0.0,8,0.065,Low,model-detected combined signals,13.41
+CUST10285,Starter,Europe,11-50,Content/SEO,48,0.469,-0.118,3.0,3,0.277,High,sharp engagement drop; early-tenure onboarding risk,13.31
+CUST10165,Starter,India,11-50,Outbound Sales,57,0.476,-0.039,2.0,10,0.233,High,entry plan,13.3
+CUST10344,Growth,Europe,201-1000,Organic Search,197,0.69,0.055,6.0,14,0.067,Low,high support load,13.29
+CUST11622,Growth,India,1000+,Referral,100,0.477,0.075,5.0,5,0.133,Medium,low 3-month engagement; high support load,13.26
+CUST10780,Growth,APAC,201-1000,Organic Search,261,0.789,0.022,0.0,11,0.051,Low,model-detected combined signals,13.26
+CUST10679,Growth,India,1-10,Referral,322,0.876,0.044,2.0,7,0.041,Low,model-detected combined signals,13.21
+CUST11790,Starter,APAC,51-200,Paid Search,90,0.575,-0.046,0.0,7,0.146,Medium,entry plan,13.15
+CUST11107,Growth,Europe,11-50,Content/SEO,229,0.828,0.018,1.0,2,0.057,Low,early-tenure onboarding risk,13.14
+CUST10089,Growth,Europe,11-50,Outbound Sales,163,0.728,-0.023,4.0,3,0.08,Low,early-tenure onboarding risk,13.04
+CUST10187,Growth,Europe,1-10,Paid Search,149,0.712,0.013,6.0,3,0.087,Low,high support load; early-tenure onboarding risk,13.02
+CUST10512,Growth,North America,11-50,Paid Search,113,0.616,0.082,2.0,8,0.115,Medium,model-detected combined signals,13.0
+CUST10497,Growth,APAC,1-10,Outbound Sales,137,0.75,-0.027,3.0,10,0.094,Low,model-detected combined signals,12.93
+CUST11083,Growth,Europe,201-1000,Content/SEO,402,0.868,0.058,1.0,19,0.032,Low,model-detected combined signals,12.92
+CUST11714,Enterprise,North America,1-10,Referral,527,1.0,0.098,1.0,13,0.024,Low,model-detected combined signals,12.87
+CUST10241,Growth,APAC,51-200,Outbound Sales,123,0.653,-0.004,3.0,4,0.105,Low,model-detected combined signals,12.87
+CUST11117,Starter,Europe,51-200,Paid Search,70,0.515,-0.039,4.0,7,0.184,Medium,entry plan,12.85
+CUST10820,Growth,LATAM,1-10,Paid Search,231,0.79,0.084,3.0,6,0.056,Low,model-detected combined signals,12.83
+CUST10269,Growth,LATAM,51-200,Referral,191,0.677,0.126,3.0,4,0.067,Low,model-detected combined signals,12.79
+CUST10813,Growth,Europe,1-10,Paid Search,149,0.755,0.001,3.0,11,0.085,Low,model-detected combined signals,12.72
+CUST10624,Growth,North America,1-10,Paid Social,197,0.832,0.002,0.0,3,0.064,Low,early-tenure onboarding risk,12.7
+CUST11235,Starter,North America,11-50,Paid Social,58,0.426,0.03,3.0,9,0.219,High,low 3-month engagement; entry plan,12.68
+CUST10502,Growth,North America,1-10,Organic Search,302,0.836,0.147,2.0,6,0.042,Low,model-detected combined signals,12.67
+CUST10801,Growth,North America,51-200,Content/SEO,171,0.725,-0.006,3.0,5,0.074,Low,model-detected combined signals,12.64
+CUST10787,Growth,India,11-50,Paid Search,269,0.891,-0.038,0.0,17,0.047,Low,model-detected combined signals,12.56
+CUST10952,Enterprise,APAC,1-10,Outbound Sales,639,1.0,0.142,2.0,11,0.02,Low,model-detected combined signals,12.54
+CUST10608,Growth,APAC,51-200,Paid Social,251,0.831,0.0,0.0,1,0.05,Low,early-tenure onboarding risk,12.52
+CUST10824,Starter,North America,201-1000,Paid Social,59,0.44,-0.005,2.0,4,0.211,High,low 3-month engagement; entry plan,12.44
+CUST10619,Starter,North America,1-10,Paid Social,68,0.55,-0.037,3.0,18,0.182,Medium,entry plan,12.4
+CUST10329,Growth,North America,1000+,Paid Search,233,0.659,0.143,4.0,7,0.053,Low,model-detected combined signals,12.33
+CUST10736,Starter,Europe,1-10,Organic Search,53,0.518,0.0,3.0,1,0.232,High,early-tenure onboarding risk; entry plan,12.3
+CUST11065,Growth,Europe,51-200,Organic Search,151,0.768,-0.071,1.0,5,0.081,Low,model-detected combined signals,12.24
+CUST10841,Growth,India,11-50,Referral,241,0.851,0.0,0.0,1,0.051,Low,early-tenure onboarding risk,12.23
+CUST11190,Growth,Europe,201-1000,Content/SEO,157,0.755,-0.056,2.0,10,0.078,Low,model-detected combined signals,12.17
+CUST10386,Starter,North America,51-200,Referral,39,0.343,-0.079,2.0,10,0.311,High,low 3-month engagement; entry plan,12.12
+CUST10740,Growth,Europe,1-10,Paid Search,237,0.904,-0.066,0.0,17,0.051,Low,model-detected combined signals,12.11
+CUST11226,Growth,Europe,1-10,Paid Social,271,0.935,-0.065,0.0,21,0.045,Low,model-detected combined signals,12.08
+CUST10684,Starter,APAC,11-50,Referral,61,0.491,-0.037,2.0,2,0.198,Medium,early-tenure onboarding risk; entry plan,12.07
+CUST10461,Growth,North America,11-50,Referral,173,0.781,0.0,0.0,1,0.07,Low,early-tenure onboarding risk,12.05
+CUST11725,Starter,North America,1-10,Paid Social,49,0.517,-0.08,4.0,17,0.246,High,entry plan,12.04
+CUST10552,Growth,North America,51-200,Organic Search,181,0.809,-0.073,0.0,4,0.066,Low,model-detected combined signals,12.03
+CUST10067,Growth,North America,11-50,Outbound Sales,165,0.8,-0.026,1.0,15,0.072,Low,model-detected combined signals,11.93
+CUST10925,Growth,Europe,1-10,Content/SEO,175,0.753,0.091,3.0,10,0.068,Low,model-detected combined signals,11.92
+CUST10043,Starter,Europe,1-10,Paid Search,58,0.51,-0.009,5.0,19,0.204,High,high support load; entry plan,11.82
+CUST11387,Growth,North America,51-200,Referral,235,0.721,0.153,3.0,6,0.05,Low,model-detected combined signals,11.77
+CUST11224,Growth,LATAM,201-1000,Paid Search,177,0.771,-0.105,1.0,7,0.066,Low,sharp engagement drop,11.76
+CUST11444,Growth,APAC,11-50,Referral,233,0.796,0.092,1.0,2,0.05,Low,early-tenure onboarding risk,11.75
+CUST10650,Starter,Europe,1-10,Organic Search,48,0.556,-0.198,2.0,5,0.244,High,sharp engagement drop; entry plan,11.73
+CUST10732,Enterprise,APAC,11-50,Referral,431,1.0,0.004,0.0,12,0.027,Low,model-detected combined signals,11.73
+CUST11043,Starter,North America,51-200,Paid Search,57,0.447,-0.03,7.0,2,0.205,High,low 3-month engagement; high support load,11.71
+CUST11759,Growth,Europe,11-50,Paid Search,189,0.838,-0.038,1.0,5,0.062,Low,model-detected combined signals,11.65
+CUST10307,Growth,Europe,11-50,Paid Social,314,0.926,-0.015,0.0,10,0.037,Low,model-detected combined signals,11.63
+CUST10711,Growth,North America,1000+,Organic Search,384,0.832,0.05,4.0,3,0.03,Low,early-tenure onboarding risk,11.62
+CUST11276,Growth,APAC,11-50,Organic Search,241,0.889,0.0,1.0,1,0.048,Low,early-tenure onboarding risk,11.6
+CUST11584,Starter,LATAM,1-10,Paid Search,59,0.559,-0.074,5.0,5,0.196,Medium,high support load; entry plan,11.55
+CUST10611,Growth,Europe,1-10,Referral,229,0.852,0.049,2.0,19,0.05,Low,model-detected combined signals,11.45
+CUST10704,Growth,Europe,201-1000,Organic Search,251,0.839,0.001,0.0,10,0.046,Low,model-detected combined signals,11.43
+CUST11659,Growth,APAC,1-10,Organic Search,209,0.892,0.0,1.0,1,0.054,Low,early-tenure onboarding risk,11.38
+CUST11740,Starter,APAC,11-50,Paid Search,54,0.501,0.0,1.0,1,0.209,High,early-tenure onboarding risk; entry plan,11.28
+CUST11259,Growth,Europe,11-50,Referral,137,0.75,0.0,1.0,1,0.082,Low,early-tenure onboarding risk,11.27
+CUST10729,Growth,Europe,11-50,Organic Search,316,0.94,-0.021,0.0,18,0.036,Low,model-detected combined signals,11.27
+CUST10853,Growth,North America,1-10,Organic Search,181,0.849,0.016,0.0,2,0.062,Low,early-tenure onboarding risk,11.24
+CUST11361,Starter,North America,11-50,Content/SEO,89,0.597,-0.018,6.0,23,0.126,Medium,high support load; entry plan,11.21
+CUST11425,Enterprise,Europe,1000+,Organic Search,759,1.0,0.087,0.0,16,0.015,Low,model-detected combined signals,11.2
+CUST10870,Enterprise,India,1000+,Paid Search,1071,0.971,0.126,4.0,12,0.01,Low,model-detected combined signals,11.17
+CUST10731,Growth,Europe,1-10,Organic Search,297,0.93,0.058,0.0,7,0.037,Low,model-detected combined signals,11.1
+CUST11690,Starter,LATAM,1-10,Organic Search,90,0.659,0.04,2.0,15,0.123,Medium,entry plan,11.09
+CUST11619,Starter,North America,1-10,Organic Search,50,0.469,0.051,2.0,4,0.222,High,low 3-month engagement; entry plan,11.09
+CUST11419,Growth,India,11-50,Referral,199,0.788,0.074,2.0,15,0.056,Low,model-detected combined signals,11.06
+CUST11633,Growth,APAC,201-1000,Referral,253,0.843,-0.053,3.0,17,0.044,Low,model-detected combined signals,11.02
+CUST11066,Growth,APAC,51-200,Paid Social,147,0.761,-0.069,2.0,2,0.075,Low,early-tenure onboarding risk,11.01
+CUST11355,Growth,APAC,51-200,Outbound Sales,169,0.786,0.0,0.0,1,0.065,Low,early-tenure onboarding risk,10.99
+CUST10475,Enterprise,North America,201-1000,Organic Search,663,0.96,0.116,3.0,17,0.017,Low,model-detected combined signals,10.98
+CUST10791,Starter,Europe,1-10,Content/SEO,73,0.651,-0.066,0.0,12,0.15,Medium,entry plan,10.97
+CUST10508,Growth,LATAM,51-200,Paid Social,127,0.703,-0.056,5.0,9,0.086,Low,high support load,10.94
+CUST10406,Growth,Europe,11-50,Paid Search,243,0.751,0.219,5.0,4,0.045,Low,high support load,10.92
+CUST11102,Growth,APAC,11-50,Referral,205,0.783,0.057,2.0,7,0.053,Low,model-detected combined signals,10.91
+CUST11523,Growth,Europe,51-200,Paid Search,205,0.738,0.153,2.0,15,0.053,Low,model-detected combined signals,10.91
+CUST10175,Starter,Europe,51-200,Paid Social,51,0.42,0.004,4.0,15,0.214,High,low 3-month engagement; entry plan,10.91
+CUST10404,Growth,APAC,51-200,Paid Search,237,0.884,-0.073,0.0,15,0.046,Low,model-detected combined signals,10.83
+CUST10120,Starter,Europe,51-200,Outbound Sales,67,0.546,0.0,1.0,1,0.161,Medium,early-tenure onboarding risk; entry plan,10.81
+CUST10521,Starter,APAC,11-50,Organic Search,84,0.627,0.008,3.0,2,0.129,Medium,early-tenure onboarding risk; entry plan,10.81
+CUST10965,Growth,Europe,1-10,Paid Search,185,0.84,-0.001,3.0,10,0.058,Low,model-detected combined signals,10.8
+CUST10596,Growth,APAC,1-10,Organic Search,167,0.852,0.0,0.0,1,0.064,Low,early-tenure onboarding risk,10.75
+CUST10154,Growth,APAC,11-50,Organic Search,161,0.822,-0.026,0.0,23,0.067,Low,model-detected combined signals,10.74
+CUST11605,Growth,North America,11-50,Outbound Sales,113,0.74,-0.047,3.0,5,0.095,Low,model-detected combined signals,10.74
+CUST11498,Growth,Europe,11-50,Paid Search,223,0.791,0.145,1.0,4,0.048,Low,model-detected combined signals,10.73
+CUST10773,Growth,APAC,51-200,Paid Social,211,0.839,0.0,2.0,1,0.051,Low,early-tenure onboarding risk,10.72
+CUST11597,Growth,India,11-50,Referral,219,0.864,-0.05,1.0,21,0.049,Low,model-detected combined signals,10.72
+CUST10981,Growth,India,51-200,Content/SEO,233,0.81,0.099,1.0,7,0.046,Low,model-detected combined signals,10.68
+CUST11548,Growth,Europe,11-50,Paid Search,131,0.752,-0.024,2.0,3,0.081,Low,early-tenure onboarding risk,10.67
+CUST10149,Growth,Europe,11-50,Organic Search,149,0.808,-0.027,0.0,16,0.071,Low,model-detected combined signals,10.63
+CUST11058,Starter,APAC,11-50,Organic Search,77,0.591,-0.043,5.0,11,0.138,Medium,high support load; entry plan,10.63
+CUST10556,Growth,Europe,51-200,Paid Search,151,0.775,-0.029,0.0,2,0.07,Low,early-tenure onboarding risk,10.55
+CUST10090,Starter,India,11-50,Paid Search,71,0.602,-0.04,3.0,3,0.148,Medium,early-tenure onboarding risk; entry plan,10.49
+CUST10803,Growth,APAC,1-10,Referral,153,0.784,0.052,2.0,8,0.068,Low,model-detected combined signals,10.46
+CUST11112,Growth,India,51-200,Paid Social,241,0.85,0.026,1.0,8,0.043,Low,model-detected combined signals,10.43
+CUST11312,Starter,North America,1-10,Referral,108,0.705,-0.11,4.0,3,0.096,Low,sharp engagement drop; early-tenure onboarding risk,10.4
+CUST11739,Growth,India,201-1000,Referral,225,0.716,0.117,3.0,6,0.046,Low,model-detected combined signals,10.4
+CUST10018,Growth,North America,11-50,Content/SEO,117,0.676,0.055,4.0,24,0.089,Low,model-detected combined signals,10.4
+CUST11429,Starter,Europe,1-10,Paid Social,53,0.538,0.0,0.0,1,0.196,Medium,early-tenure onboarding risk; entry plan,10.4
+CUST10524,Growth,North America,1-10,Outbound Sales,227,0.897,-0.003,2.0,13,0.046,Low,model-detected combined signals,10.38
+CUST11097,Starter,Europe,1-10,Outbound Sales,38,0.479,-0.057,5.0,2,0.273,High,high support load; early-tenure onboarding risk,10.36
+CUST10999,Growth,India,51-200,Referral,450,0.988,-0.012,0.0,5,0.023,Low,model-detected combined signals,10.35
+CUST10531,Growth,APAC,1-10,Organic Search,221,0.9,0.047,0.0,5,0.047,Low,model-detected combined signals,10.32
+CUST11233,Growth,India,51-200,Paid Social,149,0.662,0.151,2.0,7,0.069,Low,model-detected combined signals,10.27
+CUST11290,Enterprise,India,1000+,Content/SEO,567,0.998,-0.002,0.0,13,0.018,Low,model-detected combined signals,10.18
+CUST11275,Growth,North America,11-50,Organic Search,295,0.961,-0.017,0.0,6,0.034,Low,model-detected combined signals,10.17
+CUST10628,Growth,LATAM,201-1000,Organic Search,183,0.811,-0.117,5.0,9,0.056,Low,sharp engagement drop; high support load,10.16
+CUST11776,Enterprise,North America,11-50,Paid Search,447,1.0,0.09,0.0,7,0.023,Low,model-detected combined signals,10.12
+CUST10648,Growth,APAC,1-10,Organic Search,358,1.0,0.052,0.0,5,0.028,Low,model-detected combined signals,10.11
+CUST11649,Starter,India,1-10,Content/SEO,74,0.653,0.0,0.0,1,0.137,Medium,early-tenure onboarding risk; entry plan,10.1
+CUST11292,Starter,North America,11-50,Organic Search,67,0.554,-0.027,7.0,4,0.15,Medium,high support load; entry plan,10.05
+CUST11427,Starter,APAC,11-50,Content/SEO,68,0.614,-0.108,4.0,5,0.147,Medium,sharp engagement drop; entry plan,9.99
+CUST11544,Starter,North America,51-200,Paid Social,44,0.442,0.0,1.0,1,0.227,High,low 3-month engagement; early-tenure onboarding risk,9.98
+CUST10673,Growth,North America,11-50,Referral,221,0.881,0.0,0.0,1,0.045,Low,early-tenure onboarding risk,9.91
+CUST11036,Starter,LATAM,51-200,Paid Search,49,0.518,-0.124,3.0,4,0.202,High,sharp engagement drop; entry plan,9.89
+CUST11193,Growth,Europe,201-1000,Referral,117,0.641,0.0,5.0,4,0.084,Low,high support load,9.87
+CUST11306,Enterprise,North America,1000+,Referral,551,1.0,0.0,0.0,2,0.018,Low,early-tenure onboarding risk,9.82
+CUST11439,Starter,APAC,11-50,Referral,44,0.472,-0.009,0.0,2,0.223,High,low 3-month engagement; early-tenure onboarding risk,9.81
+CUST10520,Starter,Europe,51-200,Content/SEO,58,0.531,-0.106,7.0,9,0.169,Medium,sharp engagement drop; high support load,9.8
+CUST10277,Starter,APAC,201-1000,Organic Search,60,0.446,0.08,4.0,10,0.163,Medium,low 3-month engagement; entry plan,9.76
+CUST11160,Starter,India,1-10,Paid Social,43,0.498,0.0,0.0,1,0.226,High,low 3-month engagement; early-tenure onboarding risk,9.73
+CUST10156,Growth,North America,11-50,Content/SEO,223,0.925,-0.069,1.0,4,0.044,Low,model-detected combined signals,9.71
+CUST10888,Growth,APAC,1-10,Paid Search,314,0.911,0.128,2.0,9,0.031,Low,model-detected combined signals,9.69
+CUST10739,Starter,Europe,1-10,Referral,59,0.589,-0.058,1.0,18,0.164,Medium,entry plan,9.67
+CUST11201,Growth,North America,11-50,Referral,285,0.871,0.063,2.0,12,0.034,Low,model-detected combined signals,9.61
+CUST11408,Growth,APAC,51-200,Referral,149,0.712,0.036,5.0,6,0.064,Low,high support load,9.59
+CUST10928,Starter,APAC,1-10,Referral,72,0.637,-0.093,3.0,6,0.133,Medium,entry plan,9.56
+CUST10201,Growth,APAC,51-200,Paid Social,143,0.826,-0.142,1.0,3,0.067,Low,sharp engagement drop; early-tenure onboarding risk,9.52
+CUST10565,Starter,APAC,1-10,Content/SEO,65,0.599,0.037,5.0,7,0.146,Medium,high support load; entry plan,9.48
+CUST11673,Growth,LATAM,51-200,Outbound Sales,113,0.706,0.004,3.0,23,0.084,Low,model-detected combined signals,9.48
+CUST11620,Growth,APAC,51-200,Referral,213,0.89,-0.095,0.0,5,0.044,Low,model-detected combined signals,9.46
+CUST10668,Growth,North America,51-200,Paid Social,209,0.812,0.052,4.0,23,0.045,Low,model-detected combined signals,9.44
+CUST11002,Growth,North America,1-10,Referral,267,0.879,0.118,2.0,3,0.035,Low,early-tenure onboarding risk,9.4
+CUST11573,Growth,LATAM,51-200,Paid Social,211,0.831,0.035,0.0,19,0.045,Low,model-detected combined signals,9.4
+CUST11508,Starter,Europe,11-50,Content/SEO,53,0.552,-0.002,2.0,7,0.176,Medium,entry plan,9.33
+CUST11099,Starter,North America,11-50,Organic Search,40,0.474,-0.058,6.0,5,0.233,High,high support load; entry plan,9.32
+CUST10932,Growth,North America,51-200,Paid Social,179,0.817,-0.049,5.0,2,0.052,Low,high support load; early-tenure onboarding risk,9.31
+CUST10469,Starter,North America,11-50,Paid Search,65,0.609,0.0,3.0,1,0.143,Medium,early-tenure onboarding risk; entry plan,9.3
+CUST10431,Growth,North America,51-200,Paid Social,143,0.777,0.0,0.0,1,0.065,Low,early-tenure onboarding risk,9.27
+CUST10414,Growth,Europe,1-10,Referral,147,0.759,0.083,3.0,9,0.063,Low,model-detected combined signals,9.25
+CUST11721,Growth,North America,11-50,Referral,105,0.736,-0.003,1.0,2,0.088,Low,early-tenure onboarding risk,9.24
+CUST11411,Growth,India,1-10,Organic Search,113,0.744,0.001,4.0,20,0.082,Low,model-detected combined signals,9.22
+CUST10644,Growth,India,11-50,Paid Search,165,0.789,0.042,3.0,20,0.056,Low,model-detected combined signals,9.21
+CUST10245,Growth,North America,51-200,Organic Search,157,0.847,-0.09,0.0,9,0.059,Low,model-detected combined signals,9.19
+CUST11501,Starter,Europe,11-50,Paid Search,46,0.529,-0.067,6.0,7,0.199,High,high support load; entry plan,9.17
+CUST11247,Growth,India,51-200,Paid Search,201,0.883,-0.066,1.0,16,0.046,Low,model-detected combined signals,9.17
+CUST10243,Growth,APAC,1-10,Outbound Sales,100,0.76,-0.055,1.0,24,0.091,Low,model-detected combined signals,9.13
+CUST10050,Growth,LATAM,201-1000,Paid Search,217,0.812,0.081,1.0,2,0.042,Low,early-tenure onboarding risk,9.12
+CUST11785,Growth,North America,51-200,Content/SEO,125,0.697,0.079,1.0,8,0.073,Low,model-detected combined signals,9.12
+CUST11016,Growth,North America,11-50,Paid Search,213,0.903,0.0,0.0,1,0.043,Low,early-tenure onboarding risk,9.11
+CUST10798,Starter,North America,11-50,Outbound Sales,61,0.577,0.002,4.0,2,0.148,Medium,early-tenure onboarding risk; entry plan,9.03
+CUST10394,Growth,North America,11-50,Organic Search,255,0.857,0.123,1.0,5,0.035,Low,model-detected combined signals,9.02
+CUST10515,Starter,Europe,11-50,Organic Search,41,0.508,-0.105,2.0,5,0.219,High,sharp engagement drop; entry plan,9.0
+CUST11210,Growth,LATAM,1-10,Content/SEO,237,0.968,0.01,0.0,2,0.038,Low,early-tenure onboarding risk,9.0
+CUST10510,Growth,Europe,201-1000,Outbound Sales,271,0.901,0.01,1.0,4,0.033,Low,model-detected combined signals,9.0
+CUST10034,Growth,India,201-1000,Organic Search,271,0.914,0.0,1.0,1,0.033,Low,early-tenure onboarding risk,8.97
+CUST11172,Starter,North America,11-50,Referral,57,0.557,-0.059,3.0,4,0.157,Medium,entry plan,8.93
+CUST10753,Starter,Europe,1-10,Organic Search,39,0.548,-0.164,6.0,8,0.228,High,sharp engagement drop; high support load,8.89
+CUST11028,Growth,North America,51-200,Referral,187,0.853,-0.033,0.0,17,0.047,Low,model-detected combined signals,8.88
+CUST10428,Starter,North America,1-10,Content/SEO,40,0.484,-0.055,6.0,7,0.221,High,low 3-month engagement; high support load,8.85
+CUST10382,Growth,LATAM,51-200,Content/SEO,161,0.803,-0.001,2.0,7,0.055,Low,model-detected combined signals,8.79
+CUST10786,Growth,Europe,11-50,Paid Social,195,0.889,0.0,0.0,1,0.045,Low,early-tenure onboarding risk,8.79
+CUST10207,Starter,APAC,11-50,Paid Social,54,0.57,0.0,2.0,1,0.162,Medium,early-tenure onboarding risk; entry plan,8.75
+CUST11082,Starter,Europe,51-200,Content/SEO,39,0.466,0.007,1.0,6,0.223,High,low 3-month engagement; entry plan,8.69
+CUST11773,Growth,APAC,1000+,Paid Search,203,0.835,-0.029,1.0,10,0.042,Low,model-detected combined signals,8.61
+CUST10214,Growth,North America,11-50,Content/SEO,141,0.842,-0.036,1.0,5,0.061,Low,model-detected combined signals,8.61
+CUST10327,Growth,North America,1000+,Outbound Sales,201,0.838,-0.034,1.0,12,0.043,Low,model-detected combined signals,8.6
+CUST10322,Starter,North America,1-10,Content/SEO,37,0.494,-0.077,8.0,9,0.232,High,high support load; entry plan,8.59
+CUST10572,Starter,LATAM,11-50,Paid Social,30,0.409,-0.127,3.0,17,0.286,High,sharp engagement drop; entry plan,8.59
+CUST11722,Starter,APAC,11-50,Paid Social,54,0.578,-0.061,1.0,5,0.159,Medium,entry plan,8.58
+CUST10235,Growth,Europe,11-50,Outbound Sales,225,0.94,-0.014,0.0,15,0.038,Low,model-detected combined signals,8.57
+CUST11296,Starter,APAC,1-10,Referral,44,0.578,-0.106,4.0,8,0.194,Medium,sharp engagement drop; entry plan,8.52
+CUST11761,Starter,Europe,11-50,Referral,37,0.475,-0.076,5.0,4,0.23,High,low 3-month engagement; high support load,8.51
+CUST10847,Starter,Europe,11-50,Outbound Sales,42,0.546,-0.117,2.0,12,0.202,High,sharp engagement drop; entry plan,8.49
+CUST10146,Starter,India,11-50,Referral,76,0.631,0.028,2.0,20,0.11,Low,entry plan,8.38
+CUST10378,Growth,Europe,11-50,Paid Social,328,1.0,0.0,2.0,10,0.026,Low,model-detected combined signals,8.37
+CUST11489,Growth,North America,11-50,Paid Search,175,0.844,0.058,2.0,2,0.048,Low,early-tenure onboarding risk,8.35
+CUST11607,Growth,North America,201-1000,Paid Social,209,0.822,-0.002,3.0,13,0.04,Low,model-detected combined signals,8.33
+CUST10112,Starter,India,11-50,Paid Search,62,0.537,0.139,2.0,4,0.134,Medium,low 3-month engagement; entry plan,8.29
+CUST10361,Growth,North America,201-1000,Outbound Sales,265,0.872,0.077,2.0,4,0.031,Low,model-detected combined signals,8.27
+CUST11412,Growth,LATAM,11-50,Paid Search,147,0.862,-0.03,1.0,2,0.056,Low,early-tenure onboarding risk,8.2
+CUST11181,Growth,APAC,51-200,Paid Social,149,0.793,0.026,1.0,2,0.055,Low,early-tenure onboarding risk,8.19
+CUST10734,Growth,LATAM,11-50,Paid Search,125,0.759,0.079,1.0,6,0.065,Low,model-detected combined signals,8.17
+CUST11546,Growth,Europe,51-200,Organic Search,137,0.802,-0.039,2.0,18,0.059,Low,model-detected combined signals,8.11
+CUST11749,Starter,Europe,1-10,Referral,36,0.515,-0.107,3.0,3,0.225,High,sharp engagement drop; early-tenure onboarding risk,8.1
+CUST10885,Growth,APAC,1-10,Paid Search,119,0.834,0.0,0.0,1,0.068,Low,early-tenure onboarding risk,8.07
+CUST11371,Starter,North America,51-200,Content/SEO,81,0.621,0.014,5.0,7,0.099,Low,high support load; entry plan,8.06
+CUST10459,Starter,India,1-10,Organic Search,26,0.41,-0.093,5.0,3,0.309,High,low 3-month engagement; high support load,8.03
+CUST11048,Growth,APAC,11-50,Organic Search,185,0.786,0.139,5.0,7,0.043,Low,high support load,8.02
+CUST11677,Starter,North America,11-50,Organic Search,70,0.692,-0.101,2.0,2,0.114,Low,sharp engagement drop; early-tenure onboarding risk,8.0
+CUST11755,Growth,North America,1-10,Content/SEO,153,0.906,0.0,0.0,1,0.052,Low,early-tenure onboarding risk,7.99
+CUST11631,Growth,North America,51-200,Content/SEO,119,0.764,-0.017,4.0,9,0.067,Low,model-detected combined signals,7.94
+CUST10040,Growth,Europe,51-200,Organic Search,151,0.786,0.092,2.0,20,0.053,Low,model-detected combined signals,7.94
+CUST10271,Growth,India,11-50,Outbound Sales,199,0.835,0.093,1.0,4,0.04,Low,model-detected combined signals,7.93
+CUST11256,Growth,North America,1-10,Paid Social,205,0.923,0.013,2.0,5,0.038,Low,model-detected combined signals,7.88
+CUST11167,Starter,Europe,11-50,Paid Social,53,0.609,-0.113,4.0,3,0.148,Medium,sharp engagement drop; early-tenure onboarding risk,7.86
+CUST11268,Growth,LATAM,1000+,Content/SEO,100,0.651,0.037,4.0,7,0.078,Low,model-detected combined signals,7.82
+CUST10161,Growth,North America,1-10,Outbound Sales,109,0.824,-0.005,2.0,6,0.071,Low,model-detected combined signals,7.74
+CUST10722,Starter,India,51-200,Paid Social,34,0.383,0.043,7.0,15,0.228,High,low 3-month engagement; high support load,7.74
+CUST11535,Growth,Europe,1-10,Paid Search,265,0.983,0.065,0.0,24,0.029,Low,model-detected combined signals,7.7
+CUST11549,Starter,Europe,1-10,Paid Search,63,0.628,0.054,1.0,9,0.122,Medium,entry plan,7.7
+CUST10947,Starter,Europe,11-50,Paid Search,53,0.638,-0.097,2.0,2,0.145,Medium,early-tenure onboarding risk; entry plan,7.69
+CUST11084,Starter,North America,1-10,Outbound Sales,38,0.492,0.054,3.0,12,0.202,High,low 3-month engagement; entry plan,7.68
+CUST11231,Growth,North America,1000+,Organic Search,143,0.789,0.0,2.0,1,0.053,Low,early-tenure onboarding risk,7.62
+CUST11699,Growth,North America,51-200,Paid Search,129,0.806,0.0,0.0,1,0.059,Low,early-tenure onboarding risk,7.61
+CUST10891,Starter,Europe,51-200,Organic Search,45,0.517,-0.098,6.0,3,0.169,Medium,high support load; early-tenure onboarding risk,7.61
+CUST11030,Growth,North America,11-50,Organic Search,199,0.897,0.062,1.0,3,0.038,Low,early-tenure onboarding risk,7.61
+CUST11588,Starter,North America,1-10,Outbound Sales,54,0.645,0.0,2.0,1,0.14,Medium,early-tenure onboarding risk; entry plan,7.58
+CUST10334,Starter,APAC,11-50,Referral,48,0.568,0.0,1.0,1,0.158,Medium,early-tenure onboarding risk; entry plan,7.58
+CUST10782,Growth,APAC,51-200,Paid Social,131,0.813,-0.003,1.0,2,0.058,Low,early-tenure onboarding risk,7.57
+CUST10392,Growth,APAC,201-1000,Outbound Sales,143,0.802,-0.047,2.0,3,0.053,Low,early-tenure onboarding risk,7.55
+CUST11129,Growth,Europe,51-200,Paid Search,157,0.892,-0.108,0.0,19,0.048,Low,sharp engagement drop,7.51
+CUST11770,Growth,Europe,51-200,Content/SEO,167,0.845,0.057,2.0,19,0.045,Low,model-detected combined signals,7.51
+CUST10905,Starter,APAC,11-50,Organic Search,37,0.522,-0.005,7.0,3,0.203,High,high support load; early-tenure onboarding risk,7.5
+CUST11626,Starter,North America,1-10,Outbound Sales,71,0.712,0.0,1.0,1,0.106,Low,early-tenure onboarding risk; entry plan,7.49
+CUST10858,Growth,Europe,51-200,Content/SEO,221,0.888,0.043,4.0,11,0.034,Low,model-detected combined signals,7.48
+CUST10577,Growth,North America,11-50,Paid Search,205,0.915,0.016,1.0,13,0.036,Low,model-detected combined signals,7.47
+CUST11509,Starter,LATAM,51-200,Referral,48,0.571,-0.066,2.0,5,0.154,Medium,entry plan,7.4
+CUST10665,Growth,North America,1-10,Content/SEO,100,0.814,0.003,1.0,5,0.074,Low,model-detected combined signals,7.4
+CUST10416,Starter,North America,11-50,Organic Search,46,0.597,-0.08,2.0,18,0.161,Medium,entry plan,7.39
+CUST10748,Growth,Europe,201-1000,Outbound Sales,135,0.756,-0.008,2.0,6,0.054,Low,model-detected combined signals,7.32
+CUST10031,Growth,APAC,11-50,Content/SEO,237,0.901,0.158,2.0,13,0.031,Low,model-detected combined signals,7.32
+CUST11557,Growth,India,201-1000,Paid Social,153,0.837,-0.044,0.0,18,0.048,Low,model-detected combined signals,7.31
+CUST11279,Starter,India,1-10,Organic Search,70,0.73,-0.051,2.0,2,0.103,Low,early-tenure onboarding risk; entry plan,7.23
+CUST11362,Growth,LATAM,1-10,Paid Social,151,0.869,0.008,3.0,5,0.048,Low,model-detected combined signals,7.17
+CUST10360,Starter,North America,1-10,Paid Search,39,0.514,0.059,5.0,10,0.183,Medium,low 3-month engagement; high support load,7.14
+CUST10191,Growth,North America,11-50,Organic Search,229,0.892,0.134,3.0,19,0.031,Low,model-detected combined signals,7.11
+CUST11245,Growth,North America,201-1000,Content/SEO,100,0.775,-0.047,3.0,16,0.071,Low,model-detected combined signals,7.11
+CUST11317,Growth,APAC,11-50,Content/SEO,209,0.961,0.014,0.0,13,0.034,Low,model-detected combined signals,7.1
+CUST11040,Starter,North America,1-10,Organic Search,47,0.661,-0.101,1.0,19,0.151,Medium,sharp engagement drop; entry plan,7.1
+CUST10121,Growth,India,51-200,Content/SEO,185,0.935,-0.065,2.0,17,0.038,Low,model-detected combined signals,7.03
+CUST10253,Growth,Europe,51-200,Paid Search,141,0.857,-0.029,0.0,2,0.05,Low,early-tenure onboarding risk,7.01
+CUST11034,Growth,Europe,11-50,Organic Search,247,0.937,0.08,0.0,16,0.028,Low,model-detected combined signals,6.97
+CUST10106,Growth,APAC,1000+,Organic Search,139,0.847,-0.14,0.0,8,0.05,Low,sharp engagement drop,6.96
+CUST10331,Growth,Europe,1-10,Paid Social,139,0.852,0.078,2.0,10,0.05,Low,model-detected combined signals,6.92
+CUST11293,Enterprise,Europe,201-1000,Referral,400,0.981,0.05,1.0,17,0.017,Low,model-detected combined signals,6.9
+CUST11182,Growth,APAC,1-10,Paid Search,245,1.0,0.008,1.0,4,0.028,Low,model-detected combined signals,6.85
+CUST10351,Growth,Europe,11-50,Paid Social,175,0.902,0.023,0.0,19,0.039,Low,model-detected combined signals,6.85
+CUST11230,Growth,LATAM,11-50,Content/SEO,261,0.979,0.066,1.0,14,0.026,Low,model-detected combined signals,6.85
+CUST11797,Starter,India,51-200,Paid Search,44,0.511,-0.028,7.0,6,0.155,Medium,high support load; entry plan,6.81
+CUST11586,Starter,North America,1-10,Paid Search,49,0.564,0.073,7.0,5,0.139,Medium,high support load; entry plan,6.79
+CUST10975,Growth,LATAM,1-10,Outbound Sales,298,1.0,0.123,1.0,11,0.023,Low,model-detected combined signals,6.77
+CUST10938,Starter,APAC,1-10,Outbound Sales,45,0.658,-0.113,3.0,10,0.15,Medium,sharp engagement drop; entry plan,6.77
+CUST10583,Starter,North America,1-10,Paid Social,71,0.713,0.006,2.0,10,0.095,Low,entry plan,6.74
+CUST11767,Starter,Europe,11-50,Paid Social,60,0.682,-0.096,1.0,3,0.111,Low,early-tenure onboarding risk; entry plan,6.67
+CUST10232,Growth,North America,51-200,Paid Search,129,0.849,0.002,2.0,5,0.051,Low,model-detected combined signals,6.62
+CUST11486,Starter,India,51-200,Outbound Sales,47,0.58,-0.013,6.0,3,0.141,Medium,high support load; early-tenure onboarding risk,6.61
+CUST10225,Starter,APAC,51-200,Content/SEO,61,0.586,0.089,5.0,8,0.108,Low,high support load; entry plan,6.58
+CUST11346,Growth,North America,51-200,Content/SEO,289,1.0,0.0,1.0,9,0.023,Low,model-detected combined signals,6.58
+CUST11768,Starter,North America,11-50,Organic Search,108,0.814,0.0,0.0,1,0.061,Low,early-tenure onboarding risk; entry plan,6.58
+CUST10173,Starter,North America,1000+,Referral,58,0.549,-0.002,2.0,15,0.113,Low,entry plan,6.53
+CUST11466,Starter,APAC,11-50,Content/SEO,72,0.734,-0.015,1.0,19,0.09,Low,entry plan,6.49
+CUST11472,Starter,North America,11-50,Paid Search,51,0.647,-0.043,0.0,4,0.126,Medium,entry plan,6.44
+CUST11581,Starter,North America,11-50,Organic Search,54,0.655,0.0,0.0,1,0.119,Medium,early-tenure onboarding risk; entry plan,6.43
+CUST10977,Starter,Europe,1-10,Outbound Sales,91,0.801,0.012,0.0,5,0.071,Low,entry plan,6.42
+CUST10248,Growth,Europe,1-10,Organic Search,125,0.869,0.077,0.0,21,0.051,Low,model-detected combined signals,6.39
+CUST10917,Starter,APAC,1-10,Outbound Sales,42,0.613,0.0,0.0,13,0.152,Medium,entry plan,6.37
+CUST10924,Starter,Europe,11-50,Content/SEO,52,0.688,-0.076,1.0,6,0.122,Medium,entry plan,6.36
+CUST10727,Growth,North America,11-50,Paid Social,207,0.899,0.127,2.0,11,0.031,Low,model-detected combined signals,6.36
+CUST11179,Starter,North America,1-10,Referral,29,0.531,-0.052,2.0,4,0.219,High,entry plan,6.36
+CUST10810,Growth,North America,1000+,Referral,123,0.805,-0.099,0.0,19,0.052,Low,model-detected combined signals,6.34
+CUST10513,Starter,North America,11-50,Paid Search,53,0.677,-0.068,2.0,2,0.119,Medium,early-tenure onboarding risk; entry plan,6.32
+CUST10749,Growth,APAC,51-200,Content/SEO,191,0.953,0.0,0.0,1,0.033,Low,early-tenure onboarding risk,6.32
+CUST10861,Growth,Europe,1-10,Paid Search,100,0.824,0.054,0.0,20,0.063,Low,model-detected combined signals,6.32
+CUST11085,Starter,North America,1-10,Referral,86,0.728,-0.014,3.0,7,0.073,Low,entry plan,6.3
+CUST11638,Growth,Europe,11-50,Outbound Sales,145,0.815,0.165,1.0,15,0.043,Low,model-detected combined signals,6.29
+CUST10744,Growth,North America,201-1000,Organic Search,185,0.86,0.087,2.0,2,0.034,Low,early-tenure onboarding risk,6.27
+CUST10179,Starter,North America,1-10,Organic Search,61,0.74,-0.083,1.0,4,0.103,Low,entry plan,6.26
+CUST11464,Starter,India,1-10,Paid Social,74,0.765,-0.027,0.0,7,0.085,Low,entry plan,6.26
+CUST11146,Starter,Europe,11-50,Outbound Sales,62,0.668,0.072,2.0,2,0.099,Low,early-tenure onboarding risk; entry plan,6.16
+CUST10923,Starter,India,1-10,Outbound Sales,40,0.58,0.045,2.0,3,0.153,Medium,early-tenure onboarding risk; entry plan,6.13
+CUST10742,Starter,Europe,11-50,Content/SEO,74,0.754,0.0,1.0,1,0.083,Low,early-tenure onboarding risk; entry plan,6.13
+CUST11331,Growth,APAC,11-50,Paid Search,187,0.96,0.02,0.0,19,0.033,Low,model-detected combined signals,6.08
+CUST11457,Starter,North America,1-10,Referral,47,0.657,-0.058,2.0,20,0.128,Medium,entry plan,6.02
+CUST11130,Growth,India,1-10,Paid Social,175,0.945,0.084,1.0,4,0.034,Low,model-detected combined signals,6.01
+CUST10255,Starter,Europe,11-50,Organic Search,63,0.667,0.034,2.0,5,0.095,Low,entry plan,5.99
+CUST11404,Starter,India,1-10,Paid Social,59,0.659,0.018,7.0,13,0.102,Low,high support load; entry plan,5.99
+CUST11414,Starter,North America,1-10,Referral,30,0.482,0.031,4.0,18,0.199,High,low 3-month engagement; entry plan,5.96
+CUST10536,Growth,India,51-200,Organic Search,223,0.931,0.033,3.0,9,0.027,Low,model-detected combined signals,5.94
+CUST10542,Starter,APAC,1-10,Paid Social,24,0.477,-0.039,2.0,5,0.247,High,low 3-month engagement; entry plan,5.93
+CUST10877,Starter,LATAM,1-10,Paid Social,37,0.602,-0.093,5.0,6,0.16,Medium,high support load; entry plan,5.92
+CUST11686,Starter,North America,1000+,Referral,41,0.488,0.02,0.0,18,0.144,Medium,low 3-month engagement; entry plan,5.91
+CUST11390,Growth,Europe,51-200,Content/SEO,103,0.814,0.013,1.0,2,0.057,Low,early-tenure onboarding risk,5.9
+CUST11400,Starter,Europe,11-50,Paid Social,73,0.719,0.003,4.0,13,0.081,Low,entry plan,5.89
+CUST10471,Starter,APAC,11-50,Referral,50,0.54,0.041,7.0,7,0.118,Medium,high support load; entry plan,5.88
+CUST10108,Growth,Europe,11-50,Outbound Sales,100,0.836,0.019,0.0,7,0.059,Low,model-detected combined signals,5.88
+CUST10630,Growth,Europe,201-1000,Organic Search,105,0.81,0.011,2.0,4,0.055,Low,model-detected combined signals,5.78
+CUST11225,Growth,Europe,201-1000,Paid Search,147,0.81,0.114,0.0,4,0.039,Low,model-detected combined signals,5.72
+CUST10954,Growth,North America,201-1000,Paid Social,173,0.847,0.121,3.0,7,0.033,Low,model-detected combined signals,5.67
+CUST10333,Starter,Europe,51-200,Paid Social,61,0.675,0.0,0.0,1,0.092,Low,early-tenure onboarding risk; entry plan,5.63
+CUST10390,Starter,APAC,51-200,Outbound Sales,61,0.662,0.019,4.0,6,0.092,Low,entry plan,5.62
+CUST11775,Growth,India,11-50,Organic Search,199,1.0,0.0,1.0,5,0.028,Low,model-detected combined signals,5.62
+CUST10419,Starter,APAC,51-200,Paid Search,78,0.757,-0.051,0.0,10,0.072,Low,entry plan,5.62
+CUST11745,Growth,North America,51-200,Organic Search,227,0.956,0.113,0.0,8,0.024,Low,model-detected combined signals,5.49
+CUST11792,Starter,India,1-10,Organic Search,47,0.667,-0.002,2.0,20,0.117,Medium,entry plan,5.49
+CUST10437,Growth,LATAM,1-10,Organic Search,153,0.94,0.054,2.0,3,0.036,Low,early-tenure onboarding risk,5.47
+CUST10057,Starter,North America,11-50,Paid Social,45,0.652,-0.102,2.0,6,0.121,Medium,sharp engagement drop; entry plan,5.45
+CUST11724,Starter,APAC,1-10,Outbound Sales,49,0.711,-0.094,2.0,5,0.111,Low,entry plan,5.44
+CUST11702,Starter,India,51-200,Organic Search,81,0.767,0.0,0.0,1,0.067,Low,early-tenure onboarding risk; entry plan,5.4
+CUST11386,Starter,North America,1-10,Paid Social,47,0.688,0.0,2.0,1,0.114,Low,early-tenure onboarding risk; entry plan,5.38
+CUST11589,Growth,India,1-10,Content/SEO,139,0.824,0.143,7.0,19,0.039,Low,high support load,5.36
+CUST11155,Starter,APAC,1-10,Outbound Sales,29,0.547,-0.022,4.0,4,0.185,Medium,entry plan,5.35
+CUST11476,Growth,North America,11-50,Paid Social,161,0.89,0.064,1.0,18,0.033,Low,model-detected combined signals,5.35
+CUST10976,Starter,Europe,1-10,Paid Search,107,0.839,0.042,2.0,3,0.05,Low,early-tenure onboarding risk; entry plan,5.34
+CUST11322,Starter,North America,1-10,Content/SEO,57,0.715,0.02,2.0,16,0.093,Low,entry plan,5.33
+CUST10401,Starter,North America,1-10,Paid Search,68,0.787,-0.032,0.0,12,0.078,Low,entry plan,5.32
+CUST10825,Growth,LATAM,1-10,Outbound Sales,171,1.0,0.019,0.0,10,0.031,Low,model-detected combined signals,5.32
+CUST11213,Growth,North America,11-50,Content/SEO,115,0.79,0.171,3.0,6,0.046,Low,model-detected combined signals,5.27
+CUST10613,Starter,North America,1-10,Outbound Sales,40,0.679,-0.088,2.0,4,0.132,Medium,entry plan,5.27
+CUST10775,Starter,LATAM,11-50,Referral,46,0.586,0.067,5.0,5,0.115,Medium,high support load; entry plan,5.27
+CUST11657,Starter,APAC,1-10,Paid Social,44,0.668,0.002,2.0,3,0.12,Medium,early-tenure onboarding risk; entry plan,5.26
+CUST10170,Starter,LATAM,201-1000,Content/SEO,42,0.607,-0.115,2.0,14,0.125,Medium,sharp engagement drop; entry plan,5.25
+CUST10602,Starter,Europe,1-10,Organic Search,53,0.736,0.0,1.0,1,0.099,Low,early-tenure onboarding risk; entry plan,5.25
+CUST11111,Starter,Europe,11-50,Referral,104,0.862,-0.059,0.0,12,0.05,Low,entry plan,5.25
+CUST10726,Starter,India,11-50,Referral,42,0.683,-0.131,6.0,15,0.124,Medium,sharp engagement drop; high support load,5.21
+CUST11698,Starter,Europe,1-10,Organic Search,47,0.632,0.029,5.0,15,0.111,Low,high support load; entry plan,5.2
+CUST11236,Starter,North America,11-50,Organic Search,42,0.661,-0.074,1.0,2,0.124,Medium,early-tenure onboarding risk; entry plan,5.19
+CUST10869,Growth,Europe,51-200,Organic Search,135,0.919,0.0,0.0,1,0.038,Low,early-tenure onboarding risk,5.17
+CUST11511,Starter,Europe,1-10,Organic Search,47,0.69,0.023,5.0,12,0.11,Low,high support load; entry plan,5.16
+CUST10301,Starter,North America,11-50,Outbound Sales,53,0.756,-0.155,0.0,6,0.097,Low,sharp engagement drop; entry plan,5.15
+CUST11147,Growth,North America,11-50,Paid Search,199,1.0,0.021,1.0,8,0.026,Low,model-detected combined signals,5.14
+CUST11769,Growth,LATAM,1000+,Organic Search,211,0.969,-0.031,0.0,5,0.024,Low,model-detected combined signals,5.11
+CUST11132,Starter,Europe,1-10,Referral,50,0.643,0.052,3.0,6,0.102,Low,entry plan,5.08
+CUST11576,Growth,North America,51-200,Organic Search,149,0.846,0.168,1.0,5,0.034,Low,model-detected combined signals,5.05
+CUST11672,Starter,APAC,51-200,Content/SEO,30,0.515,0.01,2.0,12,0.168,Medium,entry plan,5.05
+CUST10639,Starter,Europe,11-50,Paid Social,47,0.669,0.0,0.0,1,0.107,Low,early-tenure onboarding risk; entry plan,5.03
+CUST10747,Starter,North America,1-10,Content/SEO,36,0.678,-0.074,0.0,5,0.139,Medium,entry plan,5.01
+CUST11283,Starter,North America,1-10,Paid Search,64,0.666,0.199,2.0,8,0.078,Low,entry plan,5.0
+CUST11558,Starter,LATAM,11-50,Content/SEO,39,0.685,-0.099,2.0,23,0.128,Medium,entry plan,4.98
+CUST10883,Growth,Europe,51-200,Paid Social,167,0.918,0.082,0.0,4,0.03,Low,model-detected combined signals,4.95
+CUST10035,Starter,LATAM,1-10,Content/SEO,25,0.556,-0.079,4.0,4,0.198,Medium,entry plan,4.95
+CUST11148,Starter,Europe,51-200,Paid Social,30,0.536,-0.102,4.0,7,0.164,Medium,sharp engagement drop; entry plan,4.93
+CUST11116,Growth,Europe,11-50,Paid Social,199,0.928,0.143,2.0,19,0.025,Low,model-detected combined signals,4.89
+CUST10990,Growth,India,11-50,Referral,223,0.923,0.123,4.0,13,0.022,Low,model-detected combined signals,4.88
+CUST10152,Growth,APAC,51-200,Paid Social,117,0.857,0.042,2.0,8,0.042,Low,model-detected combined signals,4.87
+CUST11008,Starter,North America,11-50,Organic Search,26,0.539,0.007,1.0,15,0.187,Medium,entry plan,4.86
+CUST10969,Starter,India,11-50,Organic Search,51,0.671,0.068,0.0,10,0.095,Low,entry plan,4.85
+CUST11123,Starter,APAC,11-50,Content/SEO,31,0.619,-0.069,0.0,10,0.156,Medium,entry plan,4.84
+CUST11270,Starter,LATAM,1-10,Organic Search,60,0.751,0.031,4.0,11,0.08,Low,entry plan,4.82
+CUST10518,Growth,India,201-1000,Paid Social,131,0.885,0.0,0.0,1,0.037,Low,early-tenure onboarding risk,4.79
+CUST11600,Starter,Europe,51-200,Paid Search,36,0.613,-0.076,1.0,8,0.133,Medium,entry plan,4.78
+CUST10693,Starter,Europe,11-50,Content/SEO,48,0.679,0.001,4.0,6,0.099,Low,entry plan,4.74
+CUST11239,Starter,APAC,11-50,Referral,32,0.565,-0.007,2.0,7,0.148,Medium,entry plan,4.74
+CUST10950,Starter,North America,1-10,Paid Social,47,0.716,0.0,1.0,1,0.101,Low,early-tenure onboarding risk; entry plan,4.73
+CUST11187,Starter,Europe,11-50,Referral,46,0.614,0.105,2.0,2,0.103,Low,early-tenure onboarding risk; entry plan,4.72
+CUST11431,Growth,Europe,1000+,Outbound Sales,243,1.0,0.0,0.0,3,0.019,Low,early-tenure onboarding risk,4.66
+CUST11640,Growth,Europe,51-200,Organic Search,169,1.0,0.0,1.0,4,0.027,Low,model-detected combined signals,4.57
+CUST10226,Starter,India,1-10,Referral,35,0.636,-0.047,2.0,14,0.13,Medium,entry plan,4.56
+CUST10955,Starter,North America,51-200,Paid Social,44,0.609,0.019,2.0,3,0.103,Low,early-tenure onboarding risk; entry plan,4.55
+CUST11131,Starter,North America,51-200,Paid Social,34,0.567,-0.02,3.0,24,0.133,Medium,entry plan,4.54
+CUST11037,Growth,North America,1000+,Paid Search,213,0.93,0.072,1.0,2,0.021,Low,early-tenure onboarding risk,4.51
+CUST11547,Starter,Europe,51-200,Paid Search,85,0.862,-0.138,0.0,4,0.053,Low,sharp engagement drop; entry plan,4.49
+CUST10865,Starter,Europe,1-10,Content/SEO,24,0.611,-0.104,3.0,2,0.185,Medium,sharp engagement drop; early-tenure onboarding risk,4.44
+CUST10844,Starter,India,1-10,Organic Search,38,0.671,-0.039,6.0,19,0.116,Medium,high support load; entry plan,4.41
+CUST10671,Starter,Europe,11-50,Content/SEO,55,0.771,-0.03,0.0,6,0.08,Low,entry plan,4.38
+CUST11683,Starter,Europe,1-10,Organic Search,71,0.811,0.021,2.0,7,0.061,Low,entry plan,4.36
+CUST10091,Starter,APAC,1-10,Paid Search,35,0.576,0.118,4.0,2,0.125,Medium,early-tenure onboarding risk; entry plan,4.36
+CUST11363,Growth,India,51-200,Organic Search,221,1.0,0.079,1.0,20,0.02,Low,model-detected combined signals,4.34
+CUST10082,Starter,India,1-10,Paid Social,43,0.678,0.046,1.0,9,0.101,Low,entry plan,4.33
+CUST10387,Starter,APAC,51-200,Content/SEO,70,0.808,-0.04,0.0,7,0.061,Low,entry plan,4.3
+CUST10567,Starter,LATAM,1-10,Organic Search,52,0.787,-0.036,3.0,7,0.083,Low,entry plan,4.3
+CUST10105,Starter,LATAM,1-10,Referral,60,0.713,0.057,4.0,11,0.072,Low,entry plan,4.29
+CUST10000,Growth,India,201-1000,Organic Search,127,0.91,-0.008,1.0,12,0.034,Low,model-detected combined signals,4.26
+CUST10935,Starter,North America,11-50,Organic Search,70,0.818,0.0,0.0,1,0.061,Low,early-tenure onboarding risk; entry plan,4.26
+CUST10948,Starter,India,11-50,Paid Social,57,0.719,0.037,0.0,16,0.075,Low,entry plan,4.26
+CUST11175,Starter,Europe,11-50,Paid Search,38,0.587,0.067,4.0,3,0.111,Low,early-tenure onboarding risk; entry plan,4.23
+CUST10061,Starter,Europe,1-10,Paid Search,63,0.837,-0.039,1.0,3,0.066,Low,early-tenure onboarding risk; entry plan,4.19
+CUST11105,Starter,Europe,11-50,Paid Social,36,0.642,-0.002,0.0,13,0.117,Medium,entry plan,4.19
+CUST11720,Growth,Europe,11-50,Referral,183,0.932,0.147,3.0,3,0.023,Low,early-tenure onboarding risk,4.18
+CUST10661,Growth,North America,11-50,Paid Social,135,0.965,0.025,0.0,6,0.031,Low,model-detected combined signals,4.17
+CUST10770,Starter,India,11-50,Organic Search,95,0.894,0.0,0.0,1,0.044,Low,early-tenure onboarding risk; entry plan,4.17
+CUST11524,Starter,APAC,11-50,Referral,48,0.713,-0.054,2.0,18,0.086,Low,entry plan,4.13
+CUST10211,Starter,North America,1-10,Outbound Sales,55,0.717,0.081,3.0,4,0.075,Low,entry plan,4.13
+CUST11774,Starter,India,11-50,Paid Search,57,0.715,0.016,2.0,3,0.072,Low,early-tenure onboarding risk; entry plan,4.12
+CUST10060,Starter,Europe,11-50,Paid Social,56,0.795,-0.063,2.0,3,0.072,Low,early-tenure onboarding risk; entry plan,4.06
+CUST11731,Starter,Europe,1-10,Organic Search,46,0.799,-0.104,0.0,11,0.088,Low,sharp engagement drop; entry plan,4.06
+CUST10972,Starter,North America,1-10,Content/SEO,43,0.743,-0.035,3.0,20,0.094,Low,entry plan,4.04
+CUST10077,Growth,North America,51-200,Paid Social,187,1.0,0.043,0.0,3,0.021,Low,early-tenure onboarding risk,4.0
+CUST10168,Starter,APAC,11-50,Content/SEO,39,0.702,-0.002,0.0,19,0.102,Low,entry plan,3.97
+CUST10889,Starter,APAC,11-50,Paid Social,66,0.799,-0.007,1.0,16,0.06,Low,entry plan,3.96
+CUST10934,Starter,North America,11-50,Paid Search,38,0.648,0.027,4.0,11,0.104,Low,entry plan,3.95
+CUST11743,Starter,North America,51-200,Content/SEO,45,0.686,0.007,3.0,11,0.088,Low,entry plan,3.95
+CUST10231,Starter,Europe,11-50,Organic Search,36,0.619,0.038,5.0,8,0.109,Low,high support load; entry plan,3.94
+CUST10872,Starter,Europe,11-50,Organic Search,70,0.864,-0.067,0.0,7,0.056,Low,entry plan,3.93
+CUST11560,Starter,North America,1-10,Paid Social,30,0.647,0.0,0.0,1,0.131,Medium,early-tenure onboarding risk; entry plan,3.93
+CUST10868,Starter,North America,1-10,Outbound Sales,63,0.837,0.0,0.0,1,0.062,Low,early-tenure onboarding risk; entry plan,3.93
+CUST10326,Starter,APAC,1-10,Outbound Sales,60,0.861,-0.115,1.0,8,0.065,Low,sharp engagement drop; entry plan,3.88
+CUST11088,Starter,North America,1-10,Organic Search,49,0.796,0.0,2.0,1,0.079,Low,early-tenure onboarding risk; entry plan,3.85
+CUST11490,Starter,North America,11-50,Organic Search,52,0.777,0.0,1.0,1,0.074,Low,early-tenure onboarding risk; entry plan,3.85
+CUST11153,Growth,Europe,11-50,Outbound Sales,135,0.976,0.053,2.0,13,0.028,Low,model-detected combined signals,3.84
+CUST11342,Starter,North America,1-10,Paid Social,49,0.773,-0.019,2.0,2,0.078,Low,early-tenure onboarding risk; entry plan,3.83
+CUST11035,Starter,Europe,201-1000,Organic Search,82,0.761,0.113,3.0,18,0.047,Low,entry plan,3.82
+CUST11650,Growth,APAC,11-50,Paid Social,133,1.0,0.0,0.0,1,0.029,Low,early-tenure onboarding risk,3.82
+CUST10167,Starter,North America,11-50,Organic Search,92,0.868,0.078,0.0,2,0.041,Low,early-tenure onboarding risk; entry plan,3.8
+CUST11482,Growth,Europe,1000+,Paid Search,113,0.881,0.008,0.0,6,0.033,Low,model-detected combined signals,3.79
+CUST11143,Starter,APAC,51-200,Paid Search,53,0.686,-0.026,5.0,10,0.071,Low,high support load; entry plan,3.77
+CUST11646,Growth,North America,201-1000,Organic Search,135,0.941,0.041,0.0,2,0.028,Low,early-tenure onboarding risk,3.76
+CUST11656,Starter,North America,1-10,Referral,87,0.906,0.0,0.0,1,0.043,Low,early-tenure onboarding risk; entry plan,3.76
+CUST10687,Starter,North America,11-50,Referral,63,0.772,0.017,1.0,4,0.059,Low,entry plan,3.75
+CUST10132,Growth,APAC,1000+,Paid Social,269,0.979,0.151,1.0,8,0.014,Low,model-detected combined signals,3.72
+CUST10920,Starter,Europe,11-50,Paid Social,70,0.827,-0.017,1.0,3,0.053,Low,early-tenure onboarding risk; entry plan,3.71
+CUST10125,Starter,APAC,11-50,Organic Search,44,0.745,0.0,0.0,1,0.084,Low,early-tenure onboarding risk; entry plan,3.69
+CUST10664,Starter,North America,51-200,Referral,70,0.807,0.0,1.0,1,0.053,Low,early-tenure onboarding risk; entry plan,3.69
+CUST10919,Starter,APAC,11-50,Outbound Sales,40,0.7,-0.01,2.0,11,0.091,Low,entry plan,3.66
+CUST11251,Starter,India,11-50,Referral,24,0.62,-0.156,1.0,14,0.152,Medium,sharp engagement drop; entry plan,3.66
+CUST10655,Growth,Europe,11-50,Paid Search,129,1.0,0.017,0.0,9,0.028,Low,model-detected combined signals,3.64
+CUST11568,Starter,Europe,1-10,Referral,49,0.778,-0.037,1.0,10,0.074,Low,entry plan,3.63
+CUST11778,Starter,India,1-10,Paid Social,41,0.724,-0.02,2.0,12,0.088,Low,entry plan,3.59
+CUST10100,Starter,India,11-50,Paid Search,74,0.833,0.067,1.0,3,0.048,Low,early-tenure onboarding risk; entry plan,3.59
+CUST10685,Starter,Europe,1-10,Content/SEO,48,0.825,-0.084,1.0,2,0.075,Low,early-tenure onboarding risk; entry plan,3.58
+CUST11063,Starter,North America,11-50,Outbound Sales,55,0.824,-0.072,0.0,10,0.065,Low,entry plan,3.57
+CUST11393,Starter,North America,1-10,Outbound Sales,51,0.71,0.062,7.0,15,0.07,Low,high support load; entry plan,3.57
+CUST10439,Starter,LATAM,1-10,Paid Search,67,0.819,0.033,3.0,13,0.053,Low,entry plan,3.54
+CUST10479,Starter,India,51-200,Paid Search,41,0.663,0.0,3.0,17,0.086,Low,entry plan,3.54
+CUST10025,Starter,India,51-200,Paid Search,36,0.635,0.008,3.0,23,0.098,Low,entry plan,3.53
+CUST11479,Growth,Europe,51-200,Outbound Sales,179,1.0,0.045,2.0,11,0.02,Low,model-detected combined signals,3.53
+CUST10557,Starter,North America,11-50,Paid Search,41,0.704,0.043,3.0,8,0.085,Low,entry plan,3.49
+CUST10249,Starter,LATAM,11-50,Organic Search,45,0.759,-0.047,2.0,19,0.077,Low,entry plan,3.46
+CUST10072,Starter,India,1-10,Organic Search,28,0.683,-0.055,4.0,8,0.124,Medium,entry plan,3.46
+CUST11430,Starter,APAC,1-10,Paid Social,56,0.846,-0.09,3.0,4,0.062,Low,entry plan,3.44
+CUST11370,Starter,India,1-10,Content/SEO,55,0.853,0.0,1.0,1,0.062,Low,early-tenure onboarding risk; entry plan,3.43
+CUST11748,Starter,Europe,1-10,Paid Social,30,0.683,0.0,0.0,1,0.114,Low,early-tenure onboarding risk; entry plan,3.43
+CUST11627,Starter,APAC,1-10,Paid Social,49,0.803,0.006,0.0,20,0.069,Low,entry plan,3.38
+CUST10150,Growth,LATAM,201-1000,Paid Search,167,1.0,0.0,1.0,8,0.02,Low,model-detected combined signals,3.34
+CUST11367,Starter,North America,11-50,Organic Search,55,0.809,0.036,1.0,8,0.06,Low,entry plan,3.29
+CUST11539,Starter,APAC,201-1000,Paid Search,82,0.874,-0.065,0.0,4,0.04,Low,entry plan,3.28
+CUST11126,Starter,APAC,1-10,Referral,74,0.913,-0.007,1.0,2,0.044,Low,early-tenure onboarding risk; entry plan,3.24
+CUST11585,Starter,North America,201-1000,Referral,36,0.648,0.0,0.0,1,0.09,Low,early-tenure onboarding risk; entry plan,3.24
+CUST11567,Starter,North America,1-10,Outbound Sales,52,0.841,0.0,0.0,1,0.062,Low,early-tenure onboarding risk; entry plan,3.2
+CUST10204,Starter,Europe,11-50,Organic Search,37,0.636,0.139,4.0,3,0.087,Low,early-tenure onboarding risk; entry plan,3.2
+CUST11211,Starter,LATAM,1-10,Content/SEO,54,0.866,-0.013,0.0,6,0.059,Low,entry plan,3.19
+CUST10048,Starter,Europe,201-1000,Paid Search,45,0.717,0.0,0.0,1,0.071,Low,early-tenure onboarding risk; entry plan,3.19
+CUST10796,Starter,Europe,1-10,Outbound Sales,46,0.813,0.006,0.0,5,0.069,Low,entry plan,3.17
+CUST11128,Growth,Europe,201-1000,Paid Search,125,0.939,0.047,1.0,23,0.025,Low,model-detected combined signals,3.16
+CUST10984,Starter,North America,51-200,Paid Social,71,0.852,0.0,1.0,1,0.044,Low,early-tenure onboarding risk; entry plan,3.16
+CUST10970,Starter,North America,11-50,Referral,43,0.755,-0.023,1.0,3,0.073,Low,early-tenure onboarding risk; entry plan,3.14
+CUST10916,Starter,North America,1-10,Organic Search,35,0.647,0.116,4.0,17,0.09,Low,entry plan,3.13
+CUST10325,Starter,North America,51-200,Paid Search,46,0.696,0.055,4.0,10,0.068,Low,entry plan,3.12
+CUST11798,Starter,North America,51-200,Outbound Sales,25,0.549,0.056,3.0,18,0.124,Medium,entry plan,3.11
+CUST11757,Starter,North America,1000+,Organic Search,30,0.52,0.071,4.0,14,0.103,Low,low 3-month engagement; entry plan,3.1
+CUST10761,Starter,North America,1-10,Organic Search,55,0.872,-0.01,0.0,3,0.056,Low,early-tenure onboarding risk; entry plan,3.08
+CUST11294,Starter,APAC,11-50,Organic Search,40,0.708,0.081,3.0,8,0.077,Low,entry plan,3.07
+CUST10410,Starter,India,1-10,Paid Search,47,0.819,0.008,0.0,13,0.065,Low,entry plan,3.07
+CUST10994,Starter,North America,51-200,Organic Search,31,0.617,0.093,3.0,18,0.099,Low,entry plan,3.06
+CUST11541,Starter,India,1-10,Organic Search,50,0.806,0.016,4.0,3,0.061,Low,early-tenure onboarding risk; entry plan,3.06
+CUST10898,Starter,India,11-50,Paid Social,74,0.899,-0.03,0.0,13,0.041,Low,entry plan,3.05
+CUST10139,Starter,Europe,51-200,Referral,50,0.734,0.059,2.0,8,0.061,Low,entry plan,3.05
+CUST10571,Starter,North America,11-50,Organic Search,58,0.864,-0.055,1.0,13,0.052,Low,entry plan,3.02
+CUST10123,Starter,North America,1-10,Referral,41,0.74,0.069,1.0,3,0.073,Low,early-tenure onboarding risk; entry plan,3.0
+CUST10128,Growth,Europe,51-200,Paid Search,143,1.0,0.0,1.0,21,0.021,Low,model-detected combined signals,2.99
+CUST10895,Starter,North America,11-50,Content/SEO,33,0.675,0.056,1.0,3,0.089,Low,early-tenure onboarding risk; entry plan,2.95
+CUST10210,Starter,North America,11-50,Paid Search,65,0.826,0.026,2.0,8,0.045,Low,entry plan,2.94
+CUST10856,Starter,Europe,11-50,Paid Social,34,0.669,0.059,4.0,6,0.086,Low,entry plan,2.92
+CUST10460,Starter,LATAM,1-10,Content/SEO,27,0.683,0.023,2.0,12,0.108,Low,entry plan,2.91
+CUST10180,Starter,Europe,1-10,Organic Search,36,0.739,0.051,3.0,3,0.08,Low,early-tenure onboarding risk; entry plan,2.89
+CUST10216,Starter,North America,11-50,Outbound Sales,50,0.751,0.076,5.0,14,0.058,Low,high support load; entry plan,2.88
+CUST10631,Starter,North America,51-200,Paid Search,52,0.828,-0.051,1.0,2,0.055,Low,early-tenure onboarding risk; entry plan,2.85
+CUST10289,Starter,Europe,11-50,Content/SEO,51,0.837,0.031,1.0,3,0.056,Low,early-tenure onboarding risk; entry plan,2.84
+CUST11092,Starter,APAC,1-10,Paid Social,64,0.854,0.113,0.0,2,0.044,Low,early-tenure onboarding risk; entry plan,2.82
+CUST10721,Starter,Europe,1-10,Organic Search,32,0.751,-0.026,2.0,7,0.088,Low,entry plan,2.81
+CUST11242,Starter,APAC,11-50,Referral,35,0.73,0.004,0.0,3,0.08,Low,early-tenure onboarding risk; entry plan,2.8
+CUST10143,Starter,North America,1-10,Content/SEO,62,0.919,-0.018,0.0,13,0.045,Low,entry plan,2.78
+CUST11718,Starter,North America,51-200,Paid Search,45,0.79,-0.002,2.0,10,0.061,Low,entry plan,2.77
+CUST10434,Starter,India,11-50,Paid Social,39,0.67,0.135,4.0,16,0.071,Low,entry plan,2.77
+CUST11252,Starter,North America,11-50,Paid Search,29,0.704,0.0,0.0,1,0.095,Low,early-tenure onboarding risk; entry plan,2.75
+CUST11369,Starter,India,1-10,Organic Search,62,0.929,-0.021,0.0,5,0.044,Low,entry plan,2.75
+CUST11154,Starter,North America,1-10,Paid Search,67,0.933,0.0,0.0,1,0.041,Low,early-tenure onboarding risk; entry plan,2.72
+CUST10427,Starter,North America,11-50,Outbound Sales,66,0.879,0.008,0.0,5,0.041,Low,entry plan,2.69
+CUST11701,Growth,Europe,1-10,Organic Search,105,0.965,0.124,4.0,3,0.025,Low,early-tenure onboarding risk,2.68
+CUST10957,Starter,India,1-10,Paid Social,35,0.735,0.082,2.0,7,0.075,Low,entry plan,2.64
+CUST10472,Starter,India,1-10,Organic Search,43,0.847,-0.033,1.0,24,0.062,Low,entry plan,2.64
+CUST10800,Starter,Europe,11-50,Content/SEO,67,0.808,0.187,2.0,13,0.039,Low,entry plan,2.61
+CUST11194,Starter,India,1-10,Paid Social,24,0.708,-0.075,4.0,15,0.108,Low,entry plan,2.6
+CUST11324,Starter,APAC,11-50,Content/SEO,39,0.831,-0.07,0.0,7,0.067,Low,entry plan,2.6
+CUST10658,Starter,Europe,11-50,Referral,73,0.86,0.131,1.0,4,0.036,Low,entry plan,2.6
+CUST11521,Starter,North America,201-1000,Outbound Sales,29,0.635,-0.019,3.0,8,0.089,Low,entry plan,2.57
+CUST11483,Starter,Europe,1-10,Paid Social,37,0.86,-0.14,1.0,6,0.069,Low,sharp engagement drop; entry plan,2.55
+CUST11751,Starter,Europe,11-50,Paid Search,63,0.902,0.01,1.0,4,0.04,Low,entry plan,2.52
+CUST11219,Starter,LATAM,1-10,Paid Search,43,0.87,-0.056,0.0,4,0.058,Low,entry plan,2.51
+CUST11639,Starter,LATAM,1-10,Outbound Sales,33,0.798,0.0,1.0,1,0.076,Low,early-tenure onboarding risk; entry plan,2.5
+CUST10499,Starter,North America,1-10,Referral,45,0.825,0.035,1.0,2,0.055,Low,early-tenure onboarding risk; entry plan,2.47
+CUST10986,Starter,APAC,11-50,Referral,40,0.725,0.07,1.0,9,0.061,Low,entry plan,2.45
+CUST10522,Starter,North America,51-200,Content/SEO,52,0.851,0.008,0.0,13,0.047,Low,entry plan,2.45
+CUST11267,Starter,North America,1-10,Organic Search,31,0.777,0.028,0.0,5,0.078,Low,entry plan,2.42
+CUST11559,Starter,North America,201-1000,Outbound Sales,46,0.784,-0.01,1.0,17,0.053,Low,entry plan,2.42
+CUST10305,Starter,North America,11-50,Referral,46,0.823,0.019,3.0,7,0.052,Low,entry plan,2.41
+CUST11742,Growth,APAC,51-200,Outbound Sales,100,1.0,0.031,0.0,4,0.024,Low,model-detected combined signals,2.39
+CUST10779,Starter,Europe,1-10,Paid Social,57,0.898,0.014,1.0,6,0.042,Low,entry plan,2.38
+CUST11685,Starter,India,11-50,Organic Search,41,0.858,-0.053,0.0,5,0.057,Low,entry plan,2.33
+CUST10019,Starter,India,51-200,Outbound Sales,86,0.92,0.074,0.0,3,0.027,Low,early-tenure onboarding risk; entry plan,2.32
+CUST11446,Starter,Europe,51-200,Organic Search,40,0.679,0.077,7.0,19,0.058,Low,high support load; entry plan,2.3
+CUST10823,Starter,Europe,11-50,Paid Search,67,0.869,0.102,1.0,14,0.034,Low,entry plan,2.27
+CUST10585,Starter,APAC,11-50,Outbound Sales,70,0.951,0.024,0.0,2,0.032,Low,early-tenure onboarding risk; entry plan,2.27
+CUST11727,Starter,North America,1-10,Outbound Sales,45,0.837,0.055,3.0,7,0.05,Low,entry plan,2.25
+CUST11555,Starter,Europe,51-200,Referral,56,0.804,0.067,4.0,6,0.04,Low,entry plan,2.25
+CUST11383,Starter,APAC,201-1000,Content/SEO,31,0.69,0.047,1.0,5,0.072,Low,entry plan,2.22
+CUST10306,Starter,Europe,1000+,Organic Search,36,0.707,-0.034,3.0,5,0.061,Low,entry plan,2.2
+CUST11024,Starter,India,11-50,Organic Search,39,0.808,0.071,1.0,13,0.056,Low,entry plan,2.19
+CUST10247,Starter,Europe,1-10,Organic Search,35,0.764,0.037,5.0,20,0.063,Low,high support load; entry plan,2.19
+CUST10373,Starter,APAC,1-10,Paid Social,55,0.932,0.001,1.0,11,0.04,Low,entry plan,2.19
+CUST11709,Starter,North America,11-50,Paid Social,40,0.74,0.109,7.0,19,0.054,Low,high support load; entry plan,2.17
+CUST10467,Growth,North America,1000+,Outbound Sales,125,0.962,0.121,1.0,3,0.017,Low,early-tenure onboarding risk,2.11
+CUST10342,Starter,North America,1-10,Organic Search,29,0.818,-0.042,2.0,3,0.072,Low,early-tenure onboarding risk; entry plan,2.09
+CUST10599,Starter,North America,11-50,Outbound Sales,41,0.776,0.096,3.0,7,0.05,Low,entry plan,2.07
+CUST10766,Starter,North America,11-50,Organic Search,49,0.894,0.026,0.0,11,0.042,Low,entry plan,2.06
+CUST11053,Starter,North America,1-10,Content/SEO,27,0.807,-0.02,0.0,10,0.075,Low,entry plan,2.02
+CUST10088,Starter,Europe,51-200,Paid Social,50,0.848,0.02,1.0,22,0.04,Low,entry plan,1.99
+CUST10022,Starter,India,11-50,Paid Social,35,0.812,0.004,1.0,2,0.056,Low,early-tenure onboarding risk; entry plan,1.97
+CUST10660,Starter,North America,201-1000,Paid Social,55,0.871,0.0,0.0,1,0.036,Low,early-tenure onboarding risk; entry plan,1.97
+CUST10011,Starter,India,11-50,Paid Search,48,0.917,-0.034,0.0,5,0.041,Low,entry plan,1.97
+CUST11667,Starter,North America,11-50,Referral,53,0.844,0.114,1.0,12,0.037,Low,entry plan,1.95
+CUST11004,Starter,North America,11-50,Paid Search,24,0.75,-0.014,2.0,4,0.079,Low,entry plan,1.89
+CUST10282,Starter,LATAM,1-10,Referral,47,0.92,0.012,0.0,4,0.04,Low,entry plan,1.89
+CUST11377,Starter,Europe,51-200,Organic Search,44,0.829,0.029,3.0,15,0.043,Low,entry plan,1.87
+CUST11018,Starter,Europe,11-50,Paid Search,40,0.859,0.033,0.0,11,0.047,Low,entry plan,1.86
+CUST11277,Starter,North America,201-1000,Content/SEO,30,0.791,-0.059,1.0,10,0.062,Low,entry plan,1.86
+CUST11348,Starter,India,51-200,Content/SEO,43,0.836,-0.012,4.0,12,0.043,Low,entry plan,1.86
+CUST10528,Starter,APAC,1-10,Paid Search,43,0.896,0.0,1.0,17,0.043,Low,entry plan,1.86
+CUST10993,Starter,LATAM,11-50,Organic Search,45,0.847,0.108,1.0,4,0.041,Low,entry plan,1.85
+CUST11351,Starter,APAC,11-50,Outbound Sales,39,0.793,0.069,6.0,5,0.047,Low,high support load; entry plan,1.85
+CUST10113,Starter,APAC,1-10,Outbound Sales,28,0.807,0.014,0.0,8,0.065,Low,entry plan,1.83
+CUST10746,Starter,North America,1-10,Organic Search,43,0.915,0.052,1.0,4,0.042,Low,entry plan,1.81
+CUST10033,Starter,Europe,11-50,Outbound Sales,28,0.79,0.05,1.0,2,0.063,Low,early-tenure onboarding risk; entry plan,1.76
+CUST10213,Starter,North America,11-50,Paid Search,38,0.888,-0.051,0.0,6,0.046,Low,entry plan,1.74
+CUST10735,Starter,North America,1-10,Organic Search,37,0.905,0.0,2.0,17,0.047,Low,entry plan,1.73
+CUST11422,Starter,Europe,11-50,Organic Search,33,0.854,-0.045,0.0,7,0.051,Low,entry plan,1.69
+CUST11216,Starter,LATAM,1-10,Paid Social,31,0.867,-0.005,0.0,9,0.054,Low,entry plan,1.67
+CUST10147,Starter,Europe,11-50,Referral,64,0.962,0.082,0.0,2,0.025,Low,early-tenure onboarding risk; entry plan,1.63
+CUST10579,Starter,LATAM,11-50,Paid Search,29,0.737,0.115,6.0,4,0.056,Low,high support load; entry plan,1.62
+CUST11308,Starter,Europe,1-10,Outbound Sales,40,0.919,0.048,0.0,16,0.04,Low,entry plan,1.62
+CUST11609,Starter,North America,51-200,Paid Social,45,0.882,-0.003,0.0,5,0.036,Low,entry plan,1.61
+CUST11475,Starter,India,51-200,Content/SEO,24,0.78,0.0,3.0,6,0.065,Low,entry plan,1.57
+CUST11077,Starter,APAC,11-50,Paid Social,45,0.853,0.105,3.0,4,0.035,Low,entry plan,1.56
+CUST11554,Starter,LATAM,1-10,Content/SEO,53,1.0,0.028,1.0,12,0.029,Low,entry plan,1.55
+CUST11543,Starter,North America,11-50,Outbound Sales,45,0.953,0.0,1.0,1,0.035,Low,early-tenure onboarding risk; entry plan,1.55
+CUST10280,Starter,North America,11-50,Paid Social,64,1.0,0.034,0.0,15,0.024,Low,entry plan,1.55
+CUST11340,Starter,India,11-50,Content/SEO,57,0.933,0.104,0.0,6,0.027,Low,entry plan,1.52
+CUST11223,Starter,North America,1-10,Referral,63,0.922,0.119,2.0,7,0.024,Low,entry plan,1.51
+CUST10688,Starter,Europe,11-50,Content/SEO,59,0.984,0.086,0.0,8,0.025,Low,entry plan,1.5
+CUST11415,Starter,Europe,11-50,Organic Search,53,1.0,0.0,0.0,14,0.028,Low,entry plan,1.5
+CUST11209,Starter,APAC,1-10,Organic Search,40,0.938,0.033,0.0,4,0.036,Low,entry plan,1.46
+CUST10275,Starter,North America,11-50,Organic Search,32,0.894,-0.007,0.0,9,0.045,Low,entry plan,1.45
+CUST10777,Starter,APAC,1-10,Content/SEO,45,0.987,-0.002,0.0,20,0.032,Low,entry plan,1.44
+CUST11668,Starter,North America,1-10,Organic Search,46,0.952,0.026,2.0,6,0.031,Low,entry plan,1.44
+CUST11174,Starter,Europe,51-200,Paid Search,40,0.836,0.128,0.0,8,0.036,Low,entry plan,1.43
+CUST10913,Starter,India,11-50,Paid Social,35,0.814,0.111,3.0,4,0.04,Low,entry plan,1.41
+CUST10298,Starter,Europe,11-50,Paid Social,46,0.97,0.002,0.0,3,0.03,Low,early-tenure onboarding risk; entry plan,1.39
+CUST10686,Starter,Europe,51-200,Organic Search,39,0.914,-0.014,1.0,2,0.035,Low,early-tenure onboarding risk; entry plan,1.38
+CUST11777,Starter,North America,11-50,Organic Search,32,0.909,0.0,1.0,1,0.043,Low,early-tenure onboarding risk; entry plan,1.37
+CUST10887,Starter,India,11-50,Content/SEO,54,1.0,0.035,0.0,24,0.025,Low,entry plan,1.34
+CUST11125,Starter,APAC,11-50,Paid Social,56,0.994,0.055,0.0,5,0.024,Low,entry plan,1.34
+CUST11234,Starter,Europe,51-200,Content/SEO,24,0.739,0.141,0.0,23,0.055,Low,entry plan,1.33
+CUST10138,Starter,North America,51-200,Outbound Sales,24,0.819,-0.019,1.0,16,0.055,Low,entry plan,1.33
+CUST10391,Starter,Europe,11-50,Referral,36,0.812,0.077,6.0,9,0.036,Low,high support load; entry plan,1.3
+CUST11121,Starter,APAC,51-200,Outbound Sales,58,0.976,0.087,0.0,20,0.022,Low,entry plan,1.26
+CUST11454,Starter,Europe,1-10,Referral,44,0.936,0.11,3.0,5,0.028,Low,entry plan,1.23
+CUST11003,Starter,APAC,1-10,Paid Search,44,1.0,0.055,0.0,2,0.027,Low,early-tenure onboarding risk; entry plan,1.21
+CUST11756,Starter,India,11-50,Organic Search,40,0.941,0.073,1.0,6,0.03,Low,entry plan,1.2
+CUST10974,Starter,North America,51-200,Paid Social,24,0.764,0.086,2.0,12,0.05,Low,entry plan,1.2
+CUST11366,Starter,North America,201-1000,Paid Social,44,0.948,0.0,0.0,1,0.026,Low,early-tenure onboarding risk; entry plan,1.13
+CUST10181,Starter,North America,11-50,Paid Social,41,0.916,0.067,3.0,10,0.027,Low,entry plan,1.11
+CUST11009,Starter,North America,11-50,Paid Search,36,0.968,-0.009,0.0,3,0.031,Low,early-tenure onboarding risk; entry plan,1.11
+CUST11254,Starter,Europe,51-200,Paid Search,49,0.932,0.167,1.0,5,0.02,Low,entry plan,0.99
+CUST11220,Starter,APAC,1000+,Organic Search,52,1.0,0.0,0.0,12,0.019,Low,entry plan,0.99
+CUST11074,Starter,North America,201-1000,Organic Search,28,0.863,0.009,1.0,4,0.035,Low,entry plan,0.99
+CUST10793,Starter,Europe,1-10,Paid Social,31,1.0,0.0,0.0,2,0.03,Low,early-tenure onboarding risk; entry plan,0.94
+CUST10764,Starter,North America,1-10,Referral,31,1.0,0.0,0.0,23,0.029,Low,entry plan,0.89
+CUST11010,Starter,LATAM,1-10,Paid Search,35,1.0,0.088,0.0,5,0.025,Low,entry plan,0.89
+CUST10589,Starter,Europe,1-10,Paid Social,39,0.908,0.203,5.0,5,0.021,Low,high support load; entry plan,0.83
+CUST10894,Starter,India,11-50,Paid Social,27,0.976,0.0,1.0,1,0.03,Low,early-tenure onboarding risk; entry plan,0.82
+CUST11471,Starter,Europe,11-50,Paid Search,27,0.957,0.098,1.0,3,0.025,Low,early-tenure onboarding risk; entry plan,0.68
+CUST11432,Starter,APAC,11-50,Paid Social,32,1.0,0.139,1.0,14,0.018,Low,entry plan,0.58

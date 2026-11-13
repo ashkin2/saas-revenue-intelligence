@@ -1,0 +1,175 @@
+// =====================================================================
+// SaaS Business Analytics - DAX measure library
+// Model: star schema (see powerbi/README.md). Mark dim_date[Date] as the Date table.
+// Facts relate to dim_date on MonthStart (first day of month).
+// Create a dedicated "_Measures" table and group measures in the display folders shown.
+// =====================================================================
+
+
+// ---------- 0. Calculated table / columns -----------------------------------------------
+
+dim_channel = DISTINCT ( fact_marketing_spend[channel] )      // bridge: spend <-> customers by channel
+
+// Calculated column on fact_subscription_monthly
+Months Since Signup =
+DATEDIFF (
+    DATEVALUE ( RELATED ( dim_customer[signup_month] ) & "-01" ),
+    fact_subscription_monthly[MonthStart],
+    MONTH
+)
+
+
+// ---------- 1. MRR & ARR  (display folder: 1 Revenue) ------------------------------------
+
+Ending MRR = SUM ( fact_subscription_monthly[active_mrr] )
+
+Starting MRR =
+CALCULATE ( [Ending MRR], DATEADD ( dim_date[Date], -1, MONTH ) )
+
+New MRR         = SUM ( fact_subscription_monthly[new_mrr] )
+Expansion MRR   = SUM ( fact_subscription_monthly[expansion_mrr] )
+Contraction MRR = SUM ( fact_subscription_monthly[contraction_mrr] )
+Churned MRR     = SUM ( fact_subscription_monthly[churned_mrr] )
+
+Net New MRR = [New MRR] + [Expansion MRR] - [Contraction MRR] - [Churned MRR]
+
+// Reconciliation measure: must be 0 in every month (data-quality tile on the exec page)
+MRR Waterfall Check =
+ROUND ( [Starting MRR] + [Net New MRR] - [Ending MRR], 2 )
+
+ARR = [Ending MRR] * 12
+
+MRR Growth % = DIVIDE ( [Ending MRR] - [Starting MRR], [Starting MRR] )
+
+MRR Growth % (YoY) =
+VAR _py = CALCULATE ( [Ending MRR], SAMEPERIODLASTYEAR ( dim_date[Date] ) )
+RETURN DIVIDE ( [Ending MRR] - _py, _py )
+
+
+// ---------- 2. Retention  (display folder: 2 Retention) ---------------------------------
+
+Active Customers =
+CALCULATE (
+    DISTINCTCOUNT ( fact_subscription_monthly[customer_id] ),
+    fact_subscription_monthly[is_churn] = 0
+)
+
+Starting Customers = CALCULATE ( [Active Customers], DATEADD ( dim_date[Date], -1, MONTH ) )
+New Customers      = SUM ( fact_subscription_monthly[is_new] )
+Churned Customers  = SUM ( fact_subscription_monthly[is_churn] )
+
+Logo Churn % = DIVIDE ( [Churned Customers], [Starting Customers] )
+
+Revenue Churn % = DIVIDE ( [Churned MRR], [Starting MRR] )
+
+GRR % =
+DIVIDE ( [Starting MRR] - [Contraction MRR] - [Churned MRR], [Starting MRR] )
+
+NRR % =
+DIVIDE ( [Starting MRR] + [Expansion MRR] - [Contraction MRR] - [Churned MRR], [Starting MRR] )
+
+// Trailing-12-month NRR (average of monthly NRR) - smoother headline for the board page
+NRR % (TTM avg) =
+AVERAGEX (
+    DATESINPERIOD ( dim_date[Date], MAX ( dim_date[Date] ), -12, MONTH ),
+    [NRR %]
+)
+
+// Cohort heat-map: rows = dim_customer[signup_month], columns = [Months Since Signup]
+Cohort Retention % =
+VAR _active =
+    CALCULATE (
+        DISTINCTCOUNT ( fact_subscription_monthly[customer_id] ),
+        fact_subscription_monthly[is_churn] = 0
+    )
+VAR _cohortSize = DISTINCTCOUNT ( dim_customer[customer_id] )   // not filtered by fact columns (1-to-many, single direction)
+RETURN DIVIDE ( _active, _cohortSize )
+
+
+// ---------- 3. Unit economics  (display folder: 3 Unit Economics) -------------------------
+
+ARPA =
+DIVIDE (
+    [Ending MRR],
+    CALCULATE ( COUNTROWS ( fact_subscription_monthly ), fact_subscription_monthly[is_churn] = 0 )
+)
+
+// Monthly logo churn on non-new customer-months (lifetime hazard used for LTV)
+Monthly Churn Rate =
+DIVIDE (
+    CALCULATE ( SUM ( fact_subscription_monthly[is_churn] ), fact_subscription_monthly[is_new] = 0 ),
+    CALCULATE ( COUNTROWS ( fact_subscription_monthly ), fact_subscription_monthly[is_new] = 0 )
+)
+
+// ARPA over all active customer-months (not month-filtered ending MRR) so it is stable by channel
+ARPA (lifetime) =
+DIVIDE (
+    CALCULATE ( SUM ( fact_subscription_monthly[active_mrr] ), fact_subscription_monthly[is_churn] = 0 ),
+    CALCULATE ( COUNTROWS ( fact_subscription_monthly ), fact_subscription_monthly[is_churn] = 0 )
+)
+
+LTV = DIVIDE ( [ARPA (lifetime)], [Monthly Churn Rate] )
+
+Marketing Spend = SUM ( fact_marketing_spend[spend] )
+
+CAC = DIVIDE ( [Marketing Spend], [New Customers] )
+
+LTV:CAC = DIVIDE ( [LTV], [CAC] )
+
+CAC Payback (months) = DIVIDE ( [CAC], [ARPA (lifetime)] )
+
+LTV:CAC Status =
+SWITCH (
+    TRUE (),
+    [LTV:CAC] >= 3 && [CAC Payback (months)] < 12, "Healthy",
+    [LTV:CAC] >= 3, "Slow payback",
+    "Below 3x"
+)
+
+LTV:CAC Colour =                      // use with "Field value" conditional formatting
+SWITCH ( [LTV:CAC Status], "Healthy", "#2E8B57", "Slow payback", "#E0A525", "#D64545" )
+
+
+// ---------- 4. Churn-risk (ML scores)  (display folder: 4 Risk) -------------------------------
+// churn_scores (customer_id, active_mrr, churn_prob_3m, risk_tier, expected_mrr_loss) -> dim_customer (many-to-one)
+
+High-Risk Customers =
+CALCULATE ( COUNTROWS ( churn_scores ), churn_scores[risk_tier] = "High" )
+
+MRR at Risk (High tier) =
+CALCULATE ( SUM ( churn_scores[active_mrr] ), churn_scores[risk_tier] = "High" )
+
+Expected 3M MRR Loss = SUM ( churn_scores[expected_mrr_loss] )
+
+Expected Loss Share (High tier) =
+DIVIDE (
+    CALCULATE ( [Expected 3M MRR Loss], churn_scores[risk_tier] = "High" ),
+    CALCULATE ( [Expected 3M MRR Loss], ALL ( churn_scores[risk_tier] ) )
+)
+
+
+// ---------- 5. Concentration  (display folder: 5 Concentration) ------------------------------
+
+Top 10% Customers MRR Share =
+VAR _latest = MAX ( dim_date[Date] )
+VAR _tbl =
+    CALCULATETABLE (
+        ADDCOLUMNS (
+            VALUES ( fact_subscription_monthly[customer_id] ),
+            "@mrr", CALCULATE ( [Ending MRR] )
+        ),
+        dim_date[Date] = _latest
+    )
+VAR _n    = COUNTROWS ( FILTER ( _tbl, [@mrr] > 0 ) )
+VAR _top  = TOPN ( ROUNDUP ( _n * 0.10, 0 ), _tbl, [@mrr], DESC )
+RETURN DIVIDE ( SUMX ( _top, [@mrr] ), SUMX ( _tbl, [@mrr] ) )
+
+
+// ---------- 6. Smart narrative (dynamic text for card visual) --------------------------------
+
+Headline Narrative =
+"MRR "
+    & FORMAT ( [Ending MRR], "$#,##0" ) & " ("
+    & FORMAT ( [MRR Growth %], "+0.0%;-0.0%" ) & " MoM). NRR "
+    & FORMAT ( [NRR %], "0.0%" )
+    & IF ( [NRR %] < 1, " - below 100%: expansion is not replacing churn.", " - expansion is outpacing churn." )

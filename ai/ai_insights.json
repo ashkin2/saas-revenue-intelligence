@@ -1,0 +1,88 @@
+{
+  "executive_summary": "MRR reached $421,512 in 2025-12 (+5.04% MoM, ARR $5,058,144) across 1,244 active customers, but growth is acquisition-led: trailing-12-month NRR averages 99.3%, so expansion ($82,097 TTM) does not fully replace churned MRR ($98,662 TTM). Logo churn averaging 4.2% a month is the main drag on compounding. Unit economics split sharply by channel: Referral (5.27x LTV:CAC), Organic Search (4.95x) and Content/SEO (4.17x) clear the 3x benchmark, while Paid Social (2.51x), Paid Search (2.11x) and Outbound Sales (1.99x) do not and take 10.1 to 13.6 months to pay back.",
+  "key_risks": [
+    {
+      "title": "Net revenue retention is below 100%",
+      "evidence": "Average TTM NRR is 99.3% (99.6% in the latest month); TTM expansion MRR is $82,097 against $98,662 of churned MRR.",
+      "so_what": "Revenue growth depends on new-logo acquisition (TTM new MRR $267,906). Any slowdown in acquisition spend shows up directly as flat or falling MRR."
+    },
+    {
+      "title": "Three channels sit below the 3x LTV:CAC benchmark",
+      "evidence": "Paid Search 2.11x (CAC $4,385, 12.8-month payback), Outbound Sales 1.99x (CAC $4,582, 13.6 months), Paid Social 2.51x (CAC $3,045, 10.1 months). They also carry the largest spend: $1,512,963, $1,026,464 and $995,570.",
+      "so_what": "The most capital-intensive channels return the least per dollar; payback beyond 12 months strains cash if churn stays elevated."
+    },
+    {
+      "title": "Most expected churn loss sits outside the 'high-risk' list",
+      "evidence": "Expected 3-month MRR loss is $6,439 in the high tier, $9,076 in the medium tier and $18,238 in the low tier, of $33,752 in total. The top three MRR deciles hold 72.2% of MRR; Enterprise North America (22.5%) and Europe (22.4%) are the largest segments.",
+      "so_what": "A playbook aimed only at the top-risk accounts covers a minority of expected loss. Large Enterprise accounts need protection regardless of score because of concentration."
+    }
+  ],
+  "opportunities": [
+    {
+      "title": "Re-weight acquisition toward low-CAC channels",
+      "evidence": "Referral delivers 5.27x LTV:CAC at a CAC of $1,658 with a 5.5-month payback; Organic Search 4.95x at $1,819.",
+      "so_what": "Shifting incremental budget here improves payback fastest. Marginal returns may fall as these channels scale; that is not measurable from this data."
+    },
+    {
+      "title": "Engagement-triggered retention outreach",
+      "evidence": "The selected Logistic Regression model reaches ROC-AUC 0.691 with a top-decile lift of 2.57x (precision 0.283 vs a 0.1102 baseline). Engagement score is the strongest driver. 125 customers ($24,692 MRR) are high-risk and 248 ($61,739 MRR) medium-risk.",
+      "so_what": "A usable early-warning signal exists a quarter ahead of churn, enough to prioritise customer-success time."
+    },
+    {
+      "title": "Upgrade path from Growth to Enterprise",
+      "evidence": "Growth in North America has 167 customers at an ARPA of $215.9, versus $818.9 ARPA for Enterprise in the same region.",
+      "so_what": "Expansion is the lever that lifts NRR above 100%; the existing Growth base is the nearest pool of upgrade candidates."
+    }
+  ],
+  "recommended_actions": [
+    {
+      "priority": 1,
+      "action": "Launch an engagement-drop playbook (health review, exec check-in, usage coaching) for the 125 high-risk and 248 medium-risk accounts.",
+      "owner": "Head of Customer Success",
+      "success_metric": "Realised 3-month churn in the contacted high-risk group below the 11.02% baseline, measured against a holdout.",
+      "rationale": "Largest controllable revenue leak; model signal is moderate but actionable."
+    },
+    {
+      "priority": 2,
+      "action": "Cap further spend growth in Paid Search, Outbound Sales and Paid Social until CAC payback is back under 12 months; pilot added budget in Referral and Content/SEO.",
+      "owner": "VP Growth",
+      "success_metric": "Channel LTV:CAC at or above 3x and payback under 12 months.",
+      "rationale": "These three channels fall below the benchmark while absorbing most of the spend."
+    },
+    {
+      "priority": 3,
+      "action": "Assign executive sponsors to the largest Enterprise accounts in North America and Europe regardless of churn score.",
+      "owner": "Chief Revenue Officer",
+      "success_metric": "Zero unplanned Enterprise logo losses; track Enterprise gross retention monthly.",
+      "rationale": "Segment concentration (22.5% and 22.4% of MRR) makes single-account loss material."
+    },
+    {
+      "priority": 4,
+      "action": "Build a Growth-to-Enterprise upgrade campaign starting with the North America Growth base.",
+      "owner": "Product Marketing and Account Management",
+      "success_metric": "NRR above 100% for three consecutive months.",
+      "rationale": "Pushes NRR above the 99.3% TTM average through expansion rather than acquisition."
+    },
+    {
+      "priority": 5,
+      "action": "Refresh the forecast monthly and track it against its backtest error before using it in planning.",
+      "owner": "FP&A",
+      "success_metric": "Realised error within the 2.86% 6-month backtest MAPE.",
+      "rationale": "The band is estimated from only 6 backtest origins and is likely optimistic."
+    }
+  ],
+  "caveats": [
+    "The dataset is synthetic (1,800 customers, 24 months); figures demonstrate the method, not a real business.",
+    "The churn model is moderate (ROC-AUC 0.691): use it to prioritise outreach, not to predict individual accounts. Engagement is associated with churn here, but the effect of intervening is untested.",
+    "The forecast ($570,878 in six months, band $551,069 to $590,688) is a damped trend, not a pipeline-based plan, and its band comes from only 6 backtest origins."
+  ],
+  "_meta": {
+    "generated_by": "Claude (claude-sonnet-5-5), written from ai/kpi_context.json in a Claude Code session. Reproduce with: python ai/ai_insights.py generate (requires ANTHROPIC_API_KEY)",
+    "context_file": "ai/kpi_context.json",
+    "grounding_check": {
+      "numbers_checked": 71,
+      "unsupported": [],
+      "passed": true
+    }
+  }
+}

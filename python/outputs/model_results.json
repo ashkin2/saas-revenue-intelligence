@@ -1,0 +1,546 @@
+{
+  "horizon_months": 3,
+  "split": {
+    "train_through_month_idx": 15,
+    "train_rows": 6271,
+    "test_rows": 4709
+  },
+  "selected_model": "Logistic Regression",
+  "metrics": [
+    {
+      "model": "Logistic Regression",
+      "roc_auc": 0.691,
+      "pr_auc": 0.239,
+      "baseline_churn_rate": 0.1102,
+      "precision_at_top10pct": 0.283,
+      "lift_at_top10pct": 2.57,
+      "recall_at_top10pct": 0.256,
+      "validation_auc": 0.669,
+      "selected": true
+    },
+    {
+      "model": "HistGradientBoosting",
+      "roc_auc": 0.666,
+      "pr_auc": 0.221,
+      "baseline_churn_rate": 0.1102,
+      "precision_at_top10pct": 0.262,
+      "lift_at_top10pct": 2.37,
+      "recall_at_top10pct": 0.237,
+      "validation_auc": 0.64,
+      "selected": false
+    }
+  ],
+  "calibration": [
+    {
+      "bin": 0,
+      "predicted": 0.0237,
+      "observed": 0.0552,
+      "n": 471
+    },
+    {
+      "bin": 1,
+      "predicted": 0.0352,
+      "observed": 0.0531,
+      "n": 471
+    },
+    {
+      "bin": 2,
+      "predicted": 0.0461,
+      "observed": 0.0552,
+      "n": 471
+    },
+    {
+      "bin": 3,
+      "predicted": 0.0575,
+      "observed": 0.0679,
+      "n": 471
+    },
+    {
+      "bin": 4,
+      "predicted": 0.0697,
+      "observed": 0.0616,
+      "n": 471
+    },
+    {
+      "bin": 5,
+      "predicted": 0.0842,
+      "observed": 0.0745,
+      "n": 470
+    },
+    {
+      "bin": 6,
+      "predicted": 0.1034,
+      "observed": 0.0913,
+      "n": 471
+    },
+    {
+      "bin": 7,
+      "predicted": 0.1303,
+      "observed": 0.1507,
+      "n": 471
+    },
+    {
+      "bin": 8,
+      "predicted": 0.168,
+      "observed": 0.2102,
+      "n": 471
+    },
+    {
+      "bin": 9,
+      "predicted": 0.2554,
+      "observed": 0.2824,
+      "n": 471
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "Engagement score",
+      "importance": 0.2145
+    },
+    {
+      "feature": "Company size",
+      "importance": 0.0076
+    },
+    {
+      "feature": "Account MRR",
+      "importance": 0.0058
+    },
+    {
+      "feature": "Engagement change (1m)",
+      "importance": 0.0036
+    },
+    {
+      "feature": "Support tickets (month)",
+      "importance": 0.0018
+    },
+    {
+      "feature": "Support tickets (3m)",
+      "importance": 0.0016
+    },
+    {
+      "feature": "Acquisition channel",
+      "importance": 0.0008
+    },
+    {
+      "feature": "Plan tier",
+      "importance": 0.0004
+    },
+    {
+      "feature": "Engagement (3m min)",
+      "importance": 0.0003
+    },
+    {
+      "feature": "Tenure (months)",
+      "importance": 0.0001
+    },
+    {
+      "feature": "Region",
+      "importance": -0.0001
+    },
+    {
+      "feature": "Engagement (3m avg)",
+      "importance": -0.0002
+    }
+  ],
+  "risk_summary": [
+    {
+      "risk_tier": "High",
+      "customers": 125,
+      "mrr": 24692,
+      "avg_prob": 0.268,
+      "expected_loss": 6438.81
+    },
+    {
+      "risk_tier": "Medium",
+      "customers": 248,
+      "mrr": 61739,
+      "avg_prob": 0.148,
+      "expected_loss": 9075.52
+    },
+    {
+      "risk_tier": "Low",
+      "customers": 871,
+      "mrr": 335081,
+      "avg_prob": 0.059,
+      "expected_loss": 18238.11
+    }
+  ],
+  "thresholds": {
+    "high": 0.1985,
+    "medium": 0.1145
+  },
+  "total_expected_mrr_loss_3m": 33752.0,
+  "top_at_risk": [
+    {
+      "customer_id": "CUST10788",
+      "plan": "Enterprise",
+      "region": "Europe",
+      "company_size": "201-1000",
+      "acquisition_channel": "Organic Search",
+      "active_mrr": 2397,
+      "engagement_score": 0.285,
+      "eng_delta_1m": -0.061,
+      "tickets_roll3": 3.0,
+      "tenure_months": 4,
+      "churn_prob_3m": 0.202,
+      "risk_tier": "High",
+      "primary_drivers": "low 3-month engagement",
+      "expected_mrr_loss": 485.36
+    },
+    {
+      "customer_id": "CUST10881",
+      "plan": "Enterprise",
+      "region": "India",
+      "company_size": "201-1000",
+      "acquisition_channel": "Paid Search",
+      "active_mrr": 799,
+      "engagement_score": 0.188,
+      "eng_delta_1m": -0.135,
+      "tickets_roll3": 9.0,
+      "tenure_months": 12,
+      "churn_prob_3m": 0.399,
+      "risk_tier": "High",
+      "primary_drivers": "sharp engagement drop; low 3-month engagement",
+      "expected_mrr_loss": 318.47
+    },
+    {
+      "customer_id": "CUST11481",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "201-1000",
+      "acquisition_channel": "Organic Search",
+      "active_mrr": 1191,
+      "engagement_score": 0.386,
+      "eng_delta_1m": -0.011,
+      "tickets_roll3": 4.0,
+      "tenure_months": 8,
+      "churn_prob_3m": 0.227,
+      "risk_tier": "High",
+      "primary_drivers": "low 3-month engagement",
+      "expected_mrr_loss": 270.58
+    },
+    {
+      "customer_id": "CUST11528",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "51-200",
+      "acquisition_channel": "Paid Social",
+      "active_mrr": 823,
+      "engagement_score": 0.27,
+      "eng_delta_1m": 0.03,
+      "tickets_roll3": 3.0,
+      "tenure_months": 7,
+      "churn_prob_3m": 0.308,
+      "risk_tier": "High",
+      "primary_drivers": "low 3-month engagement",
+      "expected_mrr_loss": 253.76
+    },
+    {
+      "customer_id": "CUST10430",
+      "plan": "Enterprise",
+      "region": "Europe",
+      "company_size": "1-10",
+      "acquisition_channel": "Paid Social",
+      "active_mrr": 839,
+      "engagement_score": 0.439,
+      "eng_delta_1m": -0.093,
+      "tickets_roll3": 6.0,
+      "tenure_months": 6,
+      "churn_prob_3m": 0.277,
+      "risk_tier": "High",
+      "primary_drivers": "high support load",
+      "expected_mrr_loss": 232.79
+    },
+    {
+      "customer_id": "CUST11336",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "201-1000",
+      "acquisition_channel": "Outbound Sales",
+      "active_mrr": 1614,
+      "engagement_score": 0.46,
+      "eng_delta_1m": -0.014,
+      "tickets_roll3": 1.0,
+      "tenure_months": 2,
+      "churn_prob_3m": 0.139,
+      "risk_tier": "Medium",
+      "primary_drivers": "low 3-month engagement; early-tenure onboarding risk",
+      "expected_mrr_loss": 224.94
+    },
+    {
+      "customer_id": "CUST11517",
+      "plan": "Enterprise",
+      "region": "APAC",
+      "company_size": "1000+",
+      "acquisition_channel": "Outbound Sales",
+      "active_mrr": 1542,
+      "engagement_score": 0.422,
+      "eng_delta_1m": -0.069,
+      "tickets_roll3": 4.0,
+      "tenure_months": 16,
+      "churn_prob_3m": 0.14,
+      "risk_tier": "Medium",
+      "primary_drivers": "low 3-month engagement",
+      "expected_mrr_loss": 216.5
+    },
+    {
+      "customer_id": "CUST11397",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "1-10",
+      "acquisition_channel": "Paid Search",
+      "active_mrr": 1071,
+      "engagement_score": 0.497,
+      "eng_delta_1m": -0.016,
+      "tickets_roll3": 2.0,
+      "tenure_months": 12,
+      "churn_prob_3m": 0.194,
+      "risk_tier": "Medium",
+      "primary_drivers": "model-detected combined signals",
+      "expected_mrr_loss": 208.27
+    },
+    {
+      "customer_id": "CUST11574",
+      "plan": "Enterprise",
+      "region": "Europe",
+      "company_size": "51-200",
+      "acquisition_channel": "Outbound Sales",
+      "active_mrr": 647,
+      "engagement_score": 0.407,
+      "eng_delta_1m": -0.151,
+      "tickets_roll3": 3.0,
+      "tenure_months": 23,
+      "churn_prob_3m": 0.301,
+      "risk_tier": "High",
+      "primary_drivers": "sharp engagement drop",
+      "expected_mrr_loss": 194.56
+    },
+    {
+      "customer_id": "CUST10490",
+      "plan": "Enterprise",
+      "region": "Europe",
+      "company_size": "11-50",
+      "acquisition_channel": "Organic Search",
+      "active_mrr": 1558,
+      "engagement_score": 0.503,
+      "eng_delta_1m": 0.058,
+      "tickets_roll3": 6.0,
+      "tenure_months": 15,
+      "churn_prob_3m": 0.123,
+      "risk_tier": "Medium",
+      "primary_drivers": "high support load",
+      "expected_mrr_loss": 191.42
+    },
+    {
+      "customer_id": "CUST11305",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "1000+",
+      "acquisition_channel": "Organic Search",
+      "active_mrr": 719,
+      "engagement_score": 0.39,
+      "eng_delta_1m": -0.156,
+      "tickets_roll3": 4.0,
+      "tenure_months": 2,
+      "churn_prob_3m": 0.265,
+      "risk_tier": "High",
+      "primary_drivers": "sharp engagement drop; low 3-month engagement",
+      "expected_mrr_loss": 190.81
+    },
+    {
+      "customer_id": "CUST11341",
+      "plan": "Enterprise",
+      "region": "Europe",
+      "company_size": "51-200",
+      "acquisition_channel": "Organic Search",
+      "active_mrr": 783,
+      "engagement_score": 0.491,
+      "eng_delta_1m": -0.183,
+      "tickets_roll3": 6.0,
+      "tenure_months": 17,
+      "churn_prob_3m": 0.229,
+      "risk_tier": "High",
+      "primary_drivers": "sharp engagement drop; high support load",
+      "expected_mrr_loss": 178.97
+    },
+    {
+      "customer_id": "CUST11764",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "11-50",
+      "acquisition_channel": "Paid Search",
+      "active_mrr": 1063,
+      "engagement_score": 0.569,
+      "eng_delta_1m": -0.145,
+      "tickets_roll3": 2.0,
+      "tenure_months": 12,
+      "churn_prob_3m": 0.159,
+      "risk_tier": "Medium",
+      "primary_drivers": "sharp engagement drop",
+      "expected_mrr_loss": 168.59
+    },
+    {
+      "customer_id": "CUST11057",
+      "plan": "Enterprise",
+      "region": "North America",
+      "company_size": "1-10",
+      "acquisition_channel": "Content/SEO",
+      "active_mrr": 1095,
+      "engagement_score": 0.546,
+      "eng_delta_1m": 0.006,
+      "tickets_roll3": 5.0,
+      "tenure_months": 3,
+      "churn_prob_3m": 0.148,
+      "risk_tier": "Medium",
+      "primary_drivers": "high support load; early-tenure onboarding risk",
+      "expected_mrr_loss": 162.5
+    },
+    {
+      "customer_id": "CUST10440",
+      "plan": "Enterprise",
+      "region": "India",
+      "company_size": "51-200",
+      "acquisition_channel": "Organic Search",
+      "active_mrr": 1071,
+      "engagement_score": 0.48,
+      "eng_delta_1m": 0.038,
+      "tickets_roll3": 3.0,
+      "tenure_months": 2,
+      "churn_prob_3m": 0.151,
+      "risk_tier": "Medium",
+      "primary_drivers": "low 3-month engagement; early-tenure onboarding risk",
+      "expected_mrr_loss": 161.38
+    }
+  ],
+  "forecast": {
+    "method": "Damped growth (phi=0.95) from trailing 3-month MoM growth; 80% band = backtest p80 abs error over 6 rolling origins",
+    "implied_monthly_growth_pct": 4.54,
+    "backtest": [
+      {
+        "horizon": 1,
+        "mape_pct": 1.32,
+        "bias_pct": 0.21,
+        "p80_abs_err_pct": 2.0
+      },
+      {
+        "horizon": 2,
+        "mape_pct": 1.59,
+        "bias_pct": 0.42,
+        "p80_abs_err_pct": 2.06
+      },
+      {
+        "horizon": 3,
+        "mape_pct": 2.29,
+        "bias_pct": 0.67,
+        "p80_abs_err_pct": 3.72
+      },
+      {
+        "horizon": 4,
+        "mape_pct": 2.01,
+        "bias_pct": 0.62,
+        "p80_abs_err_pct": 3.12
+      },
+      {
+        "horizon": 5,
+        "mape_pct": 2.23,
+        "bias_pct": 0.82,
+        "p80_abs_err_pct": 3.76
+      },
+      {
+        "horizon": 6,
+        "mape_pct": 2.86,
+        "bias_pct": 0.96,
+        "p80_abs_err_pct": 3.47
+      }
+    ],
+    "backtest_origins": 6,
+    "history": [
+      {
+        "month": "2025-01",
+        "mrr": 189371.0
+      },
+      {
+        "month": "2025-02",
+        "mrr": 205065.0
+      },
+      {
+        "month": "2025-03",
+        "mrr": 225833.0
+      },
+      {
+        "month": "2025-04",
+        "mrr": 242332.0
+      },
+      {
+        "month": "2025-05",
+        "mrr": 268120.0
+      },
+      {
+        "month": "2025-06",
+        "mrr": 286221.0
+      },
+      {
+        "month": "2025-07",
+        "mrr": 310224.0
+      },
+      {
+        "month": "2025-08",
+        "mrr": 327693.0
+      },
+      {
+        "month": "2025-09",
+        "mrr": 352118.0
+      },
+      {
+        "month": "2025-10",
+        "mrr": 375890.0
+      },
+      {
+        "month": "2025-11",
+        "mrr": 401293.0
+      },
+      {
+        "month": "2025-12",
+        "mrr": 421512.0
+      }
+    ],
+    "forecast": [
+      {
+        "month": "2026-01",
+        "mrr": 446269.0,
+        "low": 437344.0,
+        "high": 455195.0
+      },
+      {
+        "month": "2026-02",
+        "mrr": 471170.0,
+        "low": 461464.0,
+        "high": 480876.0
+      },
+      {
+        "month": "2026-03",
+        "mrr": 496146.0,
+        "low": 477689.0,
+        "high": 514602.0
+      },
+      {
+        "month": "2026-04",
+        "mrr": 521130.0,
+        "low": 504871.0,
+        "high": 537390.0
+      },
+      {
+        "month": "2026-05",
+        "mrr": 546061.0,
+        "low": 525529.0,
+        "high": 566593.0
+      },
+      {
+        "month": "2026-06",
+        "mrr": 570878.0,
+        "low": 551069.0,
+        "high": 590688.0
+      }
+    ]
+  }
+}

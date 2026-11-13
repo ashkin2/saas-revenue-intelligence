@@ -1,0 +1,1801 @@
+customer_id,seat_mult,signup_month_idx,signup_month,acquisition_channel,region,company_size,initial_plan
+CUST10000,0.64,12,2025-01,Organic Search,India,201-1000,Growth
+CUST10001,0.8,14,2025-03,Paid Social,Europe,201-1000,Growth
+CUST10002,1.05,18,2025-07,Paid Search,APAC,1-10,Growth
+CUST10003,1.22,10,2024-11,Referral,APAC,51-200,Starter
+CUST10004,1.57,23,2025-12,Content/SEO,Europe,11-50,Starter
+CUST10005,1.27,7,2024-08,Paid Social,North America,11-50,Starter
+CUST10006,1.18,22,2025-11,Paid Search,Europe,1-10,Growth
+CUST10007,1.49,8,2024-09,Outbound Sales,North America,201-1000,Enterprise
+CUST10008,1.38,10,2024-11,Paid Search,APAC,1-10,Growth
+CUST10009,0.94,21,2025-10,Organic Search,APAC,11-50,Growth
+CUST10010,0.94,15,2025-04,Paid Search,India,1-10,Growth
+CUST10011,0.98,19,2025-08,Paid Search,India,11-50,Starter
+CUST10012,1.36,23,2025-12,Organic Search,North America,51-200,Growth
+CUST10013,0.89,11,2024-12,Content/SEO,APAC,11-50,Starter
+CUST10014,0.85,8,2024-09,Content/SEO,Europe,1-10,Starter
+CUST10015,1.13,23,2025-12,Paid Search,North America,201-1000,Growth
+CUST10016,1.01,19,2025-08,Paid Search,North America,1-10,Starter
+CUST10017,0.73,5,2024-06,Organic Search,APAC,201-1000,Enterprise
+CUST10018,0.59,0,2024-01,Content/SEO,North America,11-50,Starter
+CUST10019,1.76,21,2025-10,Outbound Sales,India,51-200,Starter
+CUST10020,0.67,10,2024-11,Paid Search,Europe,201-1000,Growth
+CUST10021,1.69,20,2025-09,Organic Search,Europe,1-10,Starter
+CUST10022,0.72,22,2025-11,Paid Social,India,11-50,Starter
+CUST10023,1.19,11,2024-12,Content/SEO,Europe,51-200,Growth
+CUST10024,1.41,4,2024-05,Outbound Sales,India,1-10,Starter
+CUST10025,0.73,1,2024-02,Paid Search,India,51-200,Starter
+CUST10026,1.33,21,2025-10,Paid Social,India,11-50,Starter
+CUST10027,1.24,18,2025-07,Content/SEO,North America,1-10,Starter
+CUST10028,1.0,15,2025-04,Paid Social,Europe,11-50,Starter
+CUST10029,0.94,9,2024-10,Paid Search,LATAM,1-10,Growth
+CUST10030,1.32,17,2025-06,Paid Social,Europe,1000+,Growth
+CUST10031,1.19,11,2024-12,Content/SEO,APAC,11-50,Growth
+CUST10032,0.88,13,2025-02,Referral,North America,201-1000,Enterprise
+CUST10033,0.58,22,2025-11,Outbound Sales,Europe,11-50,Starter
+CUST10034,1.36,23,2025-12,Organic Search,India,201-1000,Growth
+CUST10035,0.51,20,2025-09,Content/SEO,LATAM,1-10,Starter
+CUST10036,0.93,14,2025-03,Paid Search,APAC,1-10,Growth
+CUST10037,1.15,10,2024-11,Paid Search,LATAM,11-50,Starter
+CUST10038,0.64,12,2025-01,Content/SEO,India,1-10,Starter
+CUST10039,0.82,16,2025-05,Paid Social,Europe,201-1000,Enterprise
+CUST10040,0.76,4,2024-05,Organic Search,Europe,51-200,Growth
+CUST10041,0.65,7,2024-08,Outbound Sales,APAC,11-50,Growth
+CUST10042,1.22,15,2025-04,Paid Search,Europe,11-50,Enterprise
+CUST10043,1.19,5,2024-06,Paid Search,Europe,1-10,Starter
+CUST10044,0.95,3,2024-04,Paid Social,India,51-200,Growth
+CUST10045,1.07,9,2024-10,Content/SEO,Europe,11-50,Starter
+CUST10046,1.09,9,2024-10,Paid Search,APAC,11-50,Growth
+CUST10047,0.73,23,2025-12,Organic Search,Europe,51-200,Growth
+CUST10048,0.92,23,2025-12,Paid Search,Europe,201-1000,Starter
+CUST10049,0.5,14,2025-03,Organic Search,North America,11-50,Enterprise
+CUST10050,1.09,22,2025-11,Paid Search,LATAM,201-1000,Growth
+CUST10051,0.72,11,2024-12,Organic Search,LATAM,1000+,Enterprise
+CUST10052,0.77,17,2025-06,Referral,LATAM,11-50,Growth
+CUST10053,0.76,15,2025-04,Paid Social,North America,11-50,Growth
+CUST10054,0.89,9,2024-10,Outbound Sales,APAC,51-200,Enterprise
+CUST10055,0.8,12,2025-01,Content/SEO,Europe,1-10,Starter
+CUST10056,0.75,0,2024-01,Organic Search,Europe,11-50,Starter
+CUST10057,0.92,18,2025-07,Paid Social,North America,11-50,Starter
+CUST10058,0.68,10,2024-11,Organic Search,India,1-10,Enterprise
+CUST10059,0.9,19,2025-08,Referral,India,1-10,Growth
+CUST10060,1.15,21,2025-10,Paid Social,Europe,11-50,Starter
+CUST10061,1.29,21,2025-10,Paid Search,Europe,1-10,Starter
+CUST10062,1.63,19,2025-08,Content/SEO,North America,1-10,Starter
+CUST10063,0.9,8,2024-09,Paid Search,Europe,201-1000,Growth
+CUST10064,0.82,0,2024-01,Paid Search,Europe,1-10,Growth
+CUST10065,1.09,16,2025-05,Outbound Sales,India,1-10,Growth
+CUST10066,1.07,2,2024-03,Referral,Europe,1000+,Enterprise
+CUST10067,0.83,9,2024-10,Outbound Sales,North America,11-50,Growth
+CUST10068,0.69,6,2024-07,Referral,APAC,51-200,Enterprise
+CUST10069,0.91,9,2024-10,Paid Social,North America,51-200,Starter
+CUST10070,1.16,2,2024-03,Content/SEO,India,1-10,Starter
+CUST10071,1.49,9,2024-10,Paid Search,India,1-10,Enterprise
+CUST10072,0.58,16,2025-05,Organic Search,India,1-10,Starter
+CUST10073,1.17,22,2025-11,Referral,North America,1-10,Starter
+CUST10074,0.89,16,2025-05,Organic Search,Europe,51-200,Enterprise
+CUST10075,0.76,13,2025-02,Paid Social,Europe,11-50,Growth
+CUST10076,1.31,10,2024-11,Paid Social,Europe,1-10,Growth
+CUST10077,0.94,21,2025-10,Paid Social,North America,51-200,Growth
+CUST10078,1.08,0,2024-01,Referral,Europe,51-200,Growth
+CUST10079,1.18,22,2025-11,Paid Social,North America,1-10,Growth
+CUST10080,0.89,6,2024-07,Paid Search,Europe,51-200,Growth
+CUST10081,0.7,2,2024-03,Paid Social,APAC,1-10,Enterprise
+CUST10082,0.88,15,2025-04,Paid Social,India,1-10,Starter
+CUST10083,1.07,15,2025-04,Referral,North America,11-50,Growth
+CUST10084,0.8,16,2025-05,Organic Search,Europe,1000+,Growth
+CUST10085,1.24,14,2025-03,Paid Search,Europe,51-200,Enterprise
+CUST10086,0.55,18,2025-07,Outbound Sales,India,11-50,Growth
+CUST10087,1.05,6,2024-07,Outbound Sales,APAC,1-10,Growth
+CUST10088,1.03,2,2024-03,Paid Social,Europe,51-200,Starter
+CUST10089,0.82,21,2025-10,Outbound Sales,Europe,11-50,Growth
+CUST10090,1.44,21,2025-10,Paid Search,India,11-50,Starter
+CUST10091,0.72,22,2025-11,Paid Search,APAC,1-10,Starter
+CUST10092,1.6,13,2025-02,Paid Search,North America,51-200,Growth
+CUST10093,1.3,14,2025-03,Outbound Sales,Europe,201-1000,Growth
+CUST10094,1.05,18,2025-07,Organic Search,North America,201-1000,Growth
+CUST10095,0.84,22,2025-11,Outbound Sales,LATAM,201-1000,Enterprise
+CUST10096,1.31,8,2024-09,Organic Search,North America,51-200,Enterprise
+CUST10097,1.45,5,2024-06,Organic Search,APAC,51-200,Growth
+CUST10098,0.94,11,2024-12,Organic Search,LATAM,201-1000,Enterprise
+CUST10099,1.59,21,2025-10,Organic Search,APAC,1-10,Starter
+CUST10100,1.51,21,2025-10,Paid Search,India,11-50,Starter
+CUST10101,1.09,8,2024-09,Paid Search,LATAM,11-50,Enterprise
+CUST10102,0.76,21,2025-10,Paid Search,APAC,1-10,Starter
+CUST10103,1.3,2,2024-03,Organic Search,North America,1-10,Growth
+CUST10104,0.77,14,2025-03,Paid Search,North America,1-10,Growth
+CUST10105,1.22,13,2025-02,Referral,LATAM,1-10,Starter
+CUST10106,0.7,16,2025-05,Organic Search,APAC,1000+,Growth
+CUST10107,0.98,15,2025-04,Content/SEO,Europe,1-10,Starter
+CUST10108,0.5,17,2025-06,Outbound Sales,Europe,11-50,Growth
+CUST10109,0.86,20,2025-09,Paid Social,North America,1-10,Growth
+CUST10110,0.68,4,2024-05,Paid Search,North America,11-50,Starter
+CUST10111,0.62,17,2025-06,Referral,North America,51-200,Enterprise
+CUST10112,1.27,20,2025-09,Paid Search,India,11-50,Starter
+CUST10113,0.57,16,2025-05,Outbound Sales,APAC,1-10,Starter
+CUST10114,1.04,20,2025-09,Paid Search,North America,201-1000,Growth
+CUST10115,0.5,10,2024-11,Paid Social,APAC,51-200,Growth
+CUST10116,0.78,6,2024-07,Paid Search,Europe,11-50,Starter
+CUST10117,1.25,1,2024-02,Referral,APAC,1-10,Starter
+CUST10118,0.92,16,2025-05,Content/SEO,North America,11-50,Starter
+CUST10119,1.8,12,2025-01,Referral,Europe,1-10,Starter
+CUST10120,1.37,23,2025-12,Outbound Sales,Europe,51-200,Starter
+CUST10121,0.93,7,2024-08,Content/SEO,India,51-200,Growth
+CUST10122,1.23,4,2024-05,Paid Social,APAC,11-50,Growth
+CUST10123,0.84,21,2025-10,Referral,North America,1-10,Starter
+CUST10124,1.3,2,2024-03,Referral,Europe,51-200,Growth
+CUST10125,0.9,23,2025-12,Organic Search,APAC,11-50,Starter
+CUST10126,1.05,17,2025-06,Paid Social,Europe,1000+,Enterprise
+CUST10127,0.88,0,2024-01,Content/SEO,Europe,51-200,Starter
+CUST10128,0.72,3,2024-04,Paid Search,Europe,51-200,Growth
+CUST10129,0.92,15,2025-04,Content/SEO,North America,51-200,Starter
+CUST10130,1.04,22,2025-11,Paid Search,North America,51-200,Enterprise
+CUST10131,0.56,23,2025-12,Outbound Sales,North America,1-10,Growth
+CUST10132,1.35,16,2025-05,Paid Social,APAC,1000+,Growth
+CUST10133,0.85,6,2024-07,Organic Search,North America,51-200,Starter
+CUST10134,0.5,4,2024-05,Referral,APAC,51-200,Growth
+CUST10135,0.73,16,2025-05,Organic Search,North America,1000+,Growth
+CUST10136,0.61,15,2025-04,Content/SEO,North America,11-50,Growth
+CUST10137,1.65,3,2024-04,Paid Social,APAC,51-200,Growth
+CUST10138,0.5,8,2024-09,Outbound Sales,North America,51-200,Starter
+CUST10139,1.02,16,2025-05,Referral,Europe,51-200,Starter
+CUST10140,1.26,13,2025-02,Outbound Sales,Europe,1000+,Enterprise
+CUST10141,0.89,13,2025-02,Paid Search,APAC,201-1000,Growth
+CUST10142,1.02,21,2025-10,Paid Search,Europe,11-50,Enterprise
+CUST10143,1.26,11,2024-12,Content/SEO,North America,1-10,Starter
+CUST10144,0.93,16,2025-05,Organic Search,North America,1-10,Starter
+CUST10145,0.94,5,2024-06,Paid Social,North America,51-200,Growth
+CUST10146,1.55,4,2024-05,Referral,India,11-50,Starter
+CUST10147,1.3,22,2025-11,Referral,Europe,11-50,Starter
+CUST10148,1.41,2,2024-03,Outbound Sales,Europe,1-10,Starter
+CUST10149,0.75,8,2024-09,Organic Search,Europe,11-50,Growth
+CUST10150,0.84,16,2025-05,Paid Search,LATAM,201-1000,Growth
+CUST10151,0.59,3,2024-04,Outbound Sales,APAC,1-10,Growth
+CUST10152,0.59,16,2025-05,Paid Social,APAC,51-200,Growth
+CUST10153,0.51,1,2024-02,Paid Search,North America,1-10,Growth
+CUST10154,0.81,1,2024-02,Organic Search,APAC,11-50,Starter
+CUST10155,1.28,7,2024-08,Paid Search,North America,51-200,Enterprise
+CUST10156,1.12,20,2025-09,Content/SEO,North America,11-50,Growth
+CUST10157,1.49,18,2025-07,Paid Social,North America,1-10,Growth
+CUST10158,1.04,10,2024-11,Content/SEO,North America,51-200,Growth
+CUST10159,0.9,19,2025-08,Referral,APAC,51-200,Enterprise
+CUST10160,0.85,12,2025-01,Content/SEO,Europe,1-10,Enterprise
+CUST10161,0.55,18,2025-07,Outbound Sales,North America,1-10,Growth
+CUST10162,1.15,16,2025-05,Referral,North America,201-1000,Enterprise
+CUST10163,1.22,18,2025-07,Paid Search,India,1-10,Growth
+CUST10164,0.82,20,2025-09,Outbound Sales,North America,11-50,Enterprise
+CUST10165,1.17,14,2025-03,Outbound Sales,India,11-50,Starter
+CUST10166,0.84,8,2024-09,Organic Search,North America,1-10,Growth
+CUST10167,1.88,22,2025-11,Organic Search,North America,11-50,Starter
+CUST10168,0.79,5,2024-06,Content/SEO,APAC,11-50,Starter
+CUST10169,1.06,10,2024-11,Referral,Europe,11-50,Starter
+CUST10170,0.85,10,2024-11,Content/SEO,LATAM,201-1000,Starter
+CUST10171,1.2,8,2024-09,Paid Social,APAC,11-50,Growth
+CUST10172,0.63,3,2024-04,Organic Search,India,1-10,Growth
+CUST10173,1.18,9,2024-10,Referral,North America,1000+,Starter
+CUST10174,1.46,6,2024-07,Referral,North America,1000+,Growth
+CUST10175,1.04,9,2024-10,Paid Social,Europe,51-200,Growth
+CUST10176,1.88,11,2024-12,Paid Social,India,201-1000,Growth
+CUST10177,1.24,2,2024-03,Outbound Sales,APAC,11-50,Growth
+CUST10178,0.63,6,2024-07,Outbound Sales,Europe,11-50,Starter
+CUST10179,1.25,20,2025-09,Organic Search,North America,1-10,Starter
+CUST10180,0.74,21,2025-10,Organic Search,Europe,1-10,Starter
+CUST10181,0.84,14,2025-03,Paid Social,North America,11-50,Starter
+CUST10182,1.11,23,2025-12,Paid Social,LATAM,1-10,Enterprise
+CUST10183,0.82,8,2024-09,Paid Social,APAC,1-10,Starter
+CUST10184,1.33,12,2025-01,Organic Search,India,11-50,Starter
+CUST10185,1.17,8,2024-09,Organic Search,LATAM,11-50,Starter
+CUST10186,1.01,14,2025-03,Outbound Sales,Europe,51-200,Growth
+CUST10187,0.75,21,2025-10,Paid Search,Europe,1-10,Growth
+CUST10188,0.89,12,2025-01,Paid Social,Europe,11-50,Starter
+CUST10189,0.53,2,2024-03,Paid Social,Europe,201-1000,Growth
+CUST10190,0.64,16,2025-05,Content/SEO,India,51-200,Growth
+CUST10191,1.15,5,2024-06,Organic Search,North America,11-50,Growth
+CUST10192,0.94,1,2024-02,Outbound Sales,Europe,11-50,Starter
+CUST10193,0.6,15,2025-04,Paid Search,LATAM,1-10,Growth
+CUST10194,0.86,13,2025-02,Outbound Sales,APAC,51-200,Enterprise
+CUST10195,1.13,15,2025-04,Outbound Sales,APAC,201-1000,Growth
+CUST10196,1.58,0,2024-01,Referral,North America,51-200,Starter
+CUST10197,0.61,5,2024-06,Paid Social,North America,201-1000,Enterprise
+CUST10198,1.08,17,2025-06,Paid Search,LATAM,1-10,Growth
+CUST10199,0.77,7,2024-08,Organic Search,India,1-10,Enterprise
+CUST10200,0.98,18,2025-07,Referral,APAC,1000+,Growth
+CUST10201,0.72,21,2025-10,Paid Social,APAC,51-200,Growth
+CUST10202,0.96,6,2024-07,Referral,India,1-10,Enterprise
+CUST10203,1.11,23,2025-12,Content/SEO,North America,51-200,Enterprise
+CUST10204,0.75,21,2025-10,Organic Search,Europe,11-50,Starter
+CUST10205,0.92,0,2024-01,Paid Social,Europe,11-50,Enterprise
+CUST10206,0.81,3,2024-04,Paid Social,India,201-1000,Growth
+CUST10207,1.1,23,2025-12,Paid Social,APAC,11-50,Starter
+CUST10208,1.39,8,2024-09,Paid Social,North America,11-50,Starter
+CUST10209,2.29,18,2025-07,Content/SEO,Europe,11-50,Growth
+CUST10210,1.32,16,2025-05,Paid Search,North America,11-50,Starter
+CUST10211,1.12,20,2025-09,Outbound Sales,North America,1-10,Starter
+CUST10212,1.01,16,2025-05,Organic Search,North America,1000+,Growth
+CUST10213,0.77,18,2025-07,Paid Search,North America,11-50,Starter
+CUST10214,0.71,19,2025-08,Content/SEO,North America,11-50,Growth
+CUST10215,1.15,3,2024-04,Paid Search,North America,201-1000,Enterprise
+CUST10216,1.03,10,2024-11,Outbound Sales,North America,11-50,Starter
+CUST10217,0.96,18,2025-07,Organic Search,Europe,11-50,Enterprise
+CUST10218,0.86,18,2025-07,Content/SEO,APAC,51-200,Growth
+CUST10219,1.38,21,2025-10,Referral,Europe,1-10,Growth
+CUST10220,0.86,17,2025-06,Referral,North America,1-10,Growth
+CUST10221,1.22,22,2025-11,Content/SEO,North America,51-200,Growth
+CUST10222,0.5,5,2024-06,Paid Social,Europe,1-10,Growth
+CUST10223,0.81,21,2025-10,Content/SEO,Europe,11-50,Growth
+CUST10224,1.1,12,2025-01,Content/SEO,North America,1-10,Starter
+CUST10225,1.24,16,2025-05,Content/SEO,APAC,51-200,Starter
+CUST10226,0.71,10,2024-11,Referral,India,1-10,Starter
+CUST10227,0.7,16,2025-05,Content/SEO,LATAM,11-50,Starter
+CUST10228,1.07,9,2024-10,Referral,LATAM,1-10,Growth
+CUST10229,1.34,21,2025-10,Referral,APAC,201-1000,Enterprise
+CUST10230,0.87,13,2025-02,Paid Social,LATAM,1-10,Starter
+CUST10231,0.73,16,2025-05,Organic Search,Europe,11-50,Starter
+CUST10232,0.65,19,2025-08,Paid Search,North America,51-200,Growth
+CUST10233,0.94,23,2025-12,Organic Search,Europe,11-50,Enterprise
+CUST10234,1.29,10,2024-11,Organic Search,APAC,1000+,Enterprise
+CUST10235,1.13,9,2024-10,Outbound Sales,Europe,11-50,Starter
+CUST10236,1.1,18,2025-07,Paid Social,Europe,1-10,Starter
+CUST10237,0.77,5,2024-06,Paid Social,Europe,1-10,Starter
+CUST10238,1.17,13,2025-02,Outbound Sales,Europe,1-10,Enterprise
+CUST10239,0.69,17,2025-06,Paid Social,APAC,51-200,Growth
+CUST10240,1.47,11,2024-12,Organic Search,India,1000+,Growth
+CUST10241,0.62,20,2025-09,Outbound Sales,APAC,51-200,Growth
+CUST10242,1.5,0,2024-01,Paid Search,APAC,11-50,Starter
+CUST10243,0.5,0,2024-01,Outbound Sales,APAC,1-10,Starter
+CUST10244,0.82,6,2024-07,Paid Search,LATAM,11-50,Growth
+CUST10245,0.79,15,2025-04,Organic Search,North America,51-200,Growth
+CUST10246,0.93,18,2025-07,Paid Social,North America,201-1000,Enterprise
+CUST10247,0.71,4,2024-05,Organic Search,Europe,1-10,Starter
+CUST10248,0.63,3,2024-04,Organic Search,Europe,1-10,Starter
+CUST10249,0.91,5,2024-06,Organic Search,LATAM,11-50,Starter
+CUST10250,1.14,19,2025-08,Outbound Sales,APAC,201-1000,Enterprise
+CUST10251,0.68,14,2025-03,Outbound Sales,North America,51-200,Starter
+CUST10252,1.34,12,2025-01,Paid Social,North America,201-1000,Enterprise
+CUST10253,0.71,22,2025-11,Paid Search,Europe,51-200,Growth
+CUST10254,0.57,16,2025-05,Referral,North America,51-200,Growth
+CUST10255,1.28,19,2025-08,Organic Search,Europe,11-50,Starter
+CUST10256,1.09,20,2025-09,Paid Search,North America,201-1000,Enterprise
+CUST10257,1.22,15,2025-04,Outbound Sales,Europe,11-50,Starter
+CUST10258,0.67,11,2024-12,Content/SEO,Europe,11-50,Starter
+CUST10259,0.78,23,2025-12,Referral,Europe,11-50,Growth
+CUST10260,1.1,12,2025-01,Paid Social,Europe,11-50,Growth
+CUST10261,1.95,6,2024-07,Content/SEO,India,11-50,Growth
+CUST10262,1.9,22,2025-11,Paid Social,Europe,1000+,Growth
+CUST10263,1.42,19,2025-08,Referral,Europe,11-50,Growth
+CUST10264,1.14,4,2024-05,Organic Search,North America,201-1000,Enterprise
+CUST10265,1.03,4,2024-05,Organic Search,North America,201-1000,Enterprise
+CUST10266,1.02,5,2024-06,Organic Search,North America,201-1000,Growth
+CUST10267,1.2,9,2024-10,Paid Search,India,1000+,Growth
+CUST10268,0.57,14,2025-03,Outbound Sales,Europe,1-10,Starter
+CUST10269,0.96,20,2025-09,Referral,LATAM,51-200,Growth
+CUST10270,1.74,7,2024-08,Paid Social,India,51-200,Starter
+CUST10271,1.0,20,2025-09,Outbound Sales,India,11-50,Growth
+CUST10272,0.71,3,2024-04,Referral,Europe,1-10,Starter
+CUST10273,1.3,11,2024-12,Paid Social,APAC,1-10,Starter
+CUST10274,0.59,7,2024-08,Referral,North America,11-50,Starter
+CUST10275,0.65,15,2025-04,Organic Search,North America,11-50,Starter
+CUST10276,1.46,15,2025-04,Paid Social,North America,1-10,Starter
+CUST10277,1.23,14,2025-03,Organic Search,APAC,201-1000,Starter
+CUST10278,1.83,11,2024-12,Organic Search,Europe,1-10,Enterprise
+CUST10279,0.63,11,2024-12,Paid Social,North America,201-1000,Growth
+CUST10280,1.31,9,2024-10,Paid Social,North America,11-50,Starter
+CUST10281,0.84,1,2024-02,Paid Search,India,1-10,Starter
+CUST10282,0.95,20,2025-09,Referral,LATAM,1-10,Starter
+CUST10283,0.87,2,2024-03,Referral,North America,11-50,Starter
+CUST10284,1.06,3,2024-04,Referral,LATAM,11-50,Starter
+CUST10285,0.98,21,2025-10,Content/SEO,Europe,11-50,Starter
+CUST10286,1.48,3,2024-04,Content/SEO,Europe,11-50,Starter
+CUST10287,1.81,19,2025-08,Referral,APAC,11-50,Starter
+CUST10288,0.87,20,2025-09,Organic Search,North America,51-200,Enterprise
+CUST10289,1.05,21,2025-10,Content/SEO,Europe,11-50,Starter
+CUST10290,0.51,17,2025-06,Organic Search,North America,1000+,Enterprise
+CUST10291,1.05,2,2024-03,Organic Search,North America,51-200,Enterprise
+CUST10292,1.17,23,2025-12,Content/SEO,North America,1-10,Growth
+CUST10293,0.93,14,2025-03,Paid Search,Europe,11-50,Growth
+CUST10294,1.25,7,2024-08,Content/SEO,India,201-1000,Enterprise
+CUST10295,1.11,19,2025-08,Paid Search,North America,11-50,Starter
+CUST10296,0.79,19,2025-08,Outbound Sales,APAC,1-10,Starter
+CUST10297,0.95,4,2024-05,Organic Search,India,11-50,Starter
+CUST10298,0.93,21,2025-10,Paid Social,Europe,11-50,Starter
+CUST10299,0.71,4,2024-05,Paid Social,Europe,1-10,Enterprise
+CUST10300,1.0,18,2025-07,Content/SEO,LATAM,1-10,Starter
+CUST10301,1.09,18,2025-07,Outbound Sales,North America,11-50,Starter
+CUST10302,1.72,8,2024-09,Organic Search,North America,1-10,Growth
+CUST10303,1.03,10,2024-11,Organic Search,Europe,1-10,Growth
+CUST10304,0.77,12,2025-01,Paid Social,APAC,1-10,Growth
+CUST10305,0.93,17,2025-06,Referral,North America,11-50,Starter
+CUST10306,0.73,19,2025-08,Organic Search,Europe,1000+,Starter
+CUST10307,1.58,14,2025-03,Paid Social,Europe,11-50,Growth
+CUST10308,1.21,21,2025-10,Content/SEO,LATAM,11-50,Growth
+CUST10309,1.77,7,2024-08,Referral,APAC,51-200,Starter
+CUST10310,1.03,22,2025-11,Paid Social,India,1-10,Growth
+CUST10311,0.79,17,2025-06,Paid Social,APAC,11-50,Starter
+CUST10312,1.19,1,2024-02,Organic Search,North America,201-1000,Growth
+CUST10313,1.47,19,2025-08,Referral,North America,201-1000,Growth
+CUST10314,0.94,22,2025-11,Organic Search,North America,1-10,Growth
+CUST10315,0.72,15,2025-04,Paid Search,North America,201-1000,Enterprise
+CUST10316,0.7,6,2024-07,Paid Search,North America,51-200,Starter
+CUST10317,0.79,16,2025-05,Paid Search,Europe,11-50,Growth
+CUST10318,0.87,9,2024-10,Paid Social,North America,1-10,Growth
+CUST10319,1.07,21,2025-10,Outbound Sales,Europe,1000+,Enterprise
+CUST10320,1.71,15,2025-04,Paid Social,India,11-50,Starter
+CUST10321,0.85,3,2024-04,Referral,North America,1-10,Starter
+CUST10322,0.76,15,2025-04,Content/SEO,North America,1-10,Starter
+CUST10323,0.96,22,2025-11,Paid Social,Europe,1-10,Enterprise
+CUST10324,0.77,7,2024-08,Paid Search,North America,1-10,Starter
+CUST10325,0.93,14,2025-03,Paid Search,North America,51-200,Starter
+CUST10326,1.22,16,2025-05,Outbound Sales,APAC,1-10,Starter
+CUST10327,1.01,12,2025-01,Outbound Sales,North America,1000+,Growth
+CUST10328,0.78,7,2024-08,Organic Search,North America,1-10,Growth
+CUST10329,1.17,17,2025-06,Paid Search,North America,1000+,Growth
+CUST10330,1.32,16,2025-05,Paid Social,Europe,1000+,Enterprise
+CUST10331,0.7,14,2025-03,Paid Social,Europe,1-10,Growth
+CUST10332,1.15,10,2024-11,Organic Search,India,1-10,Growth
+CUST10333,1.25,23,2025-12,Paid Social,Europe,51-200,Starter
+CUST10334,0.98,23,2025-12,Referral,APAC,11-50,Starter
+CUST10335,0.98,9,2024-10,Organic Search,APAC,1-10,Growth
+CUST10336,0.8,4,2024-05,Paid Social,India,51-200,Growth
+CUST10337,1.7,6,2024-07,Content/SEO,India,51-200,Growth
+CUST10338,1.26,15,2025-04,Organic Search,North America,1000+,Growth
+CUST10339,0.8,15,2025-04,Referral,North America,11-50,Starter
+CUST10340,1.33,10,2024-11,Organic Search,India,51-200,Growth
+CUST10341,0.62,13,2025-02,Organic Search,APAC,51-200,Enterprise
+CUST10342,0.6,21,2025-10,Organic Search,North America,1-10,Starter
+CUST10343,0.94,2,2024-03,Referral,LATAM,201-1000,Starter
+CUST10344,0.99,10,2024-11,Organic Search,Europe,201-1000,Growth
+CUST10345,1.85,15,2025-04,Outbound Sales,North America,11-50,Growth
+CUST10346,1.2,5,2024-06,Organic Search,Europe,11-50,Starter
+CUST10347,0.89,13,2025-02,Paid Social,India,201-1000,Enterprise
+CUST10348,1.25,23,2025-12,Organic Search,Europe,51-200,Enterprise
+CUST10349,0.76,7,2024-08,Paid Social,APAC,51-200,Starter
+CUST10350,0.55,9,2024-10,Content/SEO,Europe,11-50,Starter
+CUST10351,0.88,5,2024-06,Paid Social,Europe,11-50,Starter
+CUST10352,1.26,11,2024-12,Paid Search,India,201-1000,Enterprise
+CUST10353,0.64,20,2025-09,Paid Social,Europe,201-1000,Enterprise
+CUST10354,1.24,19,2025-08,Organic Search,North America,51-200,Growth
+CUST10355,0.63,11,2024-12,Referral,North America,51-200,Starter
+CUST10356,0.69,22,2025-11,Paid Social,North America,51-200,Growth
+CUST10357,0.91,7,2024-08,Paid Social,North America,11-50,Starter
+CUST10358,0.86,13,2025-02,Organic Search,Europe,11-50,Growth
+CUST10359,1.08,12,2025-01,Outbound Sales,APAC,1-10,Starter
+CUST10360,0.79,14,2025-03,Paid Search,North America,1-10,Starter
+CUST10361,1.33,20,2025-09,Outbound Sales,North America,201-1000,Starter
+CUST10362,0.84,12,2025-01,Organic Search,North America,1-10,Growth
+CUST10363,1.41,11,2024-12,Content/SEO,North America,11-50,Growth
+CUST10364,1.32,18,2025-07,Organic Search,North America,1-10,Growth
+CUST10365,1.22,13,2025-02,Organic Search,India,1-10,Starter
+CUST10366,0.98,1,2024-02,Paid Social,APAC,201-1000,Enterprise
+CUST10367,0.97,8,2024-09,Content/SEO,Europe,201-1000,Enterprise
+CUST10368,0.57,14,2025-03,Outbound Sales,North America,1-10,Growth
+CUST10369,1.64,17,2025-06,Referral,APAC,11-50,Growth
+CUST10370,0.74,8,2024-09,Paid Search,India,201-1000,Starter
+CUST10371,0.73,11,2024-12,Paid Social,North America,11-50,Starter
+CUST10372,1.29,19,2025-08,Organic Search,LATAM,1-10,Growth
+CUST10373,1.13,13,2025-02,Paid Social,APAC,1-10,Starter
+CUST10374,1.26,15,2025-04,Organic Search,India,11-50,Starter
+CUST10375,1.11,5,2024-06,Organic Search,North America,1000+,Growth
+CUST10376,1.73,19,2025-08,Organic Search,LATAM,1-10,Growth
+CUST10377,0.62,17,2025-06,Organic Search,Europe,1-10,Growth
+CUST10378,1.65,14,2025-03,Paid Social,Europe,11-50,Starter
+CUST10379,0.68,16,2025-05,Content/SEO,APAC,201-1000,Growth
+CUST10380,0.54,15,2025-04,Paid Social,North America,11-50,Growth
+CUST10381,0.6,12,2025-01,Content/SEO,Europe,201-1000,Enterprise
+CUST10382,0.81,17,2025-06,Content/SEO,LATAM,51-200,Growth
+CUST10383,0.83,2,2024-03,Organic Search,Europe,11-50,Growth
+CUST10384,1.06,10,2024-11,Referral,Europe,1-10,Growth
+CUST10385,0.52,9,2024-10,Referral,North America,1-10,Growth
+CUST10386,0.8,14,2025-03,Referral,North America,51-200,Starter
+CUST10387,1.42,17,2025-06,Content/SEO,APAC,51-200,Starter
+CUST10388,1.26,1,2024-02,Referral,Europe,11-50,Starter
+CUST10389,0.89,12,2025-01,Content/SEO,North America,11-50,Growth
+CUST10390,1.25,18,2025-07,Outbound Sales,APAC,51-200,Starter
+CUST10391,0.74,15,2025-04,Referral,Europe,11-50,Starter
+CUST10392,0.72,21,2025-10,Outbound Sales,APAC,201-1000,Growth
+CUST10393,0.5,11,2024-12,Paid Search,APAC,11-50,Starter
+CUST10394,1.28,19,2025-08,Organic Search,North America,11-50,Growth
+CUST10395,0.83,16,2025-05,Referral,North America,1000+,Enterprise
+CUST10396,1.5,3,2024-04,Outbound Sales,Europe,201-1000,Enterprise
+CUST10397,1.29,2,2024-03,Outbound Sales,APAC,1000+,Enterprise
+CUST10398,0.72,17,2025-06,Outbound Sales,APAC,11-50,Enterprise
+CUST10399,1.0,2,2024-03,Paid Social,Europe,11-50,Starter
+CUST10400,1.29,16,2025-05,Content/SEO,APAC,51-200,Growth
+CUST10401,1.39,12,2025-01,Paid Search,North America,1-10,Starter
+CUST10402,1.06,11,2024-12,Paid Search,Europe,201-1000,Growth
+CUST10403,1.57,8,2024-09,Outbound Sales,Europe,1-10,Growth
+CUST10404,1.19,9,2024-10,Paid Search,APAC,51-200,Growth
+CUST10405,1.24,7,2024-08,Paid Search,Europe,1-10,Starter
+CUST10406,1.22,20,2025-09,Paid Search,Europe,11-50,Growth
+CUST10407,1.16,10,2024-11,Paid Social,North America,201-1000,Enterprise
+CUST10408,1.04,11,2024-12,Outbound Sales,Europe,1000+,Enterprise
+CUST10409,1.37,11,2024-12,Outbound Sales,North America,51-200,Growth
+CUST10410,0.96,11,2024-12,Paid Search,India,1-10,Starter
+CUST10411,0.58,20,2025-09,Content/SEO,North America,1-10,Enterprise
+CUST10412,0.79,16,2025-05,Outbound Sales,Europe,1-10,Growth
+CUST10413,0.75,12,2025-01,Paid Social,North America,1-10,Starter
+CUST10414,0.74,15,2025-04,Referral,Europe,1-10,Growth
+CUST10415,1.22,14,2025-03,Content/SEO,India,11-50,Starter
+CUST10416,0.94,6,2024-07,Organic Search,North America,11-50,Starter
+CUST10417,0.64,13,2025-02,Outbound Sales,LATAM,1000+,Enterprise
+CUST10418,1.47,21,2025-10,Referral,North America,1-10,Growth
+CUST10419,1.59,14,2025-03,Paid Search,APAC,51-200,Starter
+CUST10420,1.04,14,2025-03,Paid Social,Europe,11-50,Starter
+CUST10421,1.67,21,2025-10,Organic Search,North America,1-10,Growth
+CUST10422,1.01,15,2025-04,Outbound Sales,North America,51-200,Starter
+CUST10423,1.36,23,2025-12,Referral,APAC,1-10,Growth
+CUST10424,1.16,19,2025-08,Referral,APAC,201-1000,Enterprise
+CUST10425,2.15,14,2025-03,Referral,India,51-200,Starter
+CUST10426,1.08,9,2024-10,Referral,Europe,201-1000,Enterprise
+CUST10427,1.35,19,2025-08,Outbound Sales,North America,11-50,Starter
+CUST10428,0.81,17,2025-06,Content/SEO,North America,1-10,Starter
+CUST10429,1.56,7,2024-08,Paid Social,North America,1-10,Growth
+CUST10430,1.05,18,2025-07,Paid Social,Europe,1-10,Enterprise
+CUST10431,0.72,23,2025-12,Paid Social,North America,51-200,Growth
+CUST10432,1.2,9,2024-10,Paid Search,India,51-200,Starter
+CUST10433,1.07,7,2024-08,Referral,Europe,51-200,Starter
+CUST10434,0.8,8,2024-09,Paid Social,India,11-50,Starter
+CUST10435,1.16,10,2024-11,Paid Search,Europe,11-50,Growth
+CUST10436,0.95,5,2024-06,Organic Search,India,11-50,Starter
+CUST10437,0.77,21,2025-10,Organic Search,LATAM,1-10,Growth
+CUST10438,0.94,18,2025-07,Paid Search,North America,11-50,Growth
+CUST10439,1.37,11,2024-12,Paid Search,LATAM,1-10,Starter
+CUST10440,1.34,22,2025-11,Organic Search,India,51-200,Enterprise
+CUST10441,0.86,3,2024-04,Outbound Sales,North America,11-50,Growth
+CUST10442,0.81,17,2025-06,Paid Search,North America,51-200,Growth
+CUST10443,0.61,20,2025-09,Organic Search,North America,51-200,Growth
+CUST10444,1.18,13,2025-02,Organic Search,North America,11-50,Growth
+CUST10445,0.91,17,2025-06,Paid Search,APAC,1-10,Growth
+CUST10446,0.95,12,2025-01,Organic Search,LATAM,11-50,Growth
+CUST10447,0.94,14,2025-03,Content/SEO,North America,11-50,Growth
+CUST10448,1.27,12,2025-01,Paid Search,LATAM,11-50,Growth
+CUST10449,1.11,11,2024-12,Paid Search,North America,11-50,Growth
+CUST10450,0.61,23,2025-12,Paid Social,APAC,11-50,Growth
+CUST10451,0.64,7,2024-08,Paid Search,North America,201-1000,Growth
+CUST10452,0.82,17,2025-06,Paid Search,Europe,1000+,Enterprise
+CUST10453,1.13,14,2025-03,Referral,North America,51-200,Enterprise
+CUST10454,1.13,23,2025-12,Paid Search,North America,1-10,Growth
+CUST10455,0.7,18,2025-07,Paid Search,India,1-10,Growth
+CUST10456,0.75,12,2025-01,Outbound Sales,Europe,1-10,Starter
+CUST10457,1.02,21,2025-10,Referral,North America,11-50,Enterprise
+CUST10458,0.8,17,2025-06,Paid Search,APAC,51-200,Growth
+CUST10459,0.53,21,2025-10,Organic Search,India,1-10,Starter
+CUST10460,0.55,12,2025-01,Content/SEO,LATAM,1-10,Starter
+CUST10461,0.87,23,2025-12,Referral,North America,11-50,Growth
+CUST10462,1.83,21,2025-10,Content/SEO,Europe,51-200,Enterprise
+CUST10463,1.09,14,2025-03,Paid Social,North America,1-10,Starter
+CUST10464,1.17,11,2024-12,Paid Search,APAC,51-200,Enterprise
+CUST10465,2.6,17,2025-06,Referral,India,1-10,Growth
+CUST10466,0.62,7,2024-08,Organic Search,India,1-10,Growth
+CUST10467,0.63,21,2025-10,Outbound Sales,North America,1000+,Growth
+CUST10468,0.68,18,2025-07,Content/SEO,India,11-50,Enterprise
+CUST10469,1.33,23,2025-12,Paid Search,North America,11-50,Starter
+CUST10470,0.99,16,2025-05,Paid Search,North America,11-50,Starter
+CUST10471,1.02,17,2025-06,Referral,APAC,11-50,Starter
+CUST10472,0.88,0,2024-01,Organic Search,India,1-10,Starter
+CUST10473,0.94,13,2025-02,Content/SEO,Europe,11-50,Growth
+CUST10474,1.14,11,2024-12,Paid Social,Europe,201-1000,Growth
+CUST10475,0.83,7,2024-08,Organic Search,North America,201-1000,Enterprise
+CUST10476,0.51,22,2025-11,Paid Social,India,1-10,Starter
+CUST10477,2.01,23,2025-12,Outbound Sales,Europe,51-200,Enterprise
+CUST10478,0.93,4,2024-05,Paid Social,North America,1000+,Enterprise
+CUST10479,0.83,7,2024-08,Paid Search,India,51-200,Starter
+CUST10480,1.46,9,2024-10,Outbound Sales,North America,51-200,Growth
+CUST10481,1.42,16,2025-05,Organic Search,India,11-50,Growth
+CUST10482,1.03,1,2024-02,Organic Search,Europe,51-200,Growth
+CUST10483,0.93,23,2025-12,Paid Social,North America,11-50,Growth
+CUST10484,1.16,12,2025-01,Paid Social,APAC,1-10,Growth
+CUST10485,1.19,10,2024-11,Outbound Sales,Europe,11-50,Growth
+CUST10486,1.38,14,2025-03,Content/SEO,APAC,201-1000,Enterprise
+CUST10487,1.07,17,2025-06,Paid Search,LATAM,51-200,Growth
+CUST10488,0.58,23,2025-12,Referral,North America,51-200,Growth
+CUST10489,0.87,16,2025-05,Content/SEO,India,51-200,Growth
+CUST10490,1.95,9,2024-10,Organic Search,Europe,11-50,Enterprise
+CUST10491,1.77,14,2025-03,Organic Search,North America,51-200,Growth
+CUST10492,1.32,23,2025-12,Paid Search,APAC,51-200,Enterprise
+CUST10493,1.51,5,2024-06,Content/SEO,APAC,1-10,Growth
+CUST10494,0.86,6,2024-07,Organic Search,APAC,51-200,Growth
+CUST10495,0.73,4,2024-05,Paid Social,North America,51-200,Enterprise
+CUST10496,1.03,15,2025-04,Referral,North America,201-1000,Enterprise
+CUST10497,0.69,14,2025-03,Outbound Sales,APAC,1-10,Growth
+CUST10498,0.72,2,2024-03,Paid Search,India,1-10,Growth
+CUST10499,0.92,22,2025-11,Referral,North America,1-10,Starter
+CUST10500,1.31,19,2025-08,Content/SEO,Europe,1-10,Starter
+CUST10501,0.78,6,2024-07,Paid Search,North America,11-50,Growth
+CUST10502,1.52,18,2025-07,Organic Search,North America,1-10,Starter
+CUST10503,0.81,4,2024-05,Paid Social,Europe,51-200,Enterprise
+CUST10504,1.05,4,2024-05,Paid Search,APAC,11-50,Growth
+CUST10505,0.71,19,2025-08,Content/SEO,North America,51-200,Growth
+CUST10506,1.54,19,2025-08,Paid Search,India,1-10,Growth
+CUST10507,0.85,10,2024-11,Organic Search,Europe,51-200,Enterprise
+CUST10508,0.64,15,2025-04,Paid Social,LATAM,51-200,Growth
+CUST10509,1.32,15,2025-04,Paid Search,North America,1-10,Starter
+CUST10510,1.36,20,2025-09,Outbound Sales,Europe,201-1000,Growth
+CUST10511,1.32,3,2024-04,Outbound Sales,APAC,11-50,Starter
+CUST10512,0.57,16,2025-05,Paid Search,North America,11-50,Growth
+CUST10513,1.08,22,2025-11,Paid Search,North America,11-50,Starter
+CUST10514,1.23,17,2025-06,Referral,North America,11-50,Growth
+CUST10515,0.83,19,2025-08,Organic Search,Europe,11-50,Starter
+CUST10516,0.9,18,2025-07,Paid Search,Europe,11-50,Growth
+CUST10517,0.86,20,2025-09,Paid Social,APAC,1-10,Enterprise
+CUST10518,0.66,23,2025-12,Paid Social,India,201-1000,Growth
+CUST10519,0.85,8,2024-09,Paid Search,Europe,11-50,Starter
+CUST10520,1.18,15,2025-04,Content/SEO,Europe,51-200,Starter
+CUST10521,1.71,22,2025-11,Organic Search,APAC,11-50,Starter
+CUST10522,1.07,11,2024-12,Content/SEO,North America,51-200,Starter
+CUST10523,1.98,11,2024-12,Paid Search,APAC,11-50,Growth
+CUST10524,1.14,11,2024-12,Outbound Sales,North America,1-10,Starter
+CUST10525,0.93,20,2025-09,Referral,North America,1-10,Starter
+CUST10526,0.71,18,2025-07,Organic Search,Europe,11-50,Growth
+CUST10527,1.15,10,2024-11,Outbound Sales,India,11-50,Growth
+CUST10528,0.87,7,2024-08,Paid Search,APAC,1-10,Starter
+CUST10529,1.18,0,2024-01,Referral,APAC,1-10,Starter
+CUST10530,0.77,11,2024-12,Organic Search,APAC,1-10,Growth
+CUST10531,1.11,19,2025-08,Organic Search,APAC,1-10,Growth
+CUST10532,1.56,13,2025-02,Paid Search,APAC,51-200,Starter
+CUST10533,0.92,16,2025-05,Outbound Sales,North America,11-50,Growth
+CUST10534,1.06,13,2025-02,Referral,India,51-200,Starter
+CUST10535,1.34,7,2024-08,Outbound Sales,North America,11-50,Starter
+CUST10536,1.12,15,2025-04,Organic Search,India,51-200,Growth
+CUST10537,0.85,8,2024-09,Organic Search,North America,11-50,Starter
+CUST10538,0.78,17,2025-06,Organic Search,Europe,201-1000,Enterprise
+CUST10539,0.9,23,2025-12,Organic Search,Europe,11-50,Growth
+CUST10540,1.34,16,2025-05,Content/SEO,LATAM,51-200,Growth
+CUST10541,1.02,19,2025-08,Referral,LATAM,11-50,Growth
+CUST10542,0.5,19,2025-08,Paid Social,APAC,1-10,Starter
+CUST10543,0.65,8,2024-09,Content/SEO,North America,51-200,Enterprise
+CUST10544,1.95,14,2025-03,Content/SEO,Europe,51-200,Starter
+CUST10545,0.94,9,2024-10,Outbound Sales,LATAM,1-10,Starter
+CUST10546,1.01,0,2024-01,Paid Search,Europe,1-10,Enterprise
+CUST10547,0.63,0,2024-01,Paid Social,India,11-50,Growth
+CUST10548,0.95,21,2025-10,Paid Search,North America,51-200,Enterprise
+CUST10549,0.97,21,2025-10,Referral,North America,1-10,Starter
+CUST10550,2.05,22,2025-11,Organic Search,APAC,1-10,Growth
+CUST10551,0.55,5,2024-06,Outbound Sales,LATAM,11-50,Starter
+CUST10552,0.91,20,2025-09,Organic Search,North America,51-200,Growth
+CUST10553,1.03,21,2025-10,Referral,North America,51-200,Enterprise
+CUST10554,0.5,9,2024-10,Content/SEO,LATAM,201-1000,Enterprise
+CUST10555,0.76,20,2025-09,Organic Search,Europe,11-50,Enterprise
+CUST10556,0.76,22,2025-11,Paid Search,Europe,51-200,Growth
+CUST10557,0.84,16,2025-05,Paid Search,North America,11-50,Starter
+CUST10558,0.97,16,2025-05,Organic Search,North America,51-200,Starter
+CUST10559,1.96,8,2024-09,Paid Search,Europe,201-1000,Enterprise
+CUST10560,0.9,14,2025-03,Paid Social,Europe,1-10,Starter
+CUST10561,0.84,20,2025-09,Outbound Sales,Europe,1000+,Growth
+CUST10562,0.76,10,2024-11,Paid Search,Europe,51-200,Starter
+CUST10563,1.19,9,2024-10,Organic Search,APAC,1-10,Enterprise
+CUST10564,1.31,12,2025-01,Paid Social,North America,11-50,Starter
+CUST10565,1.32,17,2025-06,Content/SEO,APAC,1-10,Starter
+CUST10566,1.54,14,2025-03,Paid Social,Europe,11-50,Growth
+CUST10567,1.06,17,2025-06,Organic Search,LATAM,1-10,Starter
+CUST10568,0.84,0,2024-01,Paid Search,APAC,1-10,Growth
+CUST10569,1.15,4,2024-05,Organic Search,Europe,1-10,Enterprise
+CUST10570,0.61,4,2024-05,Outbound Sales,Europe,1-10,Growth
+CUST10571,1.18,11,2024-12,Organic Search,North America,11-50,Starter
+CUST10572,0.62,7,2024-08,Paid Social,LATAM,11-50,Starter
+CUST10573,1.23,19,2025-08,Paid Social,Europe,51-200,Growth
+CUST10574,0.82,11,2024-12,Referral,Europe,51-200,Enterprise
+CUST10575,1.31,3,2024-04,Organic Search,North America,11-50,Starter
+CUST10576,0.63,6,2024-07,Paid Search,North America,1-10,Growth
+CUST10577,1.03,11,2024-12,Paid Search,North America,11-50,Growth
+CUST10578,1.17,6,2024-07,Paid Search,India,51-200,Growth
+CUST10579,0.6,20,2025-09,Paid Search,LATAM,11-50,Starter
+CUST10580,1.24,10,2024-11,Content/SEO,LATAM,201-1000,Growth
+CUST10581,0.6,1,2024-02,Content/SEO,Europe,51-200,Growth
+CUST10582,1.41,11,2024-12,Content/SEO,North America,11-50,Starter
+CUST10583,1.44,14,2025-03,Paid Social,North America,1-10,Starter
+CUST10584,0.78,0,2024-01,Paid Social,LATAM,51-200,Growth
+CUST10585,1.43,22,2025-11,Outbound Sales,APAC,11-50,Starter
+CUST10586,0.83,10,2024-11,Paid Search,Europe,11-50,Growth
+CUST10587,0.88,6,2024-07,Referral,North America,11-50,Starter
+CUST10588,0.62,1,2024-02,Content/SEO,Europe,201-1000,Enterprise
+CUST10589,0.79,19,2025-08,Paid Social,Europe,1-10,Starter
+CUST10590,0.94,22,2025-11,Outbound Sales,India,1000+,Enterprise
+CUST10591,0.89,13,2025-02,Content/SEO,North America,51-200,Starter
+CUST10592,0.5,6,2024-07,Paid Social,Europe,201-1000,Enterprise
+CUST10593,0.92,21,2025-10,Organic Search,India,1-10,Growth
+CUST10594,1.15,0,2024-01,Content/SEO,India,11-50,Growth
+CUST10595,1.13,18,2025-07,Content/SEO,Europe,51-200,Growth
+CUST10596,0.84,23,2025-12,Organic Search,APAC,1-10,Growth
+CUST10597,0.7,18,2025-07,Paid Search,APAC,51-200,Starter
+CUST10598,0.78,18,2025-07,Paid Social,Europe,11-50,Starter
+CUST10599,0.84,17,2025-06,Outbound Sales,North America,11-50,Starter
+CUST10600,0.53,17,2025-06,Paid Social,Europe,51-200,Growth
+CUST10601,0.85,20,2025-09,Paid Social,APAC,1-10,Growth
+CUST10602,1.09,23,2025-12,Organic Search,Europe,1-10,Starter
+CUST10603,1.43,5,2024-06,Content/SEO,Europe,1-10,Starter
+CUST10604,0.81,5,2024-06,Content/SEO,Europe,11-50,Growth
+CUST10605,1.03,3,2024-04,Organic Search,APAC,11-50,Starter
+CUST10606,2.0,10,2024-11,Organic Search,North America,51-200,Enterprise
+CUST10607,1.01,13,2025-02,Organic Search,North America,51-200,Enterprise
+CUST10608,1.26,23,2025-12,Paid Social,APAC,51-200,Growth
+CUST10609,0.74,13,2025-02,Outbound Sales,India,1000+,Enterprise
+CUST10610,1.17,22,2025-11,Organic Search,North America,11-50,Growth
+CUST10611,1.15,5,2024-06,Referral,Europe,1-10,Starter
+CUST10612,1.54,20,2025-09,Organic Search,India,1-10,Starter
+CUST10613,0.81,20,2025-09,Outbound Sales,North America,1-10,Starter
+CUST10614,1.03,7,2024-08,Paid Search,LATAM,51-200,Growth
+CUST10615,1.21,1,2024-02,Organic Search,Europe,1-10,Starter
+CUST10616,0.53,12,2025-01,Paid Search,LATAM,1-10,Growth
+CUST10617,0.79,10,2024-11,Paid Social,Europe,11-50,Growth
+CUST10618,2.07,11,2024-12,Paid Social,LATAM,51-200,Starter
+CUST10619,1.38,6,2024-07,Paid Social,North America,1-10,Starter
+CUST10620,0.76,3,2024-04,Paid Search,Europe,11-50,Growth
+CUST10621,1.91,7,2024-08,Organic Search,North America,201-1000,Growth
+CUST10622,0.71,16,2025-05,Paid Search,APAC,11-50,Starter
+CUST10623,1.52,4,2024-05,Content/SEO,LATAM,11-50,Growth
+CUST10624,0.99,21,2025-10,Paid Social,North America,1-10,Growth
+CUST10625,1.09,23,2025-12,Paid Search,Europe,1-10,Growth
+CUST10626,1.1,12,2025-01,Outbound Sales,LATAM,51-200,Growth
+CUST10627,0.97,18,2025-07,Referral,North America,1000+,Growth
+CUST10628,0.92,15,2025-04,Organic Search,LATAM,201-1000,Growth
+CUST10629,0.8,14,2025-03,Paid Social,North America,1-10,Enterprise
+CUST10630,0.53,20,2025-09,Organic Search,Europe,201-1000,Growth
+CUST10631,1.07,22,2025-11,Paid Search,North America,51-200,Starter
+CUST10632,0.94,9,2024-10,Content/SEO,India,1-10,Starter
+CUST10633,1.42,20,2025-09,Paid Social,North America,1-10,Starter
+CUST10634,1.43,19,2025-08,Content/SEO,North America,11-50,Growth
+CUST10635,1.28,19,2025-08,Paid Search,APAC,11-50,Growth
+CUST10636,1.31,14,2025-03,Organic Search,India,1-10,Starter
+CUST10637,1.62,16,2025-05,Content/SEO,North America,11-50,Growth
+CUST10638,1.35,23,2025-12,Paid Social,North America,51-200,Growth
+CUST10639,0.96,23,2025-12,Paid Social,Europe,11-50,Starter
+CUST10640,0.99,13,2025-02,Paid Social,India,11-50,Growth
+CUST10641,1.59,7,2024-08,Organic Search,North America,51-200,Growth
+CUST10642,0.58,20,2025-09,Organic Search,APAC,1000+,Starter
+CUST10643,0.7,21,2025-10,Content/SEO,LATAM,1-10,Growth
+CUST10644,0.83,4,2024-05,Paid Search,India,11-50,Starter
+CUST10645,1.08,10,2024-11,Paid Social,India,51-200,Growth
+CUST10646,1.11,8,2024-09,Outbound Sales,North America,51-200,Growth
+CUST10647,0.66,11,2024-12,Paid Search,APAC,11-50,Starter
+CUST10648,1.8,19,2025-08,Organic Search,APAC,1-10,Growth
+CUST10649,0.74,6,2024-07,Content/SEO,LATAM,201-1000,Enterprise
+CUST10650,0.97,19,2025-08,Organic Search,Europe,1-10,Starter
+CUST10651,1.13,8,2024-09,Referral,North America,51-200,Enterprise
+CUST10652,1.33,17,2025-06,Content/SEO,North America,201-1000,Growth
+CUST10653,1.01,15,2025-04,Outbound Sales,North America,1-10,Enterprise
+CUST10654,1.29,22,2025-11,Outbound Sales,Europe,1-10,Starter
+CUST10655,0.65,15,2025-04,Paid Search,Europe,11-50,Starter
+CUST10656,1.08,8,2024-09,Paid Social,Europe,11-50,Enterprise
+CUST10657,1.17,12,2025-01,Paid Search,Europe,11-50,Growth
+CUST10658,1.48,20,2025-09,Referral,Europe,11-50,Starter
+CUST10659,1.36,20,2025-09,Paid Search,North America,51-200,Growth
+CUST10660,1.13,23,2025-12,Paid Social,North America,201-1000,Starter
+CUST10661,0.68,18,2025-07,Paid Social,North America,11-50,Growth
+CUST10662,0.81,23,2025-12,Paid Social,North America,51-200,Enterprise
+CUST10663,0.89,9,2024-10,Paid Social,Europe,1-10,Starter
+CUST10664,1.43,23,2025-12,Referral,North America,51-200,Starter
+CUST10665,0.5,19,2025-08,Content/SEO,North America,1-10,Starter
+CUST10666,0.97,11,2024-12,Organic Search,Europe,11-50,Enterprise
+CUST10667,1.24,12,2025-01,Content/SEO,APAC,201-1000,Growth
+CUST10668,1.05,1,2024-02,Paid Social,North America,51-200,Growth
+CUST10669,0.93,18,2025-07,Paid Search,Europe,11-50,Growth
+CUST10670,0.64,14,2025-03,Content/SEO,APAC,11-50,Growth
+CUST10671,1.12,18,2025-07,Content/SEO,Europe,11-50,Starter
+CUST10672,1.3,2,2024-03,Paid Social,LATAM,1-10,Starter
+CUST10673,1.11,23,2025-12,Referral,North America,11-50,Growth
+CUST10674,1.2,10,2024-11,Organic Search,LATAM,201-1000,Enterprise
+CUST10675,0.76,5,2024-06,Paid Social,North America,1-10,Growth
+CUST10676,1.24,19,2025-08,Referral,APAC,1-10,Starter
+CUST10677,0.86,15,2025-04,Organic Search,North America,11-50,Starter
+CUST10678,1.11,4,2024-05,Paid Search,India,1-10,Starter
+CUST10679,1.62,17,2025-06,Referral,India,1-10,Growth
+CUST10680,1.34,3,2024-04,Organic Search,North America,1-10,Growth
+CUST10681,0.77,15,2025-04,Paid Search,APAC,11-50,Growth
+CUST10682,1.27,14,2025-03,Paid Social,North America,1000+,Enterprise
+CUST10683,2.72,17,2025-06,Organic Search,North America,51-200,Growth
+CUST10684,1.24,22,2025-11,Referral,APAC,11-50,Starter
+CUST10685,0.98,22,2025-11,Content/SEO,Europe,1-10,Starter
+CUST10686,0.8,22,2025-11,Organic Search,Europe,51-200,Starter
+CUST10687,1.29,20,2025-09,Referral,North America,11-50,Starter
+CUST10688,1.2,16,2025-05,Content/SEO,Europe,11-50,Starter
+CUST10689,0.71,14,2025-03,Content/SEO,Europe,1000+,Growth
+CUST10690,1.37,15,2025-04,Organic Search,India,1-10,Starter
+CUST10691,0.84,17,2025-06,Paid Social,India,201-1000,Starter
+CUST10692,0.78,8,2024-09,Referral,India,51-200,Enterprise
+CUST10693,0.97,18,2025-07,Content/SEO,Europe,11-50,Starter
+CUST10694,1.07,6,2024-07,Organic Search,APAC,201-1000,Growth
+CUST10695,0.93,9,2024-10,Outbound Sales,APAC,11-50,Starter
+CUST10696,0.91,12,2025-01,Organic Search,North America,11-50,Growth
+CUST10697,0.74,2,2024-03,Paid Search,APAC,11-50,Growth
+CUST10698,1.02,8,2024-09,Content/SEO,APAC,1-10,Starter
+CUST10699,1.4,11,2024-12,Outbound Sales,Europe,1-10,Growth
+CUST10700,0.94,13,2025-02,Content/SEO,Europe,1-10,Growth
+CUST10701,0.5,19,2025-08,Referral,APAC,201-1000,Enterprise
+CUST10702,0.71,1,2024-02,Content/SEO,India,51-200,Enterprise
+CUST10703,1.14,9,2024-10,Outbound Sales,Europe,11-50,Starter
+CUST10704,1.26,14,2025-03,Organic Search,Europe,201-1000,Growth
+CUST10705,1.01,11,2024-12,Paid Social,Europe,11-50,Enterprise
+CUST10706,0.89,0,2024-01,Organic Search,India,1-10,Starter
+CUST10707,1.05,10,2024-11,Paid Social,Europe,51-200,Enterprise
+CUST10708,0.87,4,2024-05,Paid Social,APAC,201-1000,Growth
+CUST10709,1.11,8,2024-09,Organic Search,Europe,51-200,Starter
+CUST10710,0.51,14,2025-03,Content/SEO,Europe,11-50,Growth
+CUST10711,1.93,21,2025-10,Organic Search,North America,1000+,Growth
+CUST10712,1.41,3,2024-04,Organic Search,LATAM,1-10,Starter
+CUST10713,0.73,9,2024-10,Paid Social,Europe,51-200,Growth
+CUST10714,0.66,6,2024-07,Organic Search,North America,51-200,Enterprise
+CUST10715,1.0,17,2025-06,Organic Search,North America,1-10,Growth
+CUST10716,1.05,17,2025-06,Organic Search,LATAM,11-50,Starter
+CUST10717,2.04,17,2025-06,Paid Search,North America,1-10,Growth
+CUST10718,1.11,14,2025-03,Paid Search,APAC,11-50,Growth
+CUST10719,1.06,8,2024-09,Referral,India,51-200,Growth
+CUST10720,1.92,19,2025-08,Paid Search,North America,51-200,Starter
+CUST10721,0.66,17,2025-06,Organic Search,Europe,1-10,Starter
+CUST10722,0.69,9,2024-10,Paid Social,India,51-200,Starter
+CUST10723,1.29,0,2024-01,Organic Search,APAC,51-200,Growth
+CUST10724,0.69,5,2024-06,Outbound Sales,Europe,11-50,Growth
+CUST10725,0.67,4,2024-05,Paid Social,India,51-200,Growth
+CUST10726,0.86,9,2024-10,Referral,India,11-50,Starter
+CUST10727,1.04,13,2025-02,Paid Social,North America,11-50,Starter
+CUST10728,2.44,15,2025-04,Paid Social,North America,51-200,Starter
+CUST10729,1.59,6,2024-07,Organic Search,Europe,11-50,Starter
+CUST10730,1.1,0,2024-01,Paid Search,North America,11-50,Growth
+CUST10731,1.49,17,2025-06,Organic Search,Europe,1-10,Growth
+CUST10732,0.54,12,2025-01,Referral,APAC,11-50,Enterprise
+CUST10733,1.08,21,2025-10,Referral,North America,1-10,Growth
+CUST10734,0.63,18,2025-07,Paid Search,LATAM,11-50,Growth
+CUST10735,0.75,7,2024-08,Organic Search,North America,1-10,Starter
+CUST10736,1.08,23,2025-12,Organic Search,Europe,1-10,Starter
+CUST10737,0.56,0,2024-01,Paid Search,North America,201-1000,Growth
+CUST10738,1.2,20,2025-09,Outbound Sales,North America,51-200,Growth
+CUST10739,1.21,6,2024-07,Referral,Europe,1-10,Starter
+CUST10740,1.19,7,2024-08,Paid Search,Europe,1-10,Growth
+CUST10741,0.78,19,2025-08,Organic Search,APAC,51-200,Growth
+CUST10742,1.5,23,2025-12,Content/SEO,Europe,11-50,Starter
+CUST10743,0.63,21,2025-10,Organic Search,Europe,1-10,Growth
+CUST10744,0.93,22,2025-11,Organic Search,North America,201-1000,Growth
+CUST10745,1.12,9,2024-10,Content/SEO,LATAM,11-50,Starter
+CUST10746,0.87,20,2025-09,Organic Search,North America,1-10,Starter
+CUST10747,0.74,19,2025-08,Content/SEO,North America,1-10,Starter
+CUST10748,0.68,18,2025-07,Outbound Sales,Europe,201-1000,Growth
+CUST10749,0.96,23,2025-12,Content/SEO,APAC,51-200,Growth
+CUST10750,0.91,23,2025-12,Outbound Sales,Europe,11-50,Growth
+CUST10751,0.68,3,2024-04,Paid Search,India,11-50,Growth
+CUST10752,1.17,3,2024-04,Organic Search,North America,51-200,Starter
+CUST10753,0.79,16,2025-05,Organic Search,Europe,1-10,Starter
+CUST10754,1.12,15,2025-04,Content/SEO,Europe,1-10,Growth
+CUST10755,1.13,9,2024-10,Content/SEO,North America,1-10,Growth
+CUST10756,1.63,19,2025-08,Paid Search,APAC,1-10,Enterprise
+CUST10757,0.84,22,2025-11,Paid Search,North America,51-200,Enterprise
+CUST10758,1.05,8,2024-09,Content/SEO,North America,51-200,Enterprise
+CUST10759,1.09,21,2025-10,Paid Search,North America,51-200,Growth
+CUST10760,1.27,9,2024-10,Paid Search,India,51-200,Growth
+CUST10761,1.13,21,2025-10,Organic Search,North America,1-10,Starter
+CUST10762,0.86,7,2024-08,Organic Search,APAC,11-50,Starter
+CUST10763,0.72,20,2025-09,Referral,India,51-200,Enterprise
+CUST10764,0.64,1,2024-02,Referral,North America,1-10,Starter
+CUST10765,1.1,20,2025-09,Paid Social,North America,201-1000,Growth
+CUST10766,1.01,13,2025-02,Organic Search,North America,11-50,Starter
+CUST10767,0.97,12,2025-01,Content/SEO,LATAM,1-10,Growth
+CUST10768,0.65,9,2024-10,Organic Search,APAC,11-50,Starter
+CUST10769,0.96,18,2025-07,Paid Social,LATAM,11-50,Growth
+CUST10770,1.93,23,2025-12,Organic Search,India,11-50,Starter
+CUST10771,1.54,21,2025-10,Organic Search,APAC,51-200,Growth
+CUST10772,1.22,5,2024-06,Content/SEO,North America,51-200,Growth
+CUST10773,1.06,23,2025-12,Paid Social,APAC,51-200,Growth
+CUST10774,1.16,18,2025-07,Organic Search,Europe,11-50,Growth
+CUST10775,0.93,19,2025-08,Referral,LATAM,11-50,Starter
+CUST10776,0.66,0,2024-01,Organic Search,India,11-50,Growth
+CUST10777,0.92,4,2024-05,Content/SEO,APAC,1-10,Starter
+CUST10778,1.2,6,2024-07,Paid Social,APAC,11-50,Growth
+CUST10779,1.17,18,2025-07,Paid Social,Europe,1-10,Starter
+CUST10780,1.31,13,2025-02,Organic Search,APAC,201-1000,Growth
+CUST10781,1.2,15,2025-04,Outbound Sales,LATAM,11-50,Growth
+CUST10782,0.66,22,2025-11,Paid Social,APAC,51-200,Growth
+CUST10783,1.31,22,2025-11,Referral,North America,1-10,Growth
+CUST10784,2.11,0,2024-01,Paid Search,North America,201-1000,Enterprise
+CUST10785,0.7,14,2025-03,Organic Search,Europe,11-50,Starter
+CUST10786,0.98,23,2025-12,Paid Social,Europe,11-50,Growth
+CUST10787,1.35,7,2024-08,Paid Search,India,11-50,Growth
+CUST10788,3.0,20,2025-09,Organic Search,Europe,201-1000,Enterprise
+CUST10789,0.6,9,2024-10,Content/SEO,North America,51-200,Enterprise
+CUST10790,0.96,1,2024-02,Organic Search,APAC,1-10,Starter
+CUST10791,1.49,12,2025-01,Content/SEO,Europe,1-10,Starter
+CUST10792,0.88,14,2025-03,Outbound Sales,India,1-10,Starter
+CUST10793,0.63,22,2025-11,Paid Social,Europe,1-10,Starter
+CUST10794,0.69,11,2024-12,Paid Search,APAC,11-50,Growth
+CUST10795,1.37,12,2025-01,Organic Search,Europe,201-1000,Growth
+CUST10796,0.93,19,2025-08,Outbound Sales,Europe,1-10,Starter
+CUST10797,1.19,18,2025-07,Paid Search,India,11-50,Growth
+CUST10798,1.24,22,2025-11,Outbound Sales,North America,11-50,Starter
+CUST10799,1.51,9,2024-10,Paid Search,North America,51-200,Enterprise
+CUST10800,1.37,11,2024-12,Content/SEO,Europe,11-50,Starter
+CUST10801,0.86,19,2025-08,Content/SEO,North America,51-200,Growth
+CUST10802,0.55,23,2025-12,Outbound Sales,Europe,51-200,Enterprise
+CUST10803,0.77,16,2025-05,Referral,APAC,1-10,Growth
+CUST10804,0.69,7,2024-08,Organic Search,India,1-10,Starter
+CUST10805,0.78,18,2025-07,Organic Search,India,11-50,Growth
+CUST10806,1.0,22,2025-11,Content/SEO,APAC,51-200,Growth
+CUST10807,0.5,11,2024-12,Paid Search,Europe,11-50,Starter
+CUST10808,0.84,7,2024-08,Referral,North America,1-10,Starter
+CUST10809,1.01,18,2025-07,Paid Social,North America,51-200,Enterprise
+CUST10810,0.62,5,2024-06,Referral,North America,1000+,Growth
+CUST10811,0.5,10,2024-11,Outbound Sales,LATAM,1-10,Starter
+CUST10812,0.81,8,2024-09,Paid Social,North America,11-50,Growth
+CUST10813,0.75,13,2025-02,Paid Search,Europe,1-10,Starter
+CUST10814,1.11,18,2025-07,Content/SEO,Europe,1000+,Growth
+CUST10815,1.21,12,2025-01,Organic Search,North America,1-10,Starter
+CUST10816,1.31,19,2025-08,Paid Search,Europe,51-200,Enterprise
+CUST10817,1.35,12,2025-01,Paid Social,Europe,1-10,Starter
+CUST10818,0.93,7,2024-08,Referral,LATAM,51-200,Growth
+CUST10819,0.8,17,2025-06,Paid Search,North America,201-1000,Growth
+CUST10820,1.16,18,2025-07,Paid Search,LATAM,1-10,Growth
+CUST10821,1.21,1,2024-02,Paid Social,Europe,11-50,Starter
+CUST10822,1.21,2,2024-03,Paid Search,LATAM,11-50,Starter
+CUST10823,1.36,10,2024-11,Paid Search,Europe,11-50,Starter
+CUST10824,1.2,20,2025-09,Paid Social,North America,201-1000,Growth
+CUST10825,0.86,14,2025-03,Outbound Sales,LATAM,1-10,Growth
+CUST10826,0.89,12,2025-01,Paid Social,Europe,11-50,Growth
+CUST10827,0.68,7,2024-08,Organic Search,North America,201-1000,Growth
+CUST10828,0.8,14,2025-03,Organic Search,Europe,1-10,Growth
+CUST10829,0.58,5,2024-06,Referral,North America,1-10,Growth
+CUST10830,0.91,18,2025-07,Paid Search,APAC,11-50,Starter
+CUST10831,0.71,20,2025-09,Organic Search,North America,201-1000,Enterprise
+CUST10832,0.71,6,2024-07,Paid Social,India,11-50,Growth
+CUST10833,1.09,9,2024-10,Paid Social,North America,201-1000,Enterprise
+CUST10834,0.83,20,2025-09,Content/SEO,Europe,1-10,Growth
+CUST10835,1.37,9,2024-10,Outbound Sales,North America,1-10,Starter
+CUST10836,0.83,19,2025-08,Referral,North America,1-10,Starter
+CUST10837,0.97,4,2024-05,Outbound Sales,Europe,1-10,Growth
+CUST10838,0.95,16,2025-05,Referral,APAC,1-10,Starter
+CUST10839,0.58,6,2024-07,Content/SEO,India,11-50,Growth
+CUST10840,1.4,23,2025-12,Referral,Europe,11-50,Growth
+CUST10841,1.21,23,2025-12,Referral,India,11-50,Growth
+CUST10842,2.23,4,2024-05,Outbound Sales,North America,1-10,Growth
+CUST10843,0.95,5,2024-06,Outbound Sales,Europe,51-200,Enterprise
+CUST10844,0.78,5,2024-06,Organic Search,India,1-10,Starter
+CUST10845,0.94,10,2024-11,Organic Search,India,11-50,Starter
+CUST10846,1.34,21,2025-10,Referral,North America,11-50,Growth
+CUST10847,0.85,12,2025-01,Outbound Sales,Europe,11-50,Starter
+CUST10848,1.31,16,2025-05,Paid Search,North America,1-10,Starter
+CUST10849,1.11,22,2025-11,Paid Search,LATAM,11-50,Growth
+CUST10850,1.08,22,2025-11,Referral,North America,51-200,Growth
+CUST10851,1.69,23,2025-12,Referral,APAC,1-10,Enterprise
+CUST10852,0.9,7,2024-08,Outbound Sales,India,1-10,Starter
+CUST10853,0.91,22,2025-11,Organic Search,North America,1-10,Growth
+CUST10854,1.18,3,2024-04,Paid Search,Europe,11-50,Starter
+CUST10855,1.48,22,2025-11,Organic Search,North America,1-10,Growth
+CUST10856,0.69,18,2025-07,Paid Social,Europe,11-50,Starter
+CUST10857,1.82,19,2025-08,Paid Search,India,1000+,Enterprise
+CUST10858,1.11,13,2025-02,Content/SEO,Europe,51-200,Starter
+CUST10859,1.23,20,2025-09,Organic Search,North America,1-10,Growth
+CUST10860,0.88,21,2025-10,Referral,APAC,201-1000,Enterprise
+CUST10861,0.5,4,2024-05,Paid Search,Europe,1-10,Starter
+CUST10862,1.6,7,2024-08,Paid Search,APAC,1-10,Growth
+CUST10863,1.56,20,2025-09,Paid Social,LATAM,1-10,Starter
+CUST10864,1.79,17,2025-06,Content/SEO,Europe,51-200,Enterprise
+CUST10865,0.5,22,2025-11,Content/SEO,Europe,1-10,Starter
+CUST10866,1.0,12,2025-01,Outbound Sales,North America,11-50,Growth
+CUST10867,1.04,13,2025-02,Paid Search,Europe,201-1000,Growth
+CUST10868,1.29,23,2025-12,Outbound Sales,North America,1-10,Starter
+CUST10869,0.68,23,2025-12,Organic Search,Europe,51-200,Growth
+CUST10870,1.34,12,2025-01,Paid Search,India,1000+,Enterprise
+CUST10871,1.51,16,2025-05,Paid Search,India,51-200,Enterprise
+CUST10872,1.42,17,2025-06,Organic Search,Europe,11-50,Starter
+CUST10873,1.26,15,2025-04,Referral,North America,51-200,Growth
+CUST10874,0.94,2,2024-03,Referral,Europe,11-50,Starter
+CUST10875,1.14,15,2025-04,Organic Search,North America,1-10,Growth
+CUST10876,0.63,9,2024-10,Content/SEO,Europe,11-50,Starter
+CUST10877,0.76,18,2025-07,Paid Social,LATAM,1-10,Starter
+CUST10878,1.13,15,2025-04,Outbound Sales,North America,11-50,Growth
+CUST10879,1.06,13,2025-02,Paid Search,North America,1-10,Growth
+CUST10880,0.64,17,2025-06,Outbound Sales,North America,1-10,Starter
+CUST10881,1.0,12,2025-01,Paid Search,India,201-1000,Enterprise
+CUST10882,1.48,1,2024-02,Outbound Sales,Europe,11-50,Growth
+CUST10883,0.84,20,2025-09,Paid Social,Europe,51-200,Growth
+CUST10884,0.84,12,2025-01,Referral,APAC,51-200,Growth
+CUST10885,0.6,23,2025-12,Paid Search,APAC,1-10,Growth
+CUST10886,0.65,22,2025-11,Outbound Sales,Europe,1-10,Growth
+CUST10887,1.11,0,2024-01,Content/SEO,India,11-50,Starter
+CUST10888,1.58,15,2025-04,Paid Search,APAC,1-10,Starter
+CUST10889,1.34,8,2024-09,Paid Social,APAC,11-50,Starter
+CUST10890,0.81,11,2024-12,Referral,North America,201-1000,Enterprise
+CUST10891,0.91,21,2025-10,Organic Search,Europe,51-200,Starter
+CUST10892,0.89,21,2025-10,Organic Search,LATAM,11-50,Growth
+CUST10893,1.2,15,2025-04,Outbound Sales,India,11-50,Enterprise
+CUST10894,0.55,23,2025-12,Paid Social,India,11-50,Starter
+CUST10895,0.68,21,2025-10,Content/SEO,North America,11-50,Starter
+CUST10896,0.87,1,2024-02,Paid Social,North America,201-1000,Enterprise
+CUST10897,0.95,8,2024-09,Referral,Europe,51-200,Growth
+CUST10898,1.5,11,2024-12,Paid Social,India,11-50,Starter
+CUST10899,1.55,10,2024-11,Content/SEO,North America,1000+,Enterprise
+CUST10900,1.13,3,2024-04,Paid Social,APAC,201-1000,Enterprise
+CUST10901,1.43,9,2024-10,Organic Search,Europe,11-50,Starter
+CUST10902,1.65,2,2024-03,Referral,India,51-200,Starter
+CUST10903,0.98,21,2025-10,Paid Social,Europe,51-200,Growth
+CUST10904,1.25,2,2024-03,Outbound Sales,North America,11-50,Growth
+CUST10905,0.76,21,2025-10,Organic Search,APAC,11-50,Starter
+CUST10906,1.15,12,2025-01,Referral,APAC,201-1000,Growth
+CUST10907,2.3,7,2024-08,Paid Social,North America,11-50,Starter
+CUST10908,0.91,10,2024-11,Referral,North America,1-10,Growth
+CUST10909,1.39,15,2025-04,Paid Social,APAC,1-10,Starter
+CUST10910,0.92,10,2024-11,Paid Social,India,201-1000,Enterprise
+CUST10911,0.84,22,2025-11,Paid Search,LATAM,11-50,Growth
+CUST10912,1.69,6,2024-07,Outbound Sales,LATAM,51-200,Growth
+CUST10913,0.72,20,2025-09,Paid Social,India,11-50,Starter
+CUST10914,0.79,10,2024-11,Referral,LATAM,51-200,Starter
+CUST10915,0.79,23,2025-12,Referral,India,1000+,Starter
+CUST10916,0.72,7,2024-08,Organic Search,North America,1-10,Starter
+CUST10917,0.86,11,2024-12,Outbound Sales,APAC,1-10,Starter
+CUST10918,0.98,12,2025-01,Content/SEO,Europe,11-50,Starter
+CUST10919,0.81,13,2025-02,Outbound Sales,APAC,11-50,Starter
+CUST10920,1.42,21,2025-10,Paid Social,Europe,11-50,Starter
+CUST10921,1.11,8,2024-09,Content/SEO,Europe,201-1000,Enterprise
+CUST10922,0.89,18,2025-07,Organic Search,India,1-10,Starter
+CUST10923,0.81,21,2025-10,Outbound Sales,India,1-10,Starter
+CUST10924,1.07,18,2025-07,Content/SEO,Europe,11-50,Starter
+CUST10925,0.88,14,2025-03,Content/SEO,Europe,1-10,Growth
+CUST10926,0.93,3,2024-04,Paid Social,LATAM,1000+,Enterprise
+CUST10927,1.0,11,2024-12,Paid Social,Europe,11-50,Growth
+CUST10928,1.46,18,2025-07,Referral,APAC,1-10,Starter
+CUST10929,0.63,1,2024-02,Referral,APAC,201-1000,Enterprise
+CUST10930,0.94,15,2025-04,Paid Social,India,201-1000,Enterprise
+CUST10931,1.65,20,2025-09,Outbound Sales,India,11-50,Enterprise
+CUST10932,0.9,22,2025-11,Paid Social,North America,51-200,Growth
+CUST10933,0.91,3,2024-04,Organic Search,North America,1-10,Starter
+CUST10934,0.77,13,2025-02,Paid Search,North America,11-50,Starter
+CUST10935,1.43,23,2025-12,Organic Search,North America,11-50,Starter
+CUST10936,1.01,23,2025-12,Content/SEO,North America,1-10,Growth
+CUST10937,1.47,6,2024-07,Paid Search,North America,51-200,Growth
+CUST10938,0.91,14,2025-03,Outbound Sales,APAC,1-10,Starter
+CUST10939,1.95,20,2025-09,Content/SEO,LATAM,11-50,Starter
+CUST10940,1.03,16,2025-05,Referral,LATAM,51-200,Enterprise
+CUST10941,1.1,21,2025-10,Paid Search,Europe,11-50,Starter
+CUST10942,0.61,8,2024-09,Content/SEO,North America,1-10,Growth
+CUST10943,1.79,11,2024-12,Organic Search,North America,1-10,Starter
+CUST10944,1.08,15,2025-04,Paid Search,APAC,201-1000,Enterprise
+CUST10945,0.97,6,2024-07,Referral,North America,11-50,Enterprise
+CUST10946,0.5,5,2024-06,Outbound Sales,North America,51-200,Growth
+CUST10947,1.08,22,2025-11,Paid Search,Europe,11-50,Starter
+CUST10948,1.17,8,2024-09,Paid Social,India,11-50,Starter
+CUST10949,1.07,8,2024-09,Outbound Sales,India,1-10,Starter
+CUST10950,0.96,23,2025-12,Paid Social,North America,1-10,Starter
+CUST10951,0.87,16,2025-05,Outbound Sales,India,201-1000,Enterprise
+CUST10952,0.8,13,2025-02,Outbound Sales,APAC,1-10,Starter
+CUST10953,0.79,8,2024-09,Paid Social,North America,1-10,Starter
+CUST10954,0.87,17,2025-06,Paid Social,North America,201-1000,Growth
+CUST10955,0.9,21,2025-10,Paid Social,North America,51-200,Starter
+CUST10956,1.53,3,2024-04,Outbound Sales,North America,51-200,Growth
+CUST10957,0.71,17,2025-06,Paid Social,India,1-10,Starter
+CUST10958,0.7,22,2025-11,Organic Search,Europe,201-1000,Growth
+CUST10959,0.77,19,2025-08,Paid Search,Europe,201-1000,Enterprise
+CUST10960,0.98,5,2024-06,Content/SEO,APAC,201-1000,Enterprise
+CUST10961,1.07,14,2025-03,Paid Search,North America,11-50,Growth
+CUST10962,1.79,19,2025-08,Organic Search,APAC,1-10,Starter
+CUST10963,0.65,6,2024-07,Paid Search,Europe,1000+,Growth
+CUST10964,0.73,23,2025-12,Paid Social,India,51-200,Growth
+CUST10965,0.93,14,2025-03,Paid Search,Europe,1-10,Starter
+CUST10966,2.04,22,2025-11,Outbound Sales,Europe,11-50,Growth
+CUST10967,1.77,16,2025-05,Paid Social,APAC,11-50,Starter
+CUST10968,0.68,5,2024-06,Outbound Sales,Europe,51-200,Growth
+CUST10969,1.05,14,2025-03,Organic Search,India,11-50,Starter
+CUST10970,0.88,21,2025-10,Referral,North America,11-50,Starter
+CUST10971,1.67,20,2025-09,Organic Search,North America,11-50,Growth
+CUST10972,0.87,4,2024-05,Content/SEO,North America,1-10,Starter
+CUST10973,2.89,5,2024-06,Referral,APAC,51-200,Enterprise
+CUST10974,0.5,12,2025-01,Paid Social,North America,51-200,Starter
+CUST10975,1.5,13,2025-02,Outbound Sales,LATAM,1-10,Growth
+CUST10976,2.18,21,2025-10,Paid Search,Europe,1-10,Starter
+CUST10977,1.85,19,2025-08,Outbound Sales,Europe,1-10,Starter
+CUST10978,1.13,13,2025-02,Organic Search,APAC,1-10,Growth
+CUST10979,1.47,23,2025-12,Paid Social,Europe,1-10,Growth
+CUST10980,1.35,13,2025-02,Content/SEO,Europe,1-10,Starter
+CUST10981,1.17,17,2025-06,Content/SEO,India,51-200,Growth
+CUST10982,0.63,11,2024-12,Organic Search,Europe,51-200,Enterprise
+CUST10983,2.05,4,2024-05,Paid Search,LATAM,11-50,Growth
+CUST10984,1.44,23,2025-12,Paid Social,North America,51-200,Starter
+CUST10985,0.81,21,2025-10,Organic Search,North America,1000+,Enterprise
+CUST10986,0.82,15,2025-04,Referral,APAC,11-50,Starter
+CUST10987,1.56,16,2025-05,Paid Social,LATAM,1-10,Growth
+CUST10988,0.84,15,2025-04,Referral,North America,1000+,Enterprise
+CUST10989,1.09,10,2024-11,Content/SEO,North America,11-50,Starter
+CUST10990,1.12,11,2024-12,Referral,India,11-50,Growth
+CUST10991,1.06,6,2024-07,Outbound Sales,APAC,1000+,Starter
+CUST10992,0.7,4,2024-05,Organic Search,North America,1-10,Growth
+CUST10993,0.91,20,2025-09,Organic Search,LATAM,11-50,Starter
+CUST10994,0.64,6,2024-07,Organic Search,North America,51-200,Growth
+CUST10995,0.74,19,2025-08,Organic Search,Europe,1-10,Starter
+CUST10996,0.91,20,2025-09,Paid Social,North America,11-50,Enterprise
+CUST10997,1.87,16,2025-05,Paid Social,Europe,201-1000,Enterprise
+CUST10998,1.43,15,2025-04,Referral,India,11-50,Growth
+CUST10999,2.26,19,2025-08,Referral,India,51-200,Growth
+CUST11000,1.02,19,2025-08,Content/SEO,Europe,11-50,Growth
+CUST11001,0.73,2,2024-03,Referral,LATAM,1000+,Growth
+CUST11002,1.34,21,2025-10,Referral,North America,1-10,Growth
+CUST11003,0.89,22,2025-11,Paid Search,APAC,1-10,Starter
+CUST11004,0.5,20,2025-09,Paid Search,North America,11-50,Starter
+CUST11005,0.5,16,2025-05,Content/SEO,India,11-50,Starter
+CUST11006,1.27,21,2025-10,Referral,North America,201-1000,Enterprise
+CUST11007,0.81,9,2024-10,Outbound Sales,APAC,11-50,Starter
+CUST11008,0.53,9,2024-10,Organic Search,North America,11-50,Starter
+CUST11009,0.74,21,2025-10,Paid Search,North America,11-50,Starter
+CUST11010,0.72,19,2025-08,Paid Search,LATAM,1-10,Starter
+CUST11011,1.3,2,2024-03,Paid Search,India,11-50,Starter
+CUST11012,1.16,0,2024-01,Outbound Sales,LATAM,1-10,Starter
+CUST11013,0.87,23,2025-12,Content/SEO,North America,11-50,Growth
+CUST11014,0.82,9,2024-10,Content/SEO,Europe,1-10,Starter
+CUST11015,1.4,22,2025-11,Content/SEO,LATAM,1-10,Starter
+CUST11016,1.07,23,2025-12,Paid Search,North America,11-50,Growth
+CUST11017,0.76,0,2024-01,Paid Social,APAC,11-50,Growth
+CUST11018,0.82,13,2025-02,Paid Search,Europe,11-50,Starter
+CUST11019,0.86,18,2025-07,Organic Search,North America,1000+,Growth
+CUST11020,1.92,4,2024-05,Paid Search,Europe,51-200,Growth
+CUST11021,1.31,6,2024-07,Outbound Sales,Europe,51-200,Growth
+CUST11022,1.01,4,2024-05,Paid Social,Europe,1-10,Starter
+CUST11023,0.74,23,2025-12,Content/SEO,APAC,1-10,Starter
+CUST11024,0.8,11,2024-12,Organic Search,India,11-50,Starter
+CUST11025,1.21,18,2025-07,Paid Social,Europe,11-50,Growth
+CUST11026,1.28,8,2024-09,Content/SEO,North America,1-10,Enterprise
+CUST11027,0.5,5,2024-06,Content/SEO,Europe,51-200,Growth
+CUST11028,0.94,7,2024-08,Referral,North America,51-200,Growth
+CUST11029,0.85,5,2024-06,Paid Social,India,1-10,Starter
+CUST11030,1.0,21,2025-10,Organic Search,North America,11-50,Growth
+CUST11031,1.16,16,2025-05,Content/SEO,APAC,11-50,Growth
+CUST11032,1.41,11,2024-12,Organic Search,North America,11-50,Starter
+CUST11033,0.78,13,2025-02,Content/SEO,LATAM,51-200,Enterprise
+CUST11034,1.24,8,2024-09,Organic Search,Europe,11-50,Starter
+CUST11035,1.68,6,2024-07,Organic Search,Europe,201-1000,Starter
+CUST11036,1.01,20,2025-09,Paid Search,LATAM,51-200,Starter
+CUST11037,1.07,22,2025-11,Paid Search,North America,1000+,Growth
+CUST11038,1.14,9,2024-10,Content/SEO,LATAM,51-200,Enterprise
+CUST11039,2.08,8,2024-09,Paid Social,India,51-200,Growth
+CUST11040,0.96,5,2024-06,Organic Search,North America,1-10,Starter
+CUST11041,1.21,12,2025-01,Paid Social,North America,51-200,Starter
+CUST11042,0.61,23,2025-12,Paid Search,Europe,11-50,Growth
+CUST11043,1.16,22,2025-11,Paid Search,North America,51-200,Starter
+CUST11044,0.61,11,2024-12,Paid Search,North America,11-50,Growth
+CUST11045,1.22,4,2024-05,Referral,Europe,1-10,Enterprise
+CUST11046,1.18,6,2024-07,Outbound Sales,APAC,1-10,Starter
+CUST11047,1.53,5,2024-06,Organic Search,Europe,1-10,Starter
+CUST11048,0.93,17,2025-06,Organic Search,APAC,11-50,Growth
+CUST11049,1.84,1,2024-02,Paid Social,North America,51-200,Growth
+CUST11050,0.75,7,2024-08,Organic Search,APAC,201-1000,Enterprise
+CUST11051,1.22,5,2024-06,Referral,Europe,1-10,Starter
+CUST11052,0.98,22,2025-11,Organic Search,Europe,201-1000,Growth
+CUST11053,0.55,14,2025-03,Content/SEO,North America,1-10,Starter
+CUST11054,1.36,15,2025-04,Organic Search,APAC,201-1000,Growth
+CUST11055,1.05,20,2025-09,Paid Search,North America,1-10,Starter
+CUST11056,1.55,17,2025-06,Organic Search,North America,1000+,Enterprise
+CUST11057,1.37,21,2025-10,Content/SEO,North America,1-10,Enterprise
+CUST11058,1.58,13,2025-02,Organic Search,APAC,11-50,Starter
+CUST11059,0.72,9,2024-10,Content/SEO,North America,51-200,Starter
+CUST11060,0.75,23,2025-12,Organic Search,North America,1-10,Growth
+CUST11061,0.53,9,2024-10,Paid Social,India,51-200,Growth
+CUST11062,0.67,1,2024-02,Organic Search,Europe,1-10,Growth
+CUST11063,1.12,14,2025-03,Outbound Sales,North America,11-50,Starter
+CUST11064,1.37,21,2025-10,Paid Search,APAC,51-200,Enterprise
+CUST11065,0.76,19,2025-08,Organic Search,Europe,51-200,Growth
+CUST11066,0.74,22,2025-11,Paid Social,APAC,51-200,Growth
+CUST11067,1.54,18,2025-07,Paid Search,Europe,1-10,Growth
+CUST11068,0.5,22,2025-11,Organic Search,India,1-10,Enterprise
+CUST11069,0.71,21,2025-10,Organic Search,North America,201-1000,Growth
+CUST11070,0.93,12,2025-01,Outbound Sales,APAC,51-200,Enterprise
+CUST11071,0.59,0,2024-01,Content/SEO,India,51-200,Starter
+CUST11072,1.16,18,2025-07,Paid Search,Europe,11-50,Starter
+CUST11073,1.09,5,2024-06,Outbound Sales,North America,1-10,Starter
+CUST11074,0.57,20,2025-09,Organic Search,North America,201-1000,Starter
+CUST11075,1.38,17,2025-06,Referral,North America,1-10,Starter
+CUST11076,1.32,16,2025-05,Content/SEO,India,51-200,Enterprise
+CUST11077,0.92,20,2025-09,Paid Social,APAC,11-50,Starter
+CUST11078,1.2,23,2025-12,Outbound Sales,Europe,201-1000,Enterprise
+CUST11079,0.5,9,2024-10,Content/SEO,Europe,51-200,Enterprise
+CUST11080,1.06,13,2025-02,Outbound Sales,LATAM,51-200,Growth
+CUST11081,1.18,2,2024-03,Paid Search,Europe,1-10,Starter
+CUST11082,0.8,18,2025-07,Content/SEO,Europe,51-200,Starter
+CUST11083,2.02,5,2024-06,Content/SEO,Europe,201-1000,Starter
+CUST11084,0.78,12,2025-01,Outbound Sales,North America,1-10,Starter
+CUST11085,1.75,17,2025-06,Referral,North America,1-10,Starter
+CUST11086,1.26,7,2024-08,Referral,North America,51-200,Growth
+CUST11087,1.2,18,2025-07,Paid Social,North America,11-50,Growth
+CUST11088,1.0,23,2025-12,Organic Search,North America,1-10,Starter
+CUST11089,0.61,12,2025-01,Content/SEO,North America,201-1000,Enterprise
+CUST11090,0.72,8,2024-09,Outbound Sales,LATAM,1-10,Enterprise
+CUST11091,0.9,9,2024-10,Referral,India,1-10,Growth
+CUST11092,1.3,22,2025-11,Paid Social,APAC,1-10,Starter
+CUST11093,1.24,1,2024-02,Organic Search,Europe,11-50,Growth
+CUST11094,1.09,9,2024-10,Organic Search,Europe,201-1000,Growth
+CUST11095,0.77,17,2025-06,Paid Search,LATAM,201-1000,Starter
+CUST11096,1.11,21,2025-10,Referral,APAC,1-10,Growth
+CUST11097,0.78,22,2025-11,Outbound Sales,Europe,1-10,Starter
+CUST11098,0.72,16,2025-05,Organic Search,Europe,201-1000,Enterprise
+CUST11099,0.81,19,2025-08,Organic Search,North America,11-50,Starter
+CUST11100,0.52,5,2024-06,Content/SEO,APAC,1-10,Growth
+CUST11101,2.49,13,2025-02,Referral,APAC,1-10,Starter
+CUST11102,1.03,17,2025-06,Referral,APAC,11-50,Growth
+CUST11103,1.17,3,2024-04,Referral,North America,201-1000,Starter
+CUST11104,1.36,20,2025-09,Paid Search,India,1-10,Growth
+CUST11105,0.74,11,2024-12,Paid Social,Europe,11-50,Starter
+CUST11106,0.85,18,2025-07,Paid Search,Europe,1-10,Enterprise
+CUST11107,1.15,22,2025-11,Content/SEO,Europe,11-50,Growth
+CUST11108,0.91,17,2025-06,Paid Social,North America,11-50,Enterprise
+CUST11109,1.24,4,2024-05,Content/SEO,Europe,1-10,Starter
+CUST11110,0.61,21,2025-10,Organic Search,Europe,1-10,Growth
+CUST11111,2.13,12,2025-01,Referral,Europe,11-50,Starter
+CUST11112,1.21,16,2025-05,Paid Social,India,51-200,Growth
+CUST11113,2.17,21,2025-10,Paid Social,Europe,51-200,Growth
+CUST11114,1.34,22,2025-11,Paid Search,Europe,1000+,Enterprise
+CUST11115,0.65,4,2024-05,Outbound Sales,Europe,1000+,Enterprise
+CUST11116,1.0,5,2024-06,Paid Social,Europe,11-50,Starter
+CUST11117,1.42,17,2025-06,Paid Search,Europe,51-200,Starter
+CUST11118,0.87,22,2025-11,Referral,North America,51-200,Growth
+CUST11119,1.38,20,2025-09,Organic Search,Europe,1-10,Growth
+CUST11120,0.99,10,2024-11,Outbound Sales,APAC,1-10,Starter
+CUST11121,1.18,4,2024-05,Outbound Sales,APAC,51-200,Starter
+CUST11122,1.25,15,2025-04,Paid Social,APAC,1-10,Enterprise
+CUST11123,0.64,14,2025-03,Content/SEO,APAC,11-50,Starter
+CUST11124,1.25,10,2024-11,Outbound Sales,North America,51-200,Starter
+CUST11125,1.15,19,2025-08,Paid Social,APAC,11-50,Starter
+CUST11126,1.5,22,2025-11,Referral,APAC,1-10,Starter
+CUST11127,0.93,10,2024-11,Outbound Sales,North America,201-1000,Enterprise
+CUST11128,0.63,1,2024-02,Paid Search,Europe,201-1000,Growth
+CUST11129,0.79,5,2024-06,Paid Search,Europe,51-200,Growth
+CUST11130,0.88,20,2025-09,Paid Social,India,1-10,Growth
+CUST11131,0.69,0,2024-01,Paid Social,North America,51-200,Growth
+CUST11132,1.02,18,2025-07,Referral,Europe,1-10,Starter
+CUST11133,1.23,5,2024-06,Outbound Sales,APAC,201-1000,Growth
+CUST11134,1.01,5,2024-06,Paid Search,North America,1000+,Enterprise
+CUST11135,1.12,19,2025-08,Content/SEO,India,1000+,Growth
+CUST11136,1.27,2,2024-03,Organic Search,APAC,51-200,Growth
+CUST11137,0.8,19,2025-08,Paid Search,LATAM,1-10,Growth
+CUST11138,0.87,6,2024-07,Paid Search,North America,1-10,Growth
+CUST11139,1.4,22,2025-11,Paid Search,Europe,51-200,Enterprise
+CUST11140,1.13,19,2025-08,Referral,India,1-10,Growth
+CUST11141,0.52,11,2024-12,Paid Search,Europe,11-50,Growth
+CUST11142,2.63,20,2025-09,Referral,Europe,11-50,Starter
+CUST11143,1.08,14,2025-03,Paid Search,APAC,51-200,Starter
+CUST11144,0.54,11,2024-12,Content/SEO,North America,51-200,Growth
+CUST11145,1.96,19,2025-08,Paid Search,India,1-10,Starter
+CUST11146,1.27,22,2025-11,Outbound Sales,Europe,11-50,Starter
+CUST11147,1.0,16,2025-05,Paid Search,North America,11-50,Growth
+CUST11148,0.62,17,2025-06,Paid Social,Europe,51-200,Starter
+CUST11149,1.09,20,2025-09,Paid Search,North America,201-1000,Enterprise
+CUST11150,0.92,18,2025-07,Organic Search,North America,11-50,Growth
+CUST11151,1.3,13,2025-02,Referral,Europe,1-10,Growth
+CUST11152,1.58,21,2025-10,Organic Search,North America,51-200,Enterprise
+CUST11153,0.68,11,2024-12,Outbound Sales,Europe,11-50,Starter
+CUST11154,1.37,23,2025-12,Paid Search,North America,1-10,Starter
+CUST11155,0.6,20,2025-09,Outbound Sales,APAC,1-10,Starter
+CUST11156,0.56,9,2024-10,Paid Search,North America,1-10,Growth
+CUST11157,1.26,12,2025-01,Referral,India,11-50,Growth
+CUST11158,1.29,15,2025-04,Referral,Europe,51-200,Starter
+CUST11159,0.89,1,2024-02,Paid Search,Europe,51-200,Enterprise
+CUST11160,0.87,23,2025-12,Paid Social,India,1-10,Starter
+CUST11161,0.99,18,2025-07,Content/SEO,Europe,1-10,Growth
+CUST11162,0.72,20,2025-09,Outbound Sales,Europe,51-200,Growth
+CUST11163,1.29,13,2025-02,Content/SEO,North America,1-10,Starter
+CUST11164,1.1,11,2024-12,Paid Search,Europe,11-50,Growth
+CUST11165,1.06,9,2024-10,Paid Social,North America,11-50,Starter
+CUST11166,1.14,18,2025-07,Organic Search,North America,11-50,Growth
+CUST11167,1.08,21,2025-10,Paid Social,Europe,11-50,Starter
+CUST11168,1.1,10,2024-11,Paid Social,APAC,11-50,Growth
+CUST11169,0.71,14,2025-03,Outbound Sales,Europe,51-200,Enterprise
+CUST11170,2.15,19,2025-08,Organic Search,North America,11-50,Growth
+CUST11171,1.19,15,2025-04,Outbound Sales,APAC,11-50,Starter
+CUST11172,1.17,20,2025-09,Referral,North America,11-50,Starter
+CUST11173,0.76,16,2025-05,Referral,Europe,11-50,Enterprise
+CUST11174,0.81,16,2025-05,Paid Search,Europe,51-200,Starter
+CUST11175,0.77,21,2025-10,Paid Search,Europe,11-50,Starter
+CUST11176,0.72,9,2024-10,Organic Search,LATAM,1-10,Growth
+CUST11177,1.1,4,2024-05,Content/SEO,Europe,1-10,Starter
+CUST11178,1.08,5,2024-06,Referral,North America,51-200,Growth
+CUST11179,0.6,20,2025-09,Referral,North America,1-10,Starter
+CUST11180,0.67,9,2024-10,Paid Search,North America,201-1000,Enterprise
+CUST11181,0.75,22,2025-11,Paid Social,APAC,51-200,Growth
+CUST11182,1.23,20,2025-09,Paid Search,APAC,1-10,Starter
+CUST11183,0.96,9,2024-10,Organic Search,LATAM,1-10,Growth
+CUST11184,0.84,0,2024-01,Paid Social,India,1-10,Growth
+CUST11185,1.76,2,2024-03,Organic Search,Europe,11-50,Starter
+CUST11186,1.14,12,2025-01,Organic Search,North America,11-50,Growth
+CUST11187,0.93,22,2025-11,Referral,Europe,11-50,Starter
+CUST11188,1.23,10,2024-11,Paid Social,North America,1-10,Starter
+CUST11189,0.86,19,2025-08,Content/SEO,North America,51-200,Growth
+CUST11190,0.79,14,2025-03,Content/SEO,Europe,201-1000,Starter
+CUST11191,1.57,18,2025-07,Paid Social,India,1-10,Growth
+CUST11192,1.05,16,2025-05,Referral,North America,51-200,Growth
+CUST11193,0.59,20,2025-09,Referral,Europe,201-1000,Growth
+CUST11194,0.5,9,2024-10,Paid Social,India,1-10,Starter
+CUST11195,1.05,6,2024-07,Paid Social,Europe,11-50,Growth
+CUST11196,1.05,10,2024-11,Paid Search,LATAM,11-50,Growth
+CUST11197,0.98,16,2025-05,Organic Search,North America,1-10,Growth
+CUST11198,0.69,6,2024-07,Outbound Sales,APAC,1000+,Enterprise
+CUST11199,0.86,23,2025-12,Organic Search,APAC,201-1000,Enterprise
+CUST11200,1.65,11,2024-12,Organic Search,North America,11-50,Starter
+CUST11201,1.43,12,2025-01,Referral,North America,11-50,Starter
+CUST11202,1.13,2,2024-03,Outbound Sales,APAC,1-10,Starter
+CUST11203,1.25,3,2024-04,Paid Social,North America,1-10,Growth
+CUST11204,1.6,10,2024-11,Content/SEO,North America,201-1000,Starter
+CUST11205,1.21,20,2025-09,Organic Search,LATAM,1-10,Growth
+CUST11206,1.16,22,2025-11,Paid Search,Europe,11-50,Growth
+CUST11207,0.52,7,2024-08,Paid Social,North America,1000+,Growth
+CUST11208,1.05,6,2024-07,Organic Search,North America,201-1000,Enterprise
+CUST11209,0.81,20,2025-09,Organic Search,APAC,1-10,Starter
+CUST11210,1.19,22,2025-11,Content/SEO,LATAM,1-10,Growth
+CUST11211,1.11,18,2025-07,Content/SEO,LATAM,1-10,Starter
+CUST11212,1.31,11,2024-12,Outbound Sales,APAC,11-50,Starter
+CUST11213,0.58,18,2025-07,Content/SEO,North America,11-50,Growth
+CUST11214,0.86,18,2025-07,Paid Search,APAC,51-200,Starter
+CUST11215,1.29,12,2025-01,Paid Social,North America,1-10,Growth
+CUST11216,0.64,15,2025-04,Paid Social,LATAM,1-10,Starter
+CUST11217,0.74,16,2025-05,Paid Search,North America,11-50,Growth
+CUST11218,1.57,18,2025-07,Organic Search,LATAM,1-10,Starter
+CUST11219,0.88,20,2025-09,Paid Search,LATAM,1-10,Starter
+CUST11220,1.06,12,2025-01,Organic Search,APAC,1000+,Starter
+CUST11221,1.5,22,2025-11,Organic Search,Europe,1000+,Enterprise
+CUST11222,0.6,0,2024-01,Content/SEO,North America,201-1000,Growth
+CUST11223,1.29,17,2025-06,Referral,North America,1-10,Starter
+CUST11224,0.89,17,2025-06,Paid Search,LATAM,201-1000,Growth
+CUST11225,0.74,20,2025-09,Paid Search,Europe,201-1000,Growth
+CUST11226,1.36,3,2024-04,Paid Social,Europe,1-10,Starter
+CUST11227,1.45,11,2024-12,Referral,India,1-10,Starter
+CUST11228,0.51,15,2025-04,Outbound Sales,North America,1-10,Growth
+CUST11229,0.6,6,2024-07,Outbound Sales,North America,1-10,Starter
+CUST11230,1.31,10,2024-11,Content/SEO,LATAM,11-50,Starter
+CUST11231,0.72,23,2025-12,Organic Search,North America,1000+,Growth
+CUST11232,0.9,22,2025-11,Referral,North America,1-10,Growth
+CUST11233,0.75,17,2025-06,Paid Social,India,51-200,Growth
+CUST11234,0.5,1,2024-02,Content/SEO,Europe,51-200,Growth
+CUST11235,1.18,15,2025-04,Paid Social,North America,11-50,Starter
+CUST11236,0.86,22,2025-11,Organic Search,North America,11-50,Starter
+CUST11237,0.86,20,2025-09,Paid Social,Europe,51-200,Enterprise
+CUST11238,0.97,3,2024-04,Organic Search,North America,51-200,Growth
+CUST11239,0.65,17,2025-06,Referral,APAC,11-50,Starter
+CUST11240,1.05,9,2024-10,Organic Search,LATAM,1000+,Enterprise
+CUST11241,1.3,14,2025-03,Outbound Sales,North America,1000+,Enterprise
+CUST11242,0.71,21,2025-10,Referral,APAC,11-50,Starter
+CUST11243,0.5,13,2025-02,Paid Social,Europe,11-50,Starter
+CUST11244,0.75,7,2024-08,Content/SEO,Europe,1-10,Starter
+CUST11245,0.5,8,2024-09,Content/SEO,North America,201-1000,Growth
+CUST11246,1.62,1,2024-02,Organic Search,LATAM,11-50,Starter
+CUST11247,1.01,8,2024-09,Paid Search,India,51-200,Starter
+CUST11248,0.67,19,2025-08,Outbound Sales,Europe,11-50,Growth
+CUST11249,0.67,18,2025-07,Outbound Sales,Europe,11-50,Growth
+CUST11250,1.42,10,2024-11,Organic Search,APAC,1-10,Growth
+CUST11251,0.5,10,2024-11,Referral,India,11-50,Starter
+CUST11252,0.6,23,2025-12,Paid Search,North America,11-50,Starter
+CUST11253,0.6,19,2025-08,Organic Search,North America,1-10,Starter
+CUST11254,1.01,19,2025-08,Paid Search,Europe,51-200,Starter
+CUST11255,0.59,10,2024-11,Paid Social,LATAM,1-10,Growth
+CUST11256,1.03,19,2025-08,Paid Social,North America,1-10,Growth
+CUST11257,1.33,20,2025-09,Paid Search,APAC,1-10,Growth
+CUST11258,1.19,10,2024-11,Outbound Sales,North America,1-10,Growth
+CUST11259,0.69,23,2025-12,Referral,Europe,11-50,Growth
+CUST11260,1.83,1,2024-02,Content/SEO,APAC,201-1000,Enterprise
+CUST11261,0.88,20,2025-09,Organic Search,Europe,201-1000,Enterprise
+CUST11262,0.98,17,2025-06,Content/SEO,North America,1000+,Enterprise
+CUST11263,0.74,8,2024-09,Referral,APAC,1-10,Enterprise
+CUST11264,1.29,4,2024-05,Referral,North America,51-200,Growth
+CUST11265,0.5,13,2025-02,Paid Search,Europe,1-10,Growth
+CUST11266,0.86,10,2024-11,Paid Search,North America,51-200,Enterprise
+CUST11267,0.64,19,2025-08,Organic Search,North America,1-10,Starter
+CUST11268,0.5,17,2025-06,Content/SEO,LATAM,1000+,Starter
+CUST11269,1.87,20,2025-09,Content/SEO,India,51-200,Growth
+CUST11270,1.22,13,2025-02,Organic Search,LATAM,1-10,Starter
+CUST11271,1.03,10,2024-11,Paid Social,North America,1-10,Growth
+CUST11272,0.97,14,2025-03,Paid Social,North America,51-200,Enterprise
+CUST11273,0.99,3,2024-04,Paid Social,North America,1000+,Enterprise
+CUST11274,1.45,21,2025-10,Paid Search,North America,11-50,Growth
+CUST11275,1.48,18,2025-07,Organic Search,North America,11-50,Growth
+CUST11276,1.21,23,2025-12,Organic Search,APAC,11-50,Growth
+CUST11277,0.61,14,2025-03,Content/SEO,North America,201-1000,Starter
+CUST11278,0.88,22,2025-11,Paid Search,APAC,1-10,Enterprise
+CUST11279,1.42,22,2025-11,Organic Search,India,1-10,Starter
+CUST11280,0.8,21,2025-10,Organic Search,North America,201-1000,Enterprise
+CUST11281,0.96,8,2024-09,Organic Search,Europe,51-200,Growth
+CUST11282,2.27,3,2024-04,Paid Search,India,11-50,Growth
+CUST11283,1.31,16,2025-05,Paid Search,North America,1-10,Starter
+CUST11284,0.75,1,2024-02,Referral,LATAM,1-10,Starter
+CUST11285,1.39,18,2025-07,Content/SEO,Europe,11-50,Growth
+CUST11286,0.86,17,2025-06,Content/SEO,Europe,1000+,Enterprise
+CUST11287,2.21,18,2025-07,Content/SEO,North America,51-200,Enterprise
+CUST11288,1.58,7,2024-08,Outbound Sales,LATAM,11-50,Growth
+CUST11289,2.24,21,2025-10,Referral,North America,1-10,Starter
+CUST11290,0.71,11,2024-12,Content/SEO,India,1000+,Enterprise
+CUST11291,0.79,13,2025-02,Organic Search,Europe,201-1000,Enterprise
+CUST11292,1.37,20,2025-09,Organic Search,North America,11-50,Starter
+CUST11293,0.5,7,2024-08,Referral,Europe,201-1000,Enterprise
+CUST11294,0.82,16,2025-05,Organic Search,APAC,11-50,Starter
+CUST11295,1.0,3,2024-04,Paid Social,LATAM,1-10,Growth
+CUST11296,0.9,16,2025-05,Referral,APAC,1-10,Starter
+CUST11297,1.14,5,2024-06,Referral,North America,11-50,Starter
+CUST11298,1.73,5,2024-06,Paid Social,Europe,51-200,Growth
+CUST11299,1.04,1,2024-02,Organic Search,Europe,11-50,Starter
+CUST11300,2.22,8,2024-09,Referral,Europe,11-50,Growth
+CUST11301,0.93,10,2024-11,Paid Search,Europe,1-10,Starter
+CUST11302,0.92,5,2024-06,Referral,Europe,201-1000,Starter
+CUST11303,0.91,1,2024-02,Paid Search,LATAM,51-200,Enterprise
+CUST11304,1.28,9,2024-10,Paid Social,APAC,1-10,Growth
+CUST11305,0.9,22,2025-11,Organic Search,North America,1000+,Enterprise
+CUST11306,0.69,22,2025-11,Referral,North America,1000+,Enterprise
+CUST11307,2.19,19,2025-08,Paid Search,Europe,201-1000,Enterprise
+CUST11308,0.82,8,2024-09,Outbound Sales,Europe,1-10,Starter
+CUST11309,1.0,19,2025-08,Paid Social,Europe,1-10,Growth
+CUST11310,0.92,20,2025-09,Paid Social,North America,1-10,Growth
+CUST11311,1.12,8,2024-09,Referral,North America,201-1000,Enterprise
+CUST11312,2.2,21,2025-10,Referral,North America,1-10,Starter
+CUST11313,0.63,15,2025-04,Paid Social,APAC,11-50,Growth
+CUST11314,0.84,6,2024-07,Organic Search,North America,11-50,Starter
+CUST11315,1.32,12,2025-01,Organic Search,LATAM,1000+,Growth
+CUST11316,0.84,6,2024-07,Content/SEO,North America,51-200,Enterprise
+CUST11317,1.05,11,2024-12,Content/SEO,APAC,11-50,Growth
+CUST11318,0.92,20,2025-09,Organic Search,North America,201-1000,Enterprise
+CUST11319,1.31,14,2025-03,Paid Search,India,11-50,Growth
+CUST11320,1.03,2,2024-03,Organic Search,APAC,1-10,Enterprise
+CUST11321,0.6,12,2025-01,Paid Search,North America,51-200,Growth
+CUST11322,1.17,8,2024-09,Content/SEO,North America,1-10,Starter
+CUST11323,1.2,1,2024-02,Outbound Sales,Europe,1000+,Growth
+CUST11324,0.79,17,2025-06,Content/SEO,APAC,11-50,Starter
+CUST11325,2.05,12,2025-01,Paid Search,Europe,1-10,Starter
+CUST11326,0.95,22,2025-11,Referral,Europe,51-200,Enterprise
+CUST11327,0.75,21,2025-10,Paid Search,Europe,1000+,Enterprise
+CUST11328,1.61,12,2025-01,Content/SEO,LATAM,1-10,Growth
+CUST11329,2.19,18,2025-07,Paid Social,APAC,1-10,Growth
+CUST11330,0.78,0,2024-01,Referral,Europe,51-200,Starter
+CUST11331,0.94,5,2024-06,Paid Search,APAC,11-50,Starter
+CUST11332,0.91,18,2025-07,Paid Social,Europe,201-1000,Growth
+CUST11333,2.73,20,2025-09,Paid Search,APAC,201-1000,Enterprise
+CUST11334,2.3,13,2025-02,Content/SEO,APAC,201-1000,Growth
+CUST11335,2.63,21,2025-10,Paid Search,LATAM,1-10,Growth
+CUST11336,2.02,22,2025-11,Outbound Sales,North America,201-1000,Enterprise
+CUST11337,1.15,22,2025-11,Organic Search,LATAM,1-10,Growth
+CUST11338,1.16,13,2025-02,Content/SEO,North America,1-10,Starter
+CUST11339,0.81,6,2024-07,Content/SEO,India,1-10,Starter
+CUST11340,1.16,18,2025-07,Content/SEO,India,11-50,Starter
+CUST11341,0.98,7,2024-08,Organic Search,Europe,51-200,Enterprise
+CUST11342,0.99,22,2025-11,Paid Social,North America,1-10,Starter
+CUST11343,1.08,13,2025-02,Referral,Europe,11-50,Starter
+CUST11344,1.22,20,2025-09,Organic Search,Europe,1-10,Growth
+CUST11345,0.84,20,2025-09,Referral,India,11-50,Starter
+CUST11346,1.45,15,2025-04,Content/SEO,North America,51-200,Growth
+CUST11347,1.63,5,2024-06,Organic Search,Europe,201-1000,Enterprise
+CUST11348,0.88,12,2025-01,Content/SEO,India,51-200,Starter
+CUST11349,0.78,4,2024-05,Content/SEO,Europe,201-1000,Enterprise
+CUST11350,1.46,14,2025-03,Organic Search,Europe,51-200,Growth
+CUST11351,0.79,19,2025-08,Outbound Sales,APAC,11-50,Starter
+CUST11352,0.82,7,2024-08,Referral,Europe,1-10,Growth
+CUST11353,1.56,8,2024-09,Paid Search,North America,11-50,Enterprise
+CUST11354,0.57,19,2025-08,Paid Social,North America,51-200,Enterprise
+CUST11355,0.85,23,2025-12,Outbound Sales,APAC,51-200,Growth
+CUST11356,1.24,18,2025-07,Paid Social,Europe,51-200,Growth
+CUST11357,1.68,2,2024-03,Paid Search,India,11-50,Starter
+CUST11358,1.75,13,2025-02,Paid Social,LATAM,51-200,Enterprise
+CUST11359,0.68,16,2025-05,Paid Search,Europe,51-200,Growth
+CUST11360,0.91,20,2025-09,Organic Search,APAC,1-10,Growth
+CUST11361,1.82,1,2024-02,Content/SEO,North America,11-50,Starter
+CUST11362,0.76,19,2025-08,Paid Social,LATAM,1-10,Growth
+CUST11363,1.11,4,2024-05,Organic Search,India,51-200,Enterprise
+CUST11364,1.55,15,2025-04,Content/SEO,APAC,11-50,Starter
+CUST11365,0.78,21,2025-10,Content/SEO,APAC,11-50,Enterprise
+CUST11366,0.9,23,2025-12,Paid Social,North America,201-1000,Starter
+CUST11367,1.12,16,2025-05,Organic Search,North America,11-50,Starter
+CUST11368,0.64,4,2024-05,Outbound Sales,India,1-10,Growth
+CUST11369,1.26,19,2025-08,Organic Search,India,1-10,Starter
+CUST11370,1.12,23,2025-12,Content/SEO,India,1-10,Starter
+CUST11371,1.66,17,2025-06,Content/SEO,North America,51-200,Starter
+CUST11372,1.02,20,2025-09,Content/SEO,Europe,51-200,Growth
+CUST11373,0.69,19,2025-08,Organic Search,North America,201-1000,Enterprise
+CUST11374,0.82,18,2025-07,Paid Social,Europe,11-50,Starter
+CUST11375,1.56,6,2024-07,Organic Search,APAC,51-200,Enterprise
+CUST11376,1.41,20,2025-09,Outbound Sales,North America,11-50,Growth
+CUST11377,0.89,9,2024-10,Organic Search,Europe,51-200,Starter
+CUST11378,0.87,9,2024-10,Referral,North America,1-10,Enterprise
+CUST11379,0.56,2,2024-03,Paid Social,Europe,51-200,Enterprise
+CUST11380,1.39,1,2024-02,Content/SEO,North America,201-1000,Enterprise
+CUST11381,1.35,15,2025-04,Paid Social,North America,11-50,Growth
+CUST11382,1.37,13,2025-02,Organic Search,APAC,1-10,Growth
+CUST11383,0.63,19,2025-08,Content/SEO,APAC,201-1000,Starter
+CUST11384,1.15,20,2025-09,Paid Search,Europe,1-10,Starter
+CUST11385,0.8,2,2024-03,Paid Search,APAC,11-50,Growth
+CUST11386,0.95,23,2025-12,Paid Social,North America,1-10,Starter
+CUST11387,1.18,18,2025-07,Referral,North America,51-200,Growth
+CUST11388,0.91,6,2024-07,Organic Search,Europe,1000+,Growth
+CUST11389,0.99,10,2024-11,Outbound Sales,APAC,11-50,Starter
+CUST11390,0.52,22,2025-11,Content/SEO,Europe,51-200,Growth
+CUST11391,2.25,3,2024-04,Organic Search,North America,11-50,Starter
+CUST11392,1.07,0,2024-01,Paid Search,North America,1-10,Growth
+CUST11393,1.05,9,2024-10,Outbound Sales,North America,1-10,Starter
+CUST11394,0.71,7,2024-08,Paid Social,North America,1-10,Growth
+CUST11395,0.75,10,2024-11,Content/SEO,APAC,11-50,Growth
+CUST11396,0.5,11,2024-12,Paid Social,North America,51-200,Enterprise
+CUST11397,1.34,12,2025-01,Paid Search,North America,1-10,Growth
+CUST11398,1.62,10,2024-11,Content/SEO,Europe,1-10,Growth
+CUST11399,1.1,8,2024-09,Referral,North America,51-200,Growth
+CUST11400,1.48,11,2024-12,Paid Social,Europe,11-50,Starter
+CUST11401,0.94,0,2024-01,Outbound Sales,North America,51-200,Enterprise
+CUST11402,0.71,14,2025-03,Organic Search,Europe,11-50,Growth
+CUST11403,1.39,14,2025-03,Paid Social,North America,11-50,Growth
+CUST11404,1.21,11,2024-12,Paid Social,India,1-10,Starter
+CUST11405,0.73,14,2025-03,Paid Social,Europe,1-10,Growth
+CUST11406,0.5,23,2025-12,Referral,North America,1-10,Growth
+CUST11407,1.05,7,2024-08,Paid Social,Europe,51-200,Growth
+CUST11408,0.75,18,2025-07,Referral,APAC,51-200,Growth
+CUST11409,1.23,5,2024-06,Outbound Sales,India,1-10,Starter
+CUST11410,0.66,3,2024-04,Paid Search,Europe,51-200,Growth
+CUST11411,0.57,4,2024-05,Organic Search,India,1-10,Starter
+CUST11412,0.74,22,2025-11,Paid Search,LATAM,11-50,Growth
+CUST11413,0.99,14,2025-03,Paid Search,North America,51-200,Starter
+CUST11414,0.61,6,2024-07,Referral,North America,1-10,Starter
+CUST11415,1.08,10,2024-11,Organic Search,Europe,11-50,Starter
+CUST11416,0.64,18,2025-07,Paid Social,North America,201-1000,Growth
+CUST11417,1.2,15,2025-04,Content/SEO,North America,201-1000,Growth
+CUST11418,1.26,16,2025-05,Organic Search,India,51-200,Enterprise
+CUST11419,1.0,9,2024-10,Referral,India,11-50,Starter
+CUST11420,1.47,18,2025-07,Paid Search,India,1000+,Growth
+CUST11421,1.33,18,2025-07,Organic Search,APAC,1-10,Growth
+CUST11422,0.67,17,2025-06,Organic Search,Europe,11-50,Starter
+CUST11423,1.01,15,2025-04,Paid Search,North America,1-10,Growth
+CUST11424,1.14,16,2025-05,Paid Social,North America,11-50,Growth
+CUST11425,0.95,8,2024-09,Organic Search,Europe,1000+,Enterprise
+CUST11426,1.34,11,2024-12,Organic Search,Europe,1-10,Enterprise
+CUST11427,1.39,19,2025-08,Content/SEO,APAC,11-50,Starter
+CUST11428,1.5,18,2025-07,Content/SEO,North America,1000+,Growth
+CUST11429,1.09,23,2025-12,Paid Social,Europe,1-10,Starter
+CUST11430,1.15,20,2025-09,Paid Social,APAC,1-10,Starter
+CUST11431,1.22,21,2025-10,Outbound Sales,Europe,1000+,Growth
+CUST11432,0.66,10,2024-11,Paid Social,APAC,11-50,Starter
+CUST11433,0.7,5,2024-06,Content/SEO,Europe,1000+,Growth
+CUST11434,0.55,1,2024-02,Paid Search,India,1-10,Growth
+CUST11435,1.13,23,2025-12,Paid Social,North America,51-200,Enterprise
+CUST11436,0.71,13,2025-02,Referral,Europe,1000+,Growth
+CUST11437,0.89,20,2025-09,Outbound Sales,North America,201-1000,Growth
+CUST11438,0.79,10,2024-11,Outbound Sales,North America,51-200,Growth
+CUST11439,0.89,22,2025-11,Referral,APAC,11-50,Starter
+CUST11440,0.66,9,2024-10,Paid Social,North America,51-200,Growth
+CUST11441,1.18,12,2025-01,Organic Search,LATAM,51-200,Growth
+CUST11442,3.0,16,2025-05,Outbound Sales,India,51-200,Growth
+CUST11443,1.03,11,2024-12,Paid Search,Europe,51-200,Enterprise
+CUST11444,1.17,22,2025-11,Referral,APAC,11-50,Growth
+CUST11445,0.96,0,2024-01,Paid Search,APAC,201-1000,Enterprise
+CUST11446,0.81,5,2024-06,Organic Search,Europe,51-200,Starter
+CUST11447,0.82,15,2025-04,Outbound Sales,Europe,1-10,Enterprise
+CUST11448,0.61,8,2024-09,Paid Social,LATAM,1000+,Growth
+CUST11449,0.65,0,2024-01,Organic Search,North America,11-50,Starter
+CUST11450,0.6,0,2024-01,Referral,North America,11-50,Growth
+CUST11451,1.23,20,2025-09,Paid Social,India,11-50,Starter
+CUST11452,1.92,13,2025-02,Paid Social,LATAM,201-1000,Growth
+CUST11453,1.88,12,2025-01,Referral,Europe,1-10,Growth
+CUST11454,0.89,19,2025-08,Referral,Europe,1-10,Starter
+CUST11455,1.39,17,2025-06,Organic Search,North America,51-200,Enterprise
+CUST11456,1.31,16,2025-05,Referral,LATAM,1-10,Starter
+CUST11457,0.95,4,2024-05,Referral,North America,1-10,Starter
+CUST11458,2.48,19,2025-08,Paid Social,North America,11-50,Growth
+CUST11459,0.91,5,2024-06,Paid Social,India,1000+,Enterprise
+CUST11460,0.71,15,2025-04,Content/SEO,North America,1-10,Starter
+CUST11461,1.02,9,2024-10,Paid Search,North America,51-200,Growth
+CUST11462,0.78,15,2025-04,Paid Search,North America,201-1000,Growth
+CUST11463,1.56,6,2024-07,Paid Social,North America,11-50,Growth
+CUST11464,1.51,17,2025-06,Paid Social,India,1-10,Starter
+CUST11465,1.01,9,2024-10,Content/SEO,North America,51-200,Growth
+CUST11466,1.46,5,2024-06,Content/SEO,APAC,11-50,Starter
+CUST11467,0.75,17,2025-06,Content/SEO,Europe,1-10,Starter
+CUST11468,1.0,18,2025-07,Paid Search,North America,11-50,Starter
+CUST11469,1.27,12,2025-01,Paid Social,India,1000+,Starter
+CUST11470,0.95,3,2024-04,Paid Search,APAC,51-200,Growth
+CUST11471,0.56,21,2025-10,Paid Search,Europe,11-50,Starter
+CUST11472,1.04,20,2025-09,Paid Search,North America,11-50,Starter
+CUST11473,0.98,11,2024-12,Paid Search,North America,11-50,Growth
+CUST11474,0.97,23,2025-12,Paid Search,India,1-10,Growth
+CUST11475,0.5,18,2025-07,Content/SEO,India,51-200,Starter
+CUST11476,0.81,6,2024-07,Paid Social,North America,11-50,Growth
+CUST11477,0.86,22,2025-11,Organic Search,Europe,51-200,Enterprise
+CUST11478,0.6,9,2024-10,Paid Search,India,11-50,Growth
+CUST11479,0.9,13,2025-02,Outbound Sales,Europe,51-200,Starter
+CUST11480,0.63,7,2024-08,Outbound Sales,India,1-10,Growth
+CUST11481,1.49,16,2025-05,Organic Search,North America,201-1000,Enterprise
+CUST11482,0.57,18,2025-07,Paid Search,Europe,1000+,Growth
+CUST11483,0.76,18,2025-07,Paid Social,Europe,1-10,Starter
+CUST11484,1.39,0,2024-01,Content/SEO,North America,1000+,Growth
+CUST11485,1.03,11,2024-12,Paid Search,Europe,201-1000,Growth
+CUST11486,0.96,21,2025-10,Outbound Sales,India,51-200,Starter
+CUST11487,1.29,7,2024-08,Outbound Sales,Europe,1-10,Enterprise
+CUST11488,0.99,16,2025-05,Organic Search,North America,201-1000,Enterprise
+CUST11489,0.88,22,2025-11,Paid Search,North America,11-50,Growth
+CUST11490,1.07,23,2025-12,Organic Search,North America,11-50,Starter
+CUST11491,1.44,6,2024-07,Paid Search,North America,11-50,Growth
+CUST11492,0.7,19,2025-08,Paid Social,India,51-200,Growth
+CUST11493,0.53,18,2025-07,Content/SEO,North America,201-1000,Enterprise
+CUST11494,1.87,16,2025-05,Organic Search,North America,51-200,Growth
+CUST11495,0.74,9,2024-10,Paid Social,APAC,51-200,Enterprise
+CUST11496,2.41,23,2025-12,Referral,India,1-10,Growth
+CUST11497,1.14,18,2025-07,Outbound Sales,North America,51-200,Growth
+CUST11498,1.12,20,2025-09,Paid Search,Europe,11-50,Starter
+CUST11499,0.68,7,2024-08,Content/SEO,India,51-200,Growth
+CUST11500,0.93,6,2024-07,Organic Search,North America,1-10,Growth
+CUST11501,0.93,17,2025-06,Paid Search,Europe,11-50,Starter
+CUST11502,1.51,17,2025-06,Organic Search,Europe,1-10,Growth
+CUST11503,0.86,1,2024-02,Content/SEO,Europe,1000+,Enterprise
+CUST11504,1.03,8,2024-09,Organic Search,North America,11-50,Starter
+CUST11505,1.2,19,2025-08,Paid Search,Europe,1-10,Growth
+CUST11506,1.24,21,2025-10,Paid Search,India,11-50,Growth
+CUST11507,1.24,22,2025-11,Paid Search,LATAM,11-50,Growth
+CUST11508,1.08,17,2025-06,Content/SEO,Europe,11-50,Starter
+CUST11509,0.98,19,2025-08,Referral,LATAM,51-200,Starter
+CUST11510,1.03,3,2024-04,Organic Search,India,201-1000,Enterprise
+CUST11511,0.96,12,2025-01,Organic Search,Europe,1-10,Starter
+CUST11512,1.13,6,2024-07,Paid Search,North America,11-50,Starter
+CUST11513,1.13,4,2024-05,Content/SEO,North America,1-10,Starter
+CUST11514,0.65,23,2025-12,Paid Social,Europe,11-50,Enterprise
+CUST11515,0.59,18,2025-07,Paid Social,North America,1-10,Starter
+CUST11516,1.48,18,2025-07,Paid Search,India,1-10,Growth
+CUST11517,1.93,8,2024-09,Outbound Sales,APAC,1000+,Enterprise
+CUST11518,0.71,9,2024-10,Organic Search,APAC,1000+,Growth
+CUST11519,0.81,0,2024-01,Organic Search,APAC,11-50,Starter
+CUST11520,2.42,21,2025-10,Paid Search,LATAM,51-200,Growth
+CUST11521,0.59,16,2025-05,Outbound Sales,North America,201-1000,Starter
+CUST11522,2.1,20,2025-09,Outbound Sales,North America,201-1000,Enterprise
+CUST11523,1.03,9,2024-10,Paid Search,Europe,51-200,Growth
+CUST11524,0.98,6,2024-07,Referral,APAC,11-50,Starter
+CUST11525,0.89,18,2025-07,Referral,Europe,11-50,Growth
+CUST11526,0.93,18,2025-07,Paid Search,Europe,1000+,Enterprise
+CUST11527,0.75,13,2025-02,Organic Search,India,1-10,Starter
+CUST11528,1.03,17,2025-06,Paid Social,North America,51-200,Enterprise
+CUST11529,0.98,8,2024-09,Organic Search,APAC,11-50,Growth
+CUST11530,0.5,14,2025-03,Organic Search,North America,1-10,Growth
+CUST11531,1.15,15,2025-04,Referral,North America,201-1000,Growth
+CUST11532,0.52,5,2024-06,Referral,APAC,11-50,Starter
+CUST11533,0.73,20,2025-09,Content/SEO,North America,1000+,Enterprise
+CUST11534,1.0,12,2025-01,Outbound Sales,LATAM,11-50,Enterprise
+CUST11535,1.33,0,2024-01,Paid Search,Europe,1-10,Starter
+CUST11536,0.87,2,2024-03,Organic Search,LATAM,201-1000,Growth
+CUST11537,1.74,5,2024-06,Outbound Sales,APAC,51-200,Starter
+CUST11538,1.32,15,2025-04,Outbound Sales,APAC,201-1000,Enterprise
+CUST11539,1.68,20,2025-09,Paid Search,APAC,201-1000,Starter
+CUST11540,0.93,3,2024-04,Content/SEO,APAC,11-50,Growth
+CUST11541,1.03,21,2025-10,Organic Search,India,1-10,Starter
+CUST11542,1.07,12,2025-01,Referral,Europe,201-1000,Growth
+CUST11543,0.91,23,2025-12,Outbound Sales,North America,11-50,Starter
+CUST11544,0.89,23,2025-12,Paid Social,North America,51-200,Starter
+CUST11545,1.08,4,2024-05,Paid Social,North America,11-50,Growth
+CUST11546,0.69,6,2024-07,Organic Search,Europe,51-200,Growth
+CUST11547,1.74,20,2025-09,Paid Search,Europe,51-200,Starter
+CUST11548,0.66,21,2025-10,Paid Search,Europe,11-50,Growth
+CUST11549,1.28,15,2025-04,Paid Search,Europe,1-10,Starter
+CUST11550,1.3,19,2025-08,Organic Search,North America,11-50,Growth
+CUST11551,0.56,6,2024-07,Organic Search,India,51-200,Enterprise
+CUST11552,0.59,16,2025-05,Paid Social,Europe,11-50,Starter
+CUST11553,1.2,16,2025-05,Content/SEO,APAC,201-1000,Growth
+CUST11554,1.09,12,2025-01,Content/SEO,LATAM,1-10,Starter
+CUST11555,1.15,18,2025-07,Referral,Europe,51-200,Starter
+CUST11556,1.27,3,2024-04,Organic Search,North America,51-200,Enterprise
+CUST11557,0.77,6,2024-07,Paid Social,India,201-1000,Growth
+CUST11558,0.79,1,2024-02,Content/SEO,LATAM,11-50,Starter
+CUST11559,0.94,7,2024-08,Outbound Sales,North America,201-1000,Starter
+CUST11560,0.62,23,2025-12,Paid Social,North America,1-10,Starter
+CUST11561,1.18,6,2024-07,Paid Social,North America,51-200,Starter
+CUST11562,0.75,22,2025-11,Outbound Sales,APAC,1000+,Enterprise
+CUST11563,1.2,22,2025-11,Paid Social,Europe,201-1000,Enterprise
+CUST11564,1.34,16,2025-05,Organic Search,India,1-10,Growth
+CUST11565,1.25,7,2024-08,Content/SEO,Europe,201-1000,Enterprise
+CUST11566,1.28,23,2025-12,Content/SEO,North America,11-50,Growth
+CUST11567,1.06,23,2025-12,Outbound Sales,North America,1-10,Starter
+CUST11568,0.99,14,2025-03,Referral,Europe,1-10,Starter
+CUST11569,0.91,14,2025-03,Organic Search,North America,1-10,Starter
+CUST11570,1.51,9,2024-10,Referral,APAC,51-200,Growth
+CUST11571,0.95,22,2025-11,Organic Search,Europe,11-50,Enterprise
+CUST11572,0.74,18,2025-07,Paid Search,North America,1000+,Growth
+CUST11573,1.06,5,2024-06,Paid Social,LATAM,51-200,Growth
+CUST11574,0.81,1,2024-02,Outbound Sales,Europe,51-200,Growth
+CUST11575,1.03,13,2025-02,Paid Search,India,11-50,Growth
+CUST11576,0.75,19,2025-08,Organic Search,North America,51-200,Growth
+CUST11577,1.28,19,2025-08,Organic Search,North America,201-1000,Enterprise
+CUST11578,1.36,16,2025-05,Content/SEO,LATAM,51-200,Growth
+CUST11579,1.51,2,2024-03,Outbound Sales,APAC,1-10,Growth
+CUST11580,1.54,18,2025-07,Organic Search,North America,51-200,Growth
+CUST11581,1.11,23,2025-12,Organic Search,North America,11-50,Starter
+CUST11582,1.14,4,2024-05,Content/SEO,North America,11-50,Enterprise
+CUST11583,2.39,14,2025-03,Referral,Europe,51-200,Growth
+CUST11584,1.2,19,2025-08,Paid Search,LATAM,1-10,Starter
+CUST11585,0.73,23,2025-12,Referral,North America,201-1000,Starter
+CUST11586,0.99,19,2025-08,Paid Search,North America,1-10,Starter
+CUST11587,0.5,10,2024-11,Organic Search,North America,51-200,Starter
+CUST11588,1.1,23,2025-12,Outbound Sales,North America,1-10,Starter
+CUST11589,0.7,5,2024-06,Content/SEO,India,1-10,Starter
+CUST11590,0.78,16,2025-05,Paid Social,Europe,201-1000,Enterprise
+CUST11591,0.7,21,2025-10,Paid Search,Europe,11-50,Growth
+CUST11592,0.88,2,2024-03,Paid Social,North America,51-200,Growth
+CUST11593,0.81,21,2025-10,Content/SEO,North America,51-200,Growth
+CUST11594,1.15,3,2024-04,Organic Search,Europe,1-10,Growth
+CUST11595,1.15,4,2024-05,Content/SEO,Europe,1-10,Growth
+CUST11596,0.9,12,2025-01,Paid Search,North America,201-1000,Enterprise
+CUST11597,1.1,3,2024-04,Referral,India,11-50,Growth
+CUST11598,0.7,16,2025-05,Referral,Europe,11-50,Enterprise
+CUST11599,1.06,7,2024-08,Outbound Sales,Europe,51-200,Enterprise
+CUST11600,0.74,16,2025-05,Paid Search,Europe,51-200,Starter
+CUST11601,1.42,2,2024-03,Paid Social,Europe,51-200,Starter
+CUST11602,0.81,15,2025-04,Paid Search,Europe,11-50,Growth
+CUST11603,0.88,15,2025-04,Organic Search,LATAM,1-10,Starter
+CUST11604,0.73,18,2025-07,Organic Search,Europe,201-1000,Enterprise
+CUST11605,0.57,19,2025-08,Outbound Sales,North America,11-50,Growth
+CUST11606,1.34,19,2025-08,Referral,North America,11-50,Starter
+CUST11607,1.05,11,2024-12,Paid Social,North America,201-1000,Growth
+CUST11608,0.95,7,2024-08,Content/SEO,North America,11-50,Starter
+CUST11609,0.92,19,2025-08,Paid Social,North America,51-200,Starter
+CUST11610,0.68,9,2024-10,Paid Search,Europe,1000+,Enterprise
+CUST11611,1.44,19,2025-08,Paid Search,LATAM,1-10,Growth
+CUST11612,0.5,18,2025-07,Organic Search,North America,1-10,Enterprise
+CUST11613,1.09,18,2025-07,Outbound Sales,North America,11-50,Growth
+CUST11614,2.08,14,2025-03,Organic Search,India,1-10,Growth
+CUST11615,0.99,12,2025-01,Paid Social,North America,1-10,Starter
+CUST11616,0.77,11,2024-12,Organic Search,LATAM,1-10,Starter
+CUST11617,0.53,14,2025-03,Referral,Europe,11-50,Growth
+CUST11618,0.81,21,2025-10,Paid Social,North America,1-10,Growth
+CUST11619,1.03,20,2025-09,Organic Search,North America,1-10,Starter
+CUST11620,1.07,19,2025-08,Referral,APAC,51-200,Growth
+CUST11621,0.78,5,2024-06,Content/SEO,India,11-50,Growth
+CUST11622,0.5,19,2025-08,Referral,India,1000+,Enterprise
+CUST11623,0.56,2,2024-03,Outbound Sales,APAC,1-10,Starter
+CUST11624,1.66,12,2025-01,Content/SEO,LATAM,1000+,Growth
+CUST11625,0.95,12,2025-01,Referral,North America,11-50,Growth
+CUST11626,1.44,23,2025-12,Outbound Sales,North America,1-10,Starter
+CUST11627,0.99,4,2024-05,Paid Social,APAC,1-10,Starter
+CUST11628,1.31,22,2025-11,Organic Search,Europe,201-1000,Growth
+CUST11629,1.27,19,2025-08,Content/SEO,Europe,51-200,Growth
+CUST11630,1.16,16,2025-05,Content/SEO,India,11-50,Growth
+CUST11631,0.6,15,2025-04,Content/SEO,North America,51-200,Growth
+CUST11632,0.94,9,2024-10,Paid Search,India,51-200,Starter
+CUST11633,1.27,7,2024-08,Referral,APAC,201-1000,Growth
+CUST11634,0.75,4,2024-05,Organic Search,Europe,11-50,Growth
+CUST11635,1.11,5,2024-06,Paid Search,Europe,1-10,Starter
+CUST11636,1.48,18,2025-07,Referral,India,1-10,Starter
+CUST11637,1.53,13,2025-02,Organic Search,LATAM,11-50,Enterprise
+CUST11638,0.73,9,2024-10,Outbound Sales,Europe,11-50,Starter
+CUST11639,0.68,23,2025-12,Outbound Sales,LATAM,1-10,Starter
+CUST11640,0.85,20,2025-09,Organic Search,Europe,51-200,Growth
+CUST11641,1.39,11,2024-12,Outbound Sales,Europe,11-50,Starter
+CUST11642,0.74,19,2025-08,Referral,North America,1000+,Enterprise
+CUST11643,0.95,22,2025-11,Paid Search,APAC,1-10,Starter
+CUST11644,1.45,10,2024-11,Referral,India,11-50,Growth
+CUST11645,1.51,6,2024-07,Outbound Sales,North America,201-1000,Enterprise
+CUST11646,0.68,22,2025-11,Organic Search,North America,201-1000,Growth
+CUST11647,1.18,1,2024-02,Paid Social,Europe,201-1000,Growth
+CUST11648,1.11,10,2024-11,Paid Search,North America,1-10,Growth
+CUST11649,1.52,23,2025-12,Content/SEO,India,1-10,Starter
+CUST11650,0.67,23,2025-12,Paid Social,APAC,11-50,Growth
+CUST11651,1.09,0,2024-01,Paid Social,India,1-10,Starter
+CUST11652,1.53,11,2024-12,Referral,North America,51-200,Enterprise
+CUST11653,0.85,11,2024-12,Paid Search,LATAM,51-200,Enterprise
+CUST11654,1.13,23,2025-12,Paid Search,North America,51-200,Growth
+CUST11655,1.0,13,2025-02,Outbound Sales,India,51-200,Growth
+CUST11656,1.78,23,2025-12,Referral,North America,1-10,Starter
+CUST11657,0.9,21,2025-10,Paid Social,APAC,1-10,Starter
+CUST11658,1.09,16,2025-05,Referral,APAC,1-10,Enterprise
+CUST11659,1.05,23,2025-12,Organic Search,APAC,1-10,Growth
+CUST11660,0.64,22,2025-11,Paid Search,North America,51-200,Enterprise
+CUST11661,0.84,12,2025-01,Organic Search,North America,11-50,Starter
+CUST11662,0.88,6,2024-07,Organic Search,APAC,51-200,Growth
+CUST11663,0.71,10,2024-11,Paid Social,India,1-10,Starter
+CUST11664,0.96,7,2024-08,Referral,Europe,201-1000,Enterprise
+CUST11665,1.32,9,2024-10,Referral,North America,1-10,Growth
+CUST11666,1.06,19,2025-08,Organic Search,North America,201-1000,Enterprise
+CUST11667,1.09,12,2025-01,Referral,North America,11-50,Starter
+CUST11668,0.94,18,2025-07,Organic Search,North America,1-10,Starter
+CUST11669,1.43,21,2025-10,Paid Search,Europe,1-10,Starter
+CUST11670,1.2,18,2025-07,Paid Social,North America,1-10,Enterprise
+CUST11671,0.9,12,2025-01,Paid Social,India,1-10,Starter
+CUST11672,0.62,12,2025-01,Content/SEO,APAC,51-200,Starter
+CUST11673,0.57,1,2024-02,Outbound Sales,LATAM,51-200,Growth
+CUST11674,0.55,11,2024-12,Paid Social,North America,1-10,Starter
+CUST11675,1.2,14,2025-03,Organic Search,India,1-10,Growth
+CUST11676,0.67,5,2024-06,Paid Social,North America,1-10,Growth
+CUST11677,1.43,22,2025-11,Organic Search,North America,11-50,Starter
+CUST11678,0.54,5,2024-06,Organic Search,India,1-10,Growth
+CUST11679,1.36,4,2024-05,Content/SEO,India,51-200,Enterprise
+CUST11680,0.6,9,2024-10,Paid Social,North America,51-200,Starter
+CUST11681,1.75,18,2025-07,Organic Search,North America,1-10,Starter
+CUST11682,0.98,16,2025-05,Referral,APAC,51-200,Starter
+CUST11683,1.44,17,2025-06,Organic Search,Europe,1-10,Starter
+CUST11684,1.2,23,2025-12,Paid Search,India,1-10,Growth
+CUST11685,0.84,19,2025-08,Organic Search,India,11-50,Starter
+CUST11686,0.84,6,2024-07,Referral,North America,1000+,Growth
+CUST11687,0.92,0,2024-01,Referral,Europe,51-200,Growth
+CUST11688,1.15,2,2024-03,Referral,APAC,11-50,Starter
+CUST11689,0.61,18,2025-07,Paid Search,Europe,201-1000,Enterprise
+CUST11690,1.83,9,2024-10,Organic Search,LATAM,1-10,Starter
+CUST11691,1.37,14,2025-03,Paid Search,North America,1-10,Growth
+CUST11692,0.71,21,2025-10,Organic Search,North America,11-50,Starter
+CUST11693,1.23,17,2025-06,Paid Search,North America,1-10,Growth
+CUST11694,1.03,16,2025-05,Organic Search,North America,11-50,Growth
+CUST11695,0.67,14,2025-03,Outbound Sales,India,51-200,Growth
+CUST11696,1.2,4,2024-05,Paid Social,North America,1-10,Starter
+CUST11697,1.05,22,2025-11,Paid Search,APAC,51-200,Enterprise
+CUST11698,0.96,9,2024-10,Organic Search,Europe,1-10,Growth
+CUST11699,0.65,23,2025-12,Paid Search,North America,51-200,Growth
+CUST11700,1.04,5,2024-06,Referral,India,1-10,Starter
+CUST11701,0.53,21,2025-10,Organic Search,Europe,1-10,Growth
+CUST11702,1.65,23,2025-12,Organic Search,India,51-200,Starter
+CUST11703,1.07,6,2024-07,Content/SEO,Europe,11-50,Starter
+CUST11704,1.8,2,2024-03,Organic Search,Europe,201-1000,Growth
+CUST11705,1.25,9,2024-10,Outbound Sales,India,51-200,Growth
+CUST11706,0.8,18,2025-07,Paid Social,North America,1000+,Enterprise
+CUST11707,1.3,18,2025-07,Paid Search,North America,51-200,Starter
+CUST11708,1.89,1,2024-02,Organic Search,North America,11-50,Starter
+CUST11709,0.81,5,2024-06,Paid Social,North America,11-50,Starter
+CUST11710,1.02,16,2025-05,Paid Social,LATAM,1000+,Enterprise
+CUST11711,1.49,18,2025-07,Paid Social,India,1-10,Growth
+CUST11712,1.28,5,2024-06,Content/SEO,India,11-50,Starter
+CUST11713,0.94,9,2024-10,Organic Search,North America,1-10,Starter
+CUST11714,0.66,11,2024-12,Referral,North America,1-10,Starter
+CUST11715,1.87,12,2025-01,Paid Social,Europe,1-10,Growth
+CUST11716,1.23,6,2024-07,Paid Search,Europe,11-50,Growth
+CUST11717,0.96,12,2025-01,Referral,North America,11-50,Starter
+CUST11718,0.92,14,2025-03,Paid Search,North America,51-200,Starter
+CUST11719,1.26,8,2024-09,Paid Search,Europe,1-10,Enterprise
+CUST11720,0.92,21,2025-10,Referral,Europe,11-50,Starter
+CUST11721,0.53,22,2025-11,Referral,North America,11-50,Growth
+CUST11722,1.1,19,2025-08,Paid Social,APAC,11-50,Starter
+CUST11723,1.17,21,2025-10,Content/SEO,APAC,11-50,Enterprise
+CUST11724,0.99,19,2025-08,Outbound Sales,APAC,1-10,Starter
+CUST11725,1.0,7,2024-08,Paid Social,North America,1-10,Starter
+CUST11726,0.6,16,2025-05,Paid Social,APAC,1-10,Enterprise
+CUST11727,0.91,17,2025-06,Outbound Sales,North America,1-10,Starter
+CUST11728,1.21,21,2025-10,Paid Search,India,51-200,Starter
+CUST11729,0.73,15,2025-04,Organic Search,North America,201-1000,Enterprise
+CUST11730,2.67,15,2025-04,Paid Search,North America,1-10,Starter
+CUST11731,0.93,13,2025-02,Organic Search,Europe,1-10,Starter
+CUST11732,0.5,2,2024-03,Paid Search,APAC,11-50,Starter
+CUST11733,1.03,10,2024-11,Organic Search,Europe,1-10,Growth
+CUST11734,0.87,18,2025-07,Organic Search,India,1-10,Enterprise
+CUST11735,0.97,14,2025-03,Referral,North America,51-200,Growth
+CUST11736,1.41,13,2025-02,Content/SEO,APAC,11-50,Growth
+CUST11737,0.78,11,2024-12,Outbound Sales,APAC,11-50,Growth
+CUST11738,1.31,15,2025-04,Organic Search,North America,1-10,Growth
+CUST11739,1.13,18,2025-07,Referral,India,201-1000,Growth
+CUST11740,1.1,23,2025-12,Paid Search,APAC,11-50,Starter
+CUST11741,0.71,14,2025-03,Outbound Sales,North America,51-200,Growth
+CUST11742,0.5,20,2025-09,Outbound Sales,APAC,51-200,Growth
+CUST11743,0.91,13,2025-02,Content/SEO,North America,51-200,Growth
+CUST11744,1.43,18,2025-07,Organic Search,APAC,51-200,Enterprise
+CUST11745,1.14,16,2025-05,Organic Search,North America,51-200,Growth
+CUST11746,1.46,8,2024-09,Content/SEO,Europe,201-1000,Enterprise
+CUST11747,1.54,21,2025-10,Paid Social,North America,51-200,Growth
+CUST11748,0.61,23,2025-12,Paid Social,Europe,1-10,Starter
+CUST11749,0.73,21,2025-10,Referral,Europe,1-10,Starter
+CUST11750,0.65,16,2025-05,Paid Social,India,51-200,Growth
+CUST11751,1.28,20,2025-09,Paid Search,Europe,11-50,Starter
+CUST11752,0.95,12,2025-01,Content/SEO,India,1-10,Growth
+CUST11753,1.65,21,2025-10,Referral,Europe,11-50,Growth
+CUST11754,1.41,16,2025-05,Organic Search,Europe,201-1000,Growth
+CUST11755,0.77,23,2025-12,Content/SEO,North America,1-10,Growth
+CUST11756,0.82,18,2025-07,Organic Search,India,11-50,Starter
+CUST11757,0.61,10,2024-11,Organic Search,North America,1000+,Growth
+CUST11758,1.39,6,2024-07,Content/SEO,North America,1000+,Growth
+CUST11759,0.95,19,2025-08,Paid Search,Europe,11-50,Starter
+CUST11760,1.12,22,2025-11,Organic Search,North America,1-10,Growth
+CUST11761,0.75,20,2025-09,Referral,Europe,11-50,Starter
+CUST11762,0.73,2,2024-03,Outbound Sales,North America,1-10,Starter
+CUST11763,0.79,11,2024-12,Paid Search,North America,201-1000,Enterprise
+CUST11764,1.33,12,2025-01,Paid Search,North America,11-50,Enterprise
+CUST11765,1.18,11,2024-12,Organic Search,North America,51-200,Starter
+CUST11766,1.36,20,2025-09,Outbound Sales,India,11-50,Growth
+CUST11767,1.22,21,2025-10,Paid Social,Europe,11-50,Starter
+CUST11768,2.2,23,2025-12,Organic Search,North America,11-50,Starter
+CUST11769,1.06,19,2025-08,Organic Search,LATAM,1000+,Growth
+CUST11770,0.84,5,2024-06,Content/SEO,Europe,51-200,Growth
+CUST11771,0.5,18,2025-07,Paid Search,India,1-10,Growth
+CUST11772,1.14,8,2024-09,Organic Search,Europe,1-10,Growth
+CUST11773,1.02,14,2025-03,Paid Search,APAC,1000+,Growth
+CUST11774,1.16,21,2025-10,Paid Search,India,11-50,Starter
+CUST11775,1.0,19,2025-08,Organic Search,India,11-50,Starter
+CUST11776,0.56,17,2025-06,Paid Search,North America,11-50,Enterprise
+CUST11777,0.65,23,2025-12,Organic Search,North America,11-50,Starter
+CUST11778,0.84,12,2025-01,Paid Social,India,1-10,Starter
+CUST11779,0.9,14,2025-03,Outbound Sales,North America,1-10,Enterprise
+CUST11780,1.09,6,2024-07,Paid Social,LATAM,201-1000,Growth
+CUST11781,1.87,20,2025-09,Paid Search,APAC,1-10,Starter
+CUST11782,1.37,12,2025-01,Paid Search,APAC,51-200,Starter
+CUST11783,1.52,14,2025-03,Paid Search,Europe,11-50,Growth
+CUST11784,0.58,1,2024-02,Outbound Sales,Europe,1000+,Growth
+CUST11785,0.63,16,2025-05,Content/SEO,North America,51-200,Growth
+CUST11786,0.98,7,2024-08,Paid Search,APAC,11-50,Starter
+CUST11787,0.64,7,2024-08,Outbound Sales,North America,201-1000,Starter
+CUST11788,0.53,1,2024-02,Organic Search,Europe,1-10,Starter
+CUST11789,0.55,21,2025-10,Content/SEO,APAC,11-50,Growth
+CUST11790,1.83,17,2025-06,Paid Search,APAC,51-200,Starter
+CUST11791,1.05,19,2025-08,Paid Search,North America,51-200,Enterprise
+CUST11792,0.95,4,2024-05,Organic Search,India,1-10,Starter
+CUST11793,0.85,6,2024-07,Content/SEO,India,201-1000,Enterprise
+CUST11794,0.73,20,2025-09,Referral,North America,11-50,Starter
+CUST11795,1.07,2,2024-03,Paid Search,North America,201-1000,Enterprise
+CUST11796,0.5,7,2024-08,Paid Search,India,201-1000,Starter
+CUST11797,0.9,18,2025-07,Paid Search,India,51-200,Starter
+CUST11798,0.52,6,2024-07,Outbound Sales,North America,51-200,Growth
+CUST11799,0.81,13,2025-02,Paid Social,India,11-50,Growth
